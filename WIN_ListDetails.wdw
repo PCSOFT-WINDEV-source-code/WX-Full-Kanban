@@ -1,0 +1,230 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ListDetails
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_ListDetails
+ identifier : 0x241471bb4b779ed9
+ internal_properties : CAAAAAgAAABESplBzlinGmj6vyMDCkoXAL6Dz3xXv4WqHMNml5s8oPG8U5JEx++Lx7jSXSb0LTcm6TGeEajeDvcSuHe56i8FiScwlHC5Qs9boPJ+k1uxvi55mZ6Fc+zqQX06wx9kUuyNWfmbmR7MrdBjNIK7xKiJGdb0FheeA1QgNm8aINXgOM5AsMiXHUYMb9Rjm4TDdWGN3wTDF0u1VDBvLyT08CpYjSAlw54MDIZE7xddlQirCx5JceZy4EWrEE86eT6fpeTt9Qe++8k6flmyNigawmzazeEI6h+Wm/wMTxjEHQURPqVF6rXEDTyWMFwDxEl+w9/kwFV5Ipnsvi/wYpPdxyM3v8BfFoHj9DDldlA2OwDH+L4vwMgnhmdNcWdp2FyxEOVrae4CoDxu6oX078STRaC7iMtSBNqB7un0cVg9BgpzF4O9gNGym9c7tbZUX4AaFHDMok4mfeoRwzIoX1a9PXJuqW3OrlWT18Szbd+6VI1diuhkARYmUnMl/npxWZb+mdKU2mgiyeDzg9sDBJFq3SbG+taxA6CMn0JTIL3mF3yBIT/jPukk2yxr0TACk7u+dGDdkTzEwn3cDLIRZe1KhNIh7BfORy9vzq4a4DWdnrUC2u8uqdfrizQGhlfHzQLz+qB9+i7A94f6BDyNz6QlI2FAHPlL1bL7+5f104ESrp1DyVlxH1zBMKH+GTTWguND+B9B/C3COfxhGQOlCnPB1oWXqGz5TOo/V83MiIrmH8uSCvSDkXNtV32h/ZhSKeqMZBAM75O3Axkok5LlbL+BluA9QSxrNWxnfFzqBN2yfpts0H3ufI4bguhIEGTKZBmaNhW2lXc9obrhYKHJeHh2Y9rM7GfJMhJrzaT4B3myuVhK4FEhAHCR1u+73JEj2T7+5AYwiT9dpU8h0ua1xAGyppZMiNHCe/sohg41XsdnstPRt6MstlV5dkuMyV9QrhZXcXPZKHbkZK3BJf9avmUIRxXflSYwGnBYM7qlEjrDAF95iXEBQacvXhRrDo3imwEM2eULAZo4RnEsaO7MqPXAMvG1bCNTz5i89L2+FpWnB8omwwcqjLDRsLFjI9iwpEc/4z2QFz3gcePuVGCR0jobZtJ7nh+DfFFTyw22OAV3xe4=
+ properties :
+  width : 397
+  height : 297
+  widthClient : 395
+  heightClient : 266
+ controls :
+  -
+    name : EDT_Title
+    identifier : 0x241471bb4b789ed9
+    internal_properties : CAAAAAgAAACSlG9aYiuZIXqpd0IEeVFaBhvCA+ni29Jgf5RNnLbkmIV4lTUb5hYVl5Yj2nHBsAfTpWrW5cWxpomZnBHgwuW8UQqxHyMsFdXrMCLFJvCimIWo+bzdKdlNz1aNyq9hYeTtLQ+ejlFCmDEpXTDNMtznDLloMNrDD77aRgCPOAjwdRPtqJE6gExgfODG0TYh6j0tyEJ8EGZDyp9cqUznmaQW5gRBHxZb8JfGnkloLUlTVc/pslymnJz59RtNX5rPN3lgVz7zA3+o2D/2EQ46TQdXoZjbFQ+JCfMbaiAhR36ZwGO7Oyq1/k4W3ccSiD4eGt91sA68M9To4oFZP/P5xbvBv99CaPPxdNCduBDz4qT8ETUC9TTHA3DRFq+gkZmSUoAWOUaPrMg4HB4fETr/+lKId8LXgy4ONkP1B5jQLT0pHz+0tuS0hpeWtjAuQAxWAJh/wq9xXPx0K9p9jbXkHUmpdvzowX8aL91cfzinjpq/3ynacnRKYm7thbN5YJPPmYpwmtnI12SfDDmTNeZrEHnDwGkFcfvh310YsiGd0N15oU740H2yCpv6RWpVp0MxReUHADaiUvdvA+7HGsZhJUIFf0oOu1XROiooBhjCiWZ5WJmvBS0tJpOqi8c/h9edP2lYqBsAzPjXXt2bSEedKpy4gS49aM7ITIvUc2vW6jXklYY05Tl57lfgOwnYoHEYdsPG58r9H92kChc6GqCITp+8+95YRAb4A/J3BDL6sI/tYDmLQ0AXk30Ylq/SGGokj9wUCfD8z6lJxJ7h++T8gNHjTVYGs0AS/ryhpjsQFVyl96w2lS1tec8gLS+52OFfh89+5OC2N6Qr0ntqA9yKAEqCucRuA/ZP82p21HgknwP1xFaHs6FcY9Bu2RG//QnI8E9gU7Hf6n/Rmb4dmiKBXQCFcDSWJJM278gJ7b8JQ32H6ERM3ahWwnl8jiZZt4ZuYxCVb1Hk1NZxdQ35rwnOGgW8v/AzGYmmBgdagXgieqF7GB6j4xbx8RZrnxSbFlbS+6lSKjwmWL4zWDs+EdGFG0hYJj2L5WAzTGc9PoGBCS4hB55ow2FfeQ2/Ceuya8XiDJ9Hyhauw690F8L2bjOXRqIKPzU81/aSYHwlXd+cr+f6q2Nj9KsqulrreTp3Xx8YE2+1fcXWfZK/XVZZBRBYZQJJGQbRVppgWil9b/xCTwvzgHpDr6+zUedOftru+DmsaBmfN1rmGW/YIpKdZJL8X71+
+    properties :
+     x : 29
+     y : 45
+     width : 330
+     height : 52
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_OK
+    identifier : 0x241471bb4b799ed9
+    internal_properties : CAAAAAgAAAD/HkCx/S7Op3FSIyp1Sc8dHf28LkOEs7rwGjNQ7n7PMBsDysZmNGTTfGgZUgm2fpabnqbPTUiQwhhuU1+q34IhsD5qn1xa8vdQcq71gUGe6iElmSBCtVjUyuxQxhkOXDBFwUkib/O4cXAoglPSY1JGKrGIZS9BA6hQ1pMjxig2ua+Ys9WF3FoGh5uUc7V+vw/AObWAh3dD4YYIiFSMDhBBJM533Pgfls+NmMMQ2kIGlTkxGPrjn67j1U3uyOar3jZjK729OzP+YTdv0rB2EiA+hFlxD38yH0uLkZAQn2/2CVYuNKddtqE22FN6LGdEHloUf3kTPEUcrhK6fJFVaPcUKbNmZZ8cg8RWWO7qb7px9fr6ac2+pnumljYbNMC/qTsnzzop61pwYgdkwsMoDL7juajSXyKPxTCvFt4XQN/2/NlKm+hjgeCYsDToCiQrCZL5tPTCYFFvkQscfZ/0ntZiDw+FS8KxXkDM/3IPKOjYfQSnk8GRXLsP4W4wI8ZL16gaTfRwhDiWvd7FLU1isLYEFT+CG6U6ofwPWi9VkuYWTdJB+clGdSiZKKpFL3US2tjWifNBNyV6PswNEE2XbhksAgsDC9yyXQUwFnXrajTr3tFJTDs0E1y7bxq/t8JL06tCHPThEgViZIglvyuPZl7iY2zJrpBRIiO0BSouwC43aYox5H2uySArGEAA8oMn/DcLt/QY2LEFuXv8USu9+8Sme64ltx5P/H5+7LbkY/PXGYb53XhKuvl1Ogjk4inDx1l9kFc/+DVk6WlH42GVBkjXvgVtDF6Z73jXC+6MNVk40qdeQUo5JrUCWDU04MPT0foOcFl7tB+gMkZ3ZfvSXY7a0taH4/6Z
+    properties :
+     x : 29
+     y : 192
+     width : 160
+     height : 45
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // New button to add or create elements
+         
+         
+        type : 14
+      -
+        code : |1-
+         if EDT_Title ~= "" then
+         	Error("The title cannot be empty")
+         	return
+         end
+         
+         gsListName							= EDT_Title
+         gnMaxNbElements						= EDT_MaxNbElements
+         
+         Close(MyWindow, True)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Cancel
+    identifier : 0x241471bb4b7a9ed9
+    internal_properties : CAAAAAgAAAAVPD+IHE7rRTXrxdbguxHvHxsspNoqo4MOsWLG6sLQxtKdKYOZFoA+BOBsqz1+jHUSyOyB4K99q6R2yqgv0EXXD7duUwMYPjlV0rghxoFeXuPgJ/t8KrG8tmolyaXA8+b7Dvy6g7gr2q8B3A339J5TS0p4AS3QG6Yij9QT1phzKBCE9/dF5/PGoqcwAvroWN8E06QwlNzUTJWVTpMzZUM0dGimNtaA1GPbkBl4FO0qCrMSRlqrWRcAnkp+xMxiXU6ghPxXG4e8hi3HK3J56WBn3yvKB9voRzhGDgyAYY8ygd594RYw+tA1hmtZ5aEn69zGBLCVZw4/YGG5bKLiDqiLyrcWyqIrvRLyimFxe/w/ou9D4ex0V1a98RYVBnK19BSLxlauzx4lbZG4/pjCfLfXk3Loy9OlJ39U0B05MkMhsOJDsdGvS9KkvDNf5UA1uGdTG4YrZ1mGHstF52juu4DK1dUFLC2EzoVn+O+wOZuVWqNnE8IrHJ/nwHNhHA0xK/VbFV7zUruZJu/rJFDTca7ey20ZO8Irp++1GzC0hAza/mZcM2TCfhcPaJ2rDBRLxGsysuD1WX9CZ5TguDtAL/X3M1sZtbjwFsmrsP9OGL3G9+91la4UW08ooXdEF4eZy2nzsV2KPdEA0Z+HJTh7FxbogFZP/B8J3LxZspgywzobgL5swG2SqNVS6wCoCPSUXYKWCYk7ppD5gF4qxWdlKzntgXmOdWIBd3Fs1sNmKLtomDxaWpPC5wtmKgd1YbMH0W5BiEUWSnguL4KlJ4wEQ4dFZPL6VgSAaCrDVcfzSxk5o1lz/SiKo11PSfqyx6CnDZEF+ZIXA2gA8I2DB0gfsrFemPPy/GXf6AwrFhI=
+    properties :
+     x : 199
+     y : 192
+     width : 165
+     height : 45
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // New button to add or create elements
+         
+         
+        type : 14
+      -
+        code : |1-
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_MaxNbElements
+    identifier : 0x241471bb4b7b9ed9
+    internal_properties : CAAAAAgAAAA8n6r7xqMWqJy2yKPVgiUm676Cs9Q8Nwn4uglmclGr7S9dvgWKs5sLBmndHjBPrRD3vuZ4BHrmUT+JFWT6kmVAlJQqzZtB9cCWFBTI3QK6Tckvgw2b07jLU00xZbTHUXvtQDJPOXlvomYohg5iJ/w4f+kM/QDxuyyfzuDh9J7S9wuc8KzoBD5avwYnkYG55QPY6A+bqPxvlR7gcmtbb988FnbJLHIRvcj1mrbXru4ksaJUzMjy/zFDYm6xQYs6BIALGRs4Bp1X7SwmXQayNyDr6xswyQMJoTLHp7oOaEX/d7czp3cG9l0aQXagV13fAg1ptY5wWFMH0katM5dvBJsdPSyAXYtcF8+1jI0SAr2JDUuDcKNwOcoPvT1z5uUD1PEnJjmaCQiXujihK6a6UFNHAGpBDSqWw9xTeElD3ZBLC+DD92Qn/9nfgXVrnjaEHL4D8171jATlxTECSlfyXN792fJbs7EkJsCzGwgzUMLnw2fAZDonICnJvTfDyswmXhB94jh1zR8ydkSbj0qQhcfxpLnmlcDC4Stbh03Y0XssxJty5qVhXNxZv273lnBg1pJoMAr6ktDqzW7ZpqBr1AZx/jrocMNhEo25J3WBy7rRcA6iBhwfgDhljOjlm98CVn6owp3jAQxOqyYj5RWsXeTSRziqgX0DOf6ImrZ9gbeV07CoGN2q90IwhJavIrMr0xYFTXREMmZLVJ8IlpcWviLINPA+zZbtlj2wMP3swv1ajZU4RFQU4tQheFSDedjusssgXAyo5X7dMfYw6tcw7w4r27lDYuHvFm5OdMnJ8ZJejNziOSmjphRItTup5dzAAHtG9hD21P38mtral1g1Q8ZF6EUU3jJh7fRZrhMYoTVV+rInLkDJTnls08PgedifeZSkCJHY8auVjntPSqQa2ZTddcusTXM8poAIAVuc31+ZyR5RrxdB+ZDuWw/JenAhfQVZAtESCkpnDfHmL4a00R1vk4c4H2p4QmRvzigWTQREk+6Ms4ZqMbc3dXt1blqX32PczK+xnDalh148A8smpTIkAU82ie3peilI7zFod4R0BibWwYTBpgItOh63zkW4y6mkDG8g72WLf4K7r1DbGG8HC9OomoiKhZydXKqvqMBpYXQgofIQ1Gsi0JUk0ag37wkLPRObxYw1V4xj1sH9e7FgCwdL8COrwELoZVpsw8gPMnowUPU3of85GYSlGTvFO3fQKgujHjfn6tKdStAjX1IHnNCsqLVVM2ZbGF9rRcBtNUYnqPkYOZgLqmfO9x0vSQ==
+    properties :
+     x : 29
+     y : 103
+     width : 193
+     height : 52
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_Hint
+    identifier : 0x241471bb4b7c9ed9
+    internal_properties : CAAAAAgAAACbGQLy7lJOfLgZySDhgiDWixjW+kYyxdN/4yX8/Owswk9KaH/oJ4iGcvs3VgVHK6U0vSoGbo5lgYtZ9uKBlMTZO6kl2dU5xDNtPA64ZBlYbdXz0YyKrjs7pWT8PI3CynDXaBFfW/At14V7SC0uPkp1R8IYQxxufvEjKvOmB/tNrgS5ZL/jYPhaM1g4lm+nZK9Yc8iEYyQk3YVnvgZ5Gz1c/9Vc3mGfeFmdC3xtBd+ZKpv2mK+KqECLEVqBhpjj8A1qk3FONSUKDc9OAcX6W2dR2aP6vhzL1dI41B3YpNSTs7VAG8HLcPRd1VvD/gBCRRWJlwcv04OTyuyVahofTZjOHxZpujxq6q7j+n3mSmyYFy5MygHGif+VtT56ziIgyjRLe3f5dJVAx9GPmJYrZ0a4H70+/FoQhlBSD3VfgOGLVTlIXiJM0j8Pffp8Nn5FxWfiwSAOUmLMJ/WieT+o6HLqkSByYvnEGJU1LKz1D0D9cJjasVJqvxgm5cU8rHeoi3FGpZUp65jwcYPrJ3yE9bV+7+f9J4SVsnSlh18TA0L6jS7nxbNH8gXfu8JYa6VQPfjhdNu39p2MLGIdRHgGrQ==
+    properties :
+     x : 29
+     y : 154
+     width : 153
+     height : 14
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Text with ellipsis (...) at the end if the control is too small
+        type : 14
+  -
+    name : RADTITLE
+    identifier : 0x241471bb4b7d9ed9
+    internal_properties : CAAAAAgAAAAoE8MEMSi1ou+8pTsarBhUaO+SCd8Rg09qiFuxE3iC1DDX0v6iaCPdE/5gqh0SZk8qa+shRy//q0QBGr+GBSygaIV7EkhyU3uZG1ihhjktoqoKBJffN80IbWQQRtv7JTpz34YDy8+/QCVH6b+LYUL6xpzAW6OP4nPcO2HwD3f1TALhuoaVm+UHnm5p2SGXcDJO3GLOMkGCGkiIpQjb61T/WF2hv1ZWwn9FuTrCFPXR4WU/UYU5nX7V7EIPEuH1Pu6heqxZw5DEH/9fPLoLk5vUI/h9ruos8f7zAgNRkIjsBFaKRXWPNz8/lX2X5Q/zq7VrqEya/Lut9XonJKKrbnL5cGGoVVY9RXsnoRligUr73+MP07TPlB0t5eBuPZD3QOdGkQzZqWNu3Mb8mLXkecgMrv7yepg4BbRvHQyT0ERI7c3mu3p1bPBWflJ3S8iKNO9RaJ9jrAfrcGmUS1ggZm1SL9/lzXzdpLmKWxpFJowoLO4aHxMk4Y7nNb/j0kEnE+JWgRlrrYif397qV0k2qTIWGEopz7tKwzWMlQgv/iDYuaE/TqSFwsD1NK7SzePdQYfE9RyINc69FF4tP5ZQULuhEBaiDgjwiCcZxLvKaJ55/D5ShohhOJ3lWKeiJwMtLwD0GsE56wyOn/aFg1DHLOfIqhnrlmwX6t96Rz2AQ4Ufp82+EPOs2GoxWppFicenDwRh565sAtuNljK7SHk7hT8=
+    properties :
+     x : 29
+     width : 319
+     height : 30
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAABO3o++nepPd+Ze8Dm5HV8aqcl/V5bEKU48OARrxSC98KXtlqeneDpbH0rYmU3shCWJzrImPoThJOj0YF8fWJjCBuc2yPC3e9CpSet8yr99Mc84mCfnZTR1qbkSiQ==
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Run the process defined in the template
+         ExecuteAncestor
+        type : 14
+     templates :
+      -
+        name : RADTITLE
+        identifier : 0x1557aa4202d8ae42
+        code_elements :
+         internal_properties : CAAAAAgAAABhdKOkCPeejUDw4JMyKYfxGJ+UZj7qj0aV1qsnL2iqSDhX8QGDmKKzM8RMnqeHKzhRMymj3lpKPVnjx97s3EmdMXJMsXkzteYG6A/32cxbnpUoKPVpfHT6g2s=
+         type_code : 2
+         p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAABgnX2b44ip/0+dFkWIcZ3UJFlESy3OUB3wO5Qm7mevlCLdFjCyI3JIggvqH19+MvzHpl9/B9J9tS7hT0oozBulWlov7UR66HEvpEvUw0z5rDRS1Z7p+wdNt679Grta9dZiBX0QSlauiZBtVH4BhImVfjGzfJgEI7yrxVvlYeLl50T0XcrIZxSl3b5vn/iegCKem1+ATnY7gt3YKrGh4GHDZFJS1W9LBtSrZXsi5NcyuGwhXbRv+FFskVwtnOB5ewrO+zjW5Xy2Z8nvDGliFs99N2Xxj/PQbd/Pt/ta38g=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow(gsListName string, gnMaxNbElements int)
+      
+      MySelf.ReturnedValue = False
+      
+   -
+     code : |1+
+      
+      EDT_Title							= gsListName
+      EDT_MaxNbElements					= gnMaxNbElements
+      if EDT_MaxNbElements = -1 then
+      	EDT_MaxNbElements = 0
+      end
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  templates :
+   -
+     name : WIN_ListDetails
+     identifier : 0x1557aa4202d7ae42
+     code_elements :
+      internal_properties : CAAAAAgAAABBeajyXCJobQ4uNB0OQdZw69i7IowiWNQFpkYmm4W7fIP/5Cjrri+L371RWFwG6Y+keVg/X9yvfoQ8ZN+IO6Iqb4oNOzZZh6am+TntHqp8bPW4+5AEaQ9DYGIwodH0
+      type_code : 1
+      p_codes :
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAAAcWRSfQsMWtx+d1/6DxC22y+YKfggaulZicF1uJiopdSwCKuOR4/y4phIXY+7hTxb2tsIFhGsiZ8ozMgT49HCdsG5K1G1Keg=
+  original_name : FEN_DetailCarte1
+resources :
+ string_res :
+  identifier : 0x13c52e0400f5daee
+  internal_properties : CAAAAAgAAAAWsBQ9M4Z1Oum2eCaE/9BphMRvmBu6gTClqZQt2LxajxciV1B8or7jTCDdyW0=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

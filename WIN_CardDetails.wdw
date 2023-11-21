@@ -1,0 +1,712 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_CardDetails
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_CardDetails
+ identifier : 0x241471ba4ac69bcb
+ internal_properties : CAAAAAgAAAAXEKspM2Ec8Aq2f2ZqJ9fHir0VkhK7t0r8NP9sIelJfHA5LjrtfQyrZh3jQk0yrQNFWuOpTZ04ByR1/6bJ3QUdPkURysfAs1ZN79j5VSps4okWTD3ZN1kjQCRuAmWIM95J3Q+eDE17/kjc6VikxMuHOOr2n41No8fC1/2lXS/j2BNrVAkO1q7kH6Ax1YgrDqxbsn0TxTflGilAgkNw6Zwzih4OYkJajrBORyIt1v94pUf4cRoAqm+KqamrYQThzxM92StzKTgDOCbwPnSmRrY3fJNamg7KCEyoF8AU/rm+c0fsQSrFKg/lKDkVMYOzoIf9FIbWTqHs1Rrm7P+etYbBiI/0crmwShjl0iAe6GmoBjvy4/iPai8gvPmgrr9DtpDXgKoFAyLc3XXeqnJ8ggLsTQZIeh4XFVnj2LNvqhne/rivHd66BodzrbkRBS5Bzvq1j6By0DYxDLMz6HDn0T6oYkIcfM3oWnEGfCxatrpCXgAB12El8Kc/q6PShvVb+tNFj4gskSS/nypERzqMz9sqDufZhDgnNwh1k9x94WeW9mjMVvvicxpikd9gqfNYkTnOtlwhL4NLiWLIuAPzFgrRFWWMWtV/l0O4uH4Ttk1aZ1nnQFkVPbfrkZMFQOFsJOtJDgGcMlFHnMwJ6tPO+ek3hqr4CxeIPp3cWElNG6TXNZLRZJXwtaxmo6umwUhzyZZAEPDaBfnfAMSY9UP8r0SeWqahle4m3Bk8M4m1JymnB/HduhVMHQC8qtLO57f/AdOVgqUcW987gJUWv+UNStdIqo3bsyYgEv4NBcQF6L8e7ReVBGg9VquhzM4Xj+a5K8ah1Rx8fmH8LKQKvtOA3aeo6u9QF4UMetyiiG/NRNqXJ2aJ7JDJTwL8/aTavAZsfiL1UaH0s2UAaEsCkhJbPvqmcR3bW53AuJvg54MhujXrqY5G3UatDTHnmzaGEnu7UO6haN7txVSGPM3B90s4WIWVMKqVo7J8q6BxbDda3a+HnRHSEX65TiwkQ0FR3yJHb5RB35xgCXR4lO7kizWex95e3h6xdFPo6IisSqgf57KihhIR9Gi2k/XW7Q6WT4KzQN97aVMgOHhxRz32Dg==
+ properties :
+  width : 872
+  height : 719
+  widthClient : 870
+  heightClient : 688
+ controls :
+  -
+    name : EDT_Title
+    identifier : 0x241471ba4ac99bcb
+    internal_properties : CAAAAAgAAADv/zZT3KyfNa+sy/HC4ZKhrRlfEc1W4bvGoXrhPFi6C7zHvl8sDBXmzaKYrZH8JnYBaUeM+qBqXOoNS6Qz4oG+8VZhwP2O1Wi5kzAw8fdce9O6POL1GH38Ifz5QieJSdb+92biS8xE3qIzprtJXDppVCEv3kvx5KyvGKzVAEvLscvKd5gVjXu1eBG3uDNRGmhbtog8Wy1uKE82bHpnR79h59FMBR3ZrigiTUS9KqMOwVc+gUD8i9frB0evaCzQA0Ro8wG92wCVVKGmUHC1VQ0GWHUpgkit92vlwzIB8dC045e29YmTbB7zB0ojxVIPJVqRqPQGtknQTRnFh0I6umhuY/EOzhsX/vNK6f9mdrbPtlK8Bm8fFOa5/XD44IFhGQD/95HLlWiwpXE6sst+iQPJPd4OC2djWkOypRORmUJznHY/JuWLX5qQIID+GKi5EfDBDJv/TtQjgMDok8Fs+mhSFcyLbit6b/6Gg5XL9LBQ/sxfVID1kZI8rWgIVBPLEQ1XVELB5awiLcfJJrJNx4CSWnw6wG+P61qIOTGPV6g7JWzcyWAErRqlWs/5SYq9WMqgND2eeoTJYriJkUH3yugWI0O0uHQINO5rghD9tdszRjQv0RRPtqlpLP3JFSJLpNaO5Ut5wc925U2gHslGKKF3V5V7Sx2NgZ48dMt2vUH3tBZnE2xAA7aDn0oSDlaM/zImoPK8+haNX58dUugFUO7DC21+DTMr2id9q1a+VZkwT7MiSenUCgqPMpb81g/Qqt+mNBSn/mpKIdBIsR4hmgTIxb9osPmt+ZdbR9mygMg6EtBhL6KufECPiZxFNNCXzqT+heZR1t3gB9Np2+TVDHthYU92ZPNG9Gkmf/4eFjsSlf6e9Ub9sqdP3U4Za8oOIbiWqJ+A3x5AQsR8tPiMm7Eevvtij5rzYllNGEXThF20VUYzpTGrDZwhiIuNC2OygtevFgkTh3tKbit25aPRHnDhE7/xPBjbJyaA0uxW2wFcb2TkzZNiXOP82zMhuIsc2JzwTbrfVeX+X8lVbQ3IkdHjyEwfMFcAwTol/6O3MAbQbPC7I+rUlCSuSQSc8SaqLfZHRSp5QtALUvZZfG2QHEuVkxCQ+n2jc3N1mOcE0N+dlPdsLFpdT9VsIeed8RZ4RjRNFpmalIsZxsceYUYvlPU4oqHvZkBhsCTDPFvcx9hx9puq/oaTgqaRAya4IqheXfy+93phRYZTJCKDdlXkkifeaYLZb2vQImJddhj0Snnh6Otat0NHs/Q=
+    properties :
+     x : 30
+     y : 47
+     width : 614
+     height : 52
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_OK
+    identifier : 0x241471ba4aca9bcb
+    internal_properties : CAAAAAgAAAC4c+jqEN7PClr3VbcpYtuZOaEbfr1i3NnouUcxd75lecTGOLMSk4VknN2m83l0HpwNbBroXZ3SmMja2vbWasvWNh+TPFvIDrOU7M9DPm+PgtzDEDNmxA8Y2mSt7ty9xlJ9uXojMhY31DXbOGITIea1WeQqVGf4bK5poGKJZ358kAXag/ea5eVhyubIkro5zfT4gNT0LgQIhXVeFJBQvvIDDFJnC0+JS4uG6Z7BUZYRgMcHoojj42Av+JPvm1bXdVbYRtbxbZnpZ1k5ZaDvYkyInWFXV3lu0flISSKrUd/CSsTa01Mlqys5vLtNPWaJcC8GtF6rQCmZXMoUnwvrB1EWTQmWSAwggkXDJdgPkTJTL8Z3cRuKgemj1s5N9H/9C0v5q1tHShQRvDEgZzBn/oxESlviseaAS1OU5L5zfwzalHC/PaOQtfQlzqe/UVTHNdshgfbxhX+3wKfX7PKCzHa7jS530AFNvnfgfm02xmiYaBJWDX6wuPXO7d2jRjQJ9zVEwkR/rc4ivmy6drr6yrCPd6gu+MjKif1zh1DyhFz46uouMQBjXQI4SuPyEHvGrJV8ZpOQTM9G14SuDXYxum0VXiiL8h1U8664yay+/mbzt7mAOH7lXapyg7VWopwviYpKaRw6GTOa407A/jZBdrYlPdvr1XGVdPqMgBEdVqRlvDwwhgwnewKGkG1Zd+lv6p7/ECgrydH/6BmvcAYvQarZ3TlrsCWjPimUaYchaZ+35Ko01Y/nyDPyakcXfUGFP4KhUc1CBVZD/WpbBqlDJNfqvigHE4olTpCen1SSFuNx+oSWt/I1yLSMxkbvfZx/L8GGCIReCwskz5yL0w7dVISDd8Og58XMGw==
+    properties :
+     x : 241
+     y : 613
+     width : 191
+     height : 45
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // New button to add or create elements
+         
+         
+        type : 14
+      -
+        code : |1-
+         if EDT_Title ~= "" then
+         	Error("The title cannot be empty")
+         	return
+         end
+         
+         
+         // Assigns values to the card
+         ScreenToFile(WIN_CardDetails, KanbanCard)
+         
+         for each Tag_KanbanCard where KanbanCardID = kanbancard.KanbanCardID
+         	Tag_KanbanCard.Delete()
+         end
+         
+         for each token of EDT_Tags.Token
+         	Tag_KanbanCard.KanbanCardID	= kanbancard.KanbanCardID	
+         	Tag_KanbanCard.ProjectTagID	= token.valeur	
+         	Tag_KanbanCard.Add()
+         end
+         
+         
+         // Gets the list of contributors
+         kanbancard.Contributor = ""
+         FOR EACH ROW of LOOP_Contributors
+         	
+         	// The element stored with the "ZZZ" username corresponds to the Add button (always last)
+         	if ATT_Username in("",CST_USERNAME_ADD) then continue
+         	
+         	// Handles a separator
+         	if kanbancard.Contributor <> "" then
+         		kanbancard.Contributor += CST_SEPARATOR
+         	end
+         	
+         	kanbancard.Contributor+= ATT_Username
+         end
+         
+         
+         
+         // Gets the description in Markdown format
+         kanbancard.Text = IWC_Editor
+         
+         // Saves the card
+         KanbanCard.Save()
+         
+         Close(MyWindow, True)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Cancel
+    identifier : 0x241471ba4acb9bcb
+    internal_properties : CAAAAAgAAACvgFJC6HJVZMptgjuBtZ5SeDL/59Ak3flYm7O4kNEOab3ZH2TXhe0WLvyXI4Nk35jO0EzsHsdnmVjJ1wIt7muWDP04rwrMzEHa0f97dUkIuOxjKoPoBGQkIvPQF5KP0n58lQV3G3zMMe5WS/iC9NJIJCDVMI3lcbFLD0T0dJw3loVia6BfLtyCUF4Q9yViYxF9I5fgyH+VD9Rmk9Wx6nO3ytoLHTTJk1k9y0LpjQ1LMm5f0BA1UmEGhB1gf2Oh0kB4YQ3hDIhc8YdwDOmHOWZWb4wslFfcdZ7Wrr8f3Cj/GIn9MDxYbhJ+/45y8LQdcSmtBM5K16LbC+PDGFSCs2ui43ow3kpJpFP5sdYwtsWH1br7phZj5QHBxTB+Dh+wal6nW3kg7XJqOS00cJY7oVLcvwu7Zw/5a3Yra4vg07uwrsFKpQ+TSBDdl0EZKt4wM9rv9+6YNbY8r5J53Q/gVDXfM5dTyTt7YoZmxOnlh4BCb5WZObNnvweGARHXTQnaZLLNL2bKctSVJSz55lnr7u/LZ2cLXijYLyQkvypvundNSbbCvTEsJ9mY77MJ52i4Lbwy1L5+hTRCTo3M2iwy6qRKtQ+lkiQxikwoKL/BWt5TUPm1dcPCplmNCA3MwC1i3BaV8z8vPfJy4JCn26VdzN+VgrDZGw3Y0jtq+LTxx6coJdzuTkIa4edlnJoK+6BvvCUQSUdWQpOxeVWKjyYLOpRQ96uQIi4MT3g1HINZ9lxdDURIQBj6alsXQRMLYv2cbjvN2TUbzO2ICsEp57TuuI8aG39obl/XShiQCaY0GScc8Fhq3BnAOIn6aQul5VI8RdFpEPBcdHYRQKNL/3p+dgUzTLDQ30jp/6JtxQ==
+    properties :
+     x : 443
+     y : 613
+     width : 191
+     height : 45
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // New button to add or create elements
+         
+         
+        type : 14
+      -
+        code : |1-
+         
+         if ControlCurrent() = EDT_Contributor.Visible then
+         	HideAddContributor()
+         else
+         	
+         	Close()
+         end
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : RADTITLE
+    identifier : 0x241471ba4acc9bcb
+    internal_properties : CAAAAAgAAAAYemsM9KNYk17q85uRYqsZVjB44L9Fg5SF4RpsAqB3wgemDf/bkEjWjUArqnwjdKQqlL/52xaKwfQgo1J1u+GgrCj1wYVgisCLm3Xq5OvNhuqk6ToeJtZ7/RtiJ4gUZqoEVtwOki94nk1m/FqpERTGlkjlaizB3F36SDCLLTC64Wxf9ZLv7C5G/QubodLWikQgLOfiH4rOlWOKKHhxdFj5WSwcoIVl//VGagj5qe0gj8qOZHgYp8Y+QRPTt2Hz6SYZ6Nmz/A5cIL4004SJB+vIzaFWvNLlCCHTIrUBGMLw6gW3Uu2dvAc7r745rGQ15zilnZrtmx0I/OXe39b2q+1fdG4kvkvtXov9cAeDoIW8dW1ur0+w8LwspFxIvYw6CpTvNNuSHgU/NQQHIRjpbzp7sHJqXCSITLhWTP+0XfJ4ssPo3uFQjP1bOOjPf8gH4MJG6qX8W6SYe5H1PQ92WYAHkB5PYWhfNdyV4zN07e7Z5RTIwQ17uMzbEXyHUHiE6lT/3A16Wup6X0HWYd42ie6Yve21pjOZzXi8cjUwa+sffeu3nBgDI2cGEIz+0J9r0DPxpteKHp+R+Lp+6btkOf7tNNoUB/cElgF0NJzUrfgeyTiWDzydXGDkW/ZaERBq4HMSQJpL1u7n5uq4K5VKtBFFN718OzguWoJRCZBpyDUPoDvWRtXvqzNo0lEOF5Zxsb7gBoQLzMjWejO5Lu6HUfGsLaPekHimPPpLoVaCuEKyBxo=
+    properties :
+     x : 30
+     y : 1
+     width : 776
+     height : 30
+    type : 3
+    code_elements :
+     internal_properties : CAAAAAgAAABO3o++nepPd+Ze8Dm5HV8aqcl/V5bEKU48OARrxSC98KXtlqeneDpbH0rYmU3shCWJzrImPoThJOj0YF8fWJjCBuc2yPC3e9CpSet8yr99Mc84mCfnZTR1qbkSiQ==
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         //Run the process defined in the template
+         ExecuteAncestor
+        type : 14
+     templates :
+      -
+        name : RADTITLE
+        identifier : 0x1557aa4202ddae62
+        code_elements :
+         internal_properties : CAAAAAgAAABhdKOkCPeejUDw4JMyKYfxGJ+UZj7qj0aV1qsnL2iqSDhX8QGDmKKzM8RMnqeHKzhRMymj3lpKPVnjx97s3EmdMXJMsXkzteYG6A/32cxbnpUoKPVpfHT6g2s=
+         type_code : 2
+         p_codes : []
+  -
+    name : IWC_Editor
+    identifier : 0x241471ba4acd9bcb
+    internal_properties : CAAAAAgAAAAoLmLArrg2I0xYRVXI1g7jMeE3Fnm9Hha/4BGxnA+v7KD+7zKYwSRaIWiYaL7gmocJZPpU+zedEa08umvidDcs6tcrAo0LjaRIgRQ7wNuazc0fREs1FIWEs3NDYKe4YQxK1Varbk6r8ts/V9L/gfeXI0CN9wTxCQdf9lH23m981zwLQnoDIlz4PILIkcCaClV0ddhUKFgvIJ21PZk61U1eWTg2BUZXIGXvIxb/E2ta0qLUqtKwCnje38dHER/ZR13Gi65FMxkP6cRf5K3zUuridJkRzKecfY4XsQMSB9WkleG7wULiie+Mny3Owu8juXCpy57UD16LQRcuJtUrDBdkvbg4UOBT+NhTrDGiJJ1RFZhad5nVMA4etCLIM/bD7HNgdxUGWD8WPI5tSBhnpCi1DHlIjBR9dGe0KoBrTs0GtbIZE3l9Bq0OdUNjfIC/H9nGY1YqhqnyyiJu6T9WdflmaKcuE6vymv7lRpLjeb0HToLt9pbbN6AClMqbo9DCEOb3Pl7Qf4alJJEGgPjuDAi4vBGcze3eTFM9HPSUBk3du6Vn6HRYBi3F9Tqyl1Ifr+ad8TbmzIoFHTe0LxvMm30o23XfP58mQvL8LpwpoxQ=
+    properties :
+     x : 30
+     y : 198
+     width : 810
+     height : 295
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes :
+      -
+        type : 33
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAACFb5OW2cJoUiswe96Ay0hJxxH0QEgxc5+blpfMJKH33yWQhlQjLGGx3A9/AJyq7Q7b7nJsIHiUVlQLug+GWigC+1P2ZQPuYtL6nPQOPExyuEkL+t3ApWBRhi53DhVzwXKjl+GzEAfu6nXIeSI=
+        code : |1+
+         // Markdown editor customization
+         
+         
+         // Changes the behavior of the image insert button to add only URLs
+         IWC_Editor.BTN_COMMAND_IMAGE.Traitement[trtClick] = IWC_Editor.MENU_IMAGE.OPT_URL.Traitement[trtClick]
+         
+         IWC_Editor.LightMode					= True
+         IWC_Editor.PreviewAvailable			= False
+         IWC_Editor.AllowSave 			= False
+         IWC_Editor.BTN_COMMAND_OPEN.Visible 	= False
+         
+         IWC_Editor.BTN_COMMAND_VIEW.Visible = True
+         
+         IWC_Editor.EDT_MARKDOWN.BackgroundColor 	= EDT_Title.BackgroundColor
+         IWC_Editor.STC_DIVIDE.BackgroundColor 		= EDT_Title.BackgroundColor
+         IWC_Editor								= kanbancard.Text
+         
+         
+         // Changes the colors of the toolbar buttons 
+         changeButtonColor(IWC_Editor)
+         changeButtonColor(IWC_Editor.LAYOUT_TOOLBAR)
+         
+         	// Iterates over the subcontrols to find the buttons and change the color
+          	INTERNAL PROCEDURE changeButtonColor(_cControl)
+         		i			is int	= 1
+         		cBtn		is Control
+         		sResControl	is string	= EnumControl(_cControl,i)
+         		while sResControl <> "" 
+         			
+         			if sResControl.StartsWith("BTN_") then
+         				cBtn <- {sResControl, indControl}
+         				cBtn.BackgroundColor = RGB(114, 116, 118)
+         				cBtn.border.color = RGB(114, 116, 118)
+         			end
+         			
+         			i ++
+         			sResControl = EnumControl(_cControl,i)
+         		end
+         		
+         	end
+         
+        type : 173
+  -
+    name : STC_Description
+    identifier : 0x241471ba4ace9bcb
+    internal_properties : CAAAAAgAAACkRg4pPruB8vow1KGZJ+5LJLREFYnhptD0H3F9ljp9Fm16rMDxLftXCMD1soLZzwpRAHYotIhC/7o89uDaVajaHCZFgEWFUbU5pcDXjtD34NiFMFsRcZOfiVtZZ8qRE2++D7DFzW6hv7OuveQ8SqGQGwjVVyACW/5yOYgS3Xwoa94Tn1rOr7B7vQBkI5Teb9RB8i8B7KCT0bixD2kWc4uxB6tn5P+MGilf/mdJP96KmkAkEsQLH/uqp+JUljq0C2yDaiEUd5c0GbNG372V14S2H0ZWp4bQK3YvVidnG5jzESnfJsNdPNiidScO5Jy0vqUr2GEtoNG0ISgWpQG6bOts2AMCxKBRrzOiKuHOAH1VbdaNhwBNkDACXlxeh2TpwIEeUU4x0K1OAcRBdxVnsud01jHLx1fMUFJxHg8mCgfqX44Ce3d5bV3WSJFqKD05d/g8KjCqfaMKE9bvqt1O0ez2+lM+J3SCyi+m2ePbPw==
+    properties :
+     x : 30
+     y : 175
+     width : 85
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LOOP_Contributors
+    identifier : 0x241471ba4acf9bcb
+    internal_properties : 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
+    properties :
+     x : 30
+     y : 536
+     width : 810
+     height : 50
+    controls :
+     -
+       name : STC_User1
+       identifier : 0x241471ba4ad39bcb
+       internal_properties : CAAAAAgAAACmUwfv2uvQyF6vAB4eaxNxM2Nt0LhOe75JR9l6YUGp08O14u+9IZ5Q4PbnxASAQgGPhaB7QNxtd7nrlgyAl/3GSOATLikqjg69LR/fb6VX7CKj1AvN/TV/2FRztrNcbT3aqqYOvnDKWcvWv+Gzqg+uMPdr8wWtzMZX+fqneOU4fbW6BdcNi8BkY6SZIv9q9ezEofttIGAmjWYDMqQvbUUkimQOj1R76tDC3aTdjuBSexIrKc135cuTClso8aG/qjw/cURbMhPkYTweCn4ffusvjYQYN6J7molg7XOktzkIX8X7DW1bSC4Rtm9n1iw2YkOvWz02RigBQM41jxrdkNAnRxE/PMewkFlxnOXM13/jOpXmU5oXyjBsv3RXaXCg3+qsGg6H7xihAsSRsUz9zvlkvpyEmPzHWVAjM2E4QBx6Qhb+GmnOMhwXxTFZYn3u8bXXDItkhwli3/hhtv2IXcrrlMGpeGY9YJ/0T4c=
+       properties :
+        x : 3
+        y : 5
+        width : 40
+        height : 40
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Add
+       identifier : 0x241471ba4ad49bcb
+       internal_properties : CAAAAAgAAADqh8LMcj7o/Z/ix1f2so+QntbvvnuGWoU9YKeVLL1yRF022uxOaQNrXwYIBANhy/vThvMRDTt+BwqF/9OQeZ8IZpHMddaNXbTPIUeXklB0fIaMsXSpACMvh6Y8eXPWt8UhTsN06FE+Y8gckjWDQHmNla5hUPMYMdl5aujz6LlX8q5w6NU/zMHCcvAYLn8HuOh2KQySEbG9Bn1D2bhcAJOrTLOykgjtAnyYMWvvSCMJnqPtiWl636E8afGFr4rCi1iSX1qGS8pL0pHkLqoivuMYGTTEu09XbD7ow4Asi/+t5e9pEFxluqQyAYL1/d5pIIepYXEilcThCU9cBWRWQSEJGlQnIKEjeMjxp+QDrimSZ1/E1bP7vLLq4KGxQCPzAGvzLSWjjruU7mox4Tr5tb9owwAiLfbvWYxNHPTZBaI1qtX9mn6ZDI3NfDv4MXP65mQvaOFixL1ajOGQeHO560Ekq/E7gZhKbvv8UKleaZa/8QGsBrxl5ZArG62+zE4llUrrSW61ipvkdB3xRbEvqIMkIYZpgtqGjzevgmAzmITJV/HCd9EVdEJUwPcJGySCGP0uSrcBs8ZyJOvpPucFYIwlDhOEx2L453nnmnLgDjCM93p/95TfzbiNuagiXriyqb08/ajwxllMJJhPlbrZbfUPdkA2Qxl2e3VIrWZoLtKfVKkRzQcy9+1Pr2uh71G3hJIVkOLdzxiYJ4uGvfcOEhWDhelj8y3kz8AWmdVZZ1Byvrph57GX6HG7JPAYrEnBfO3oBAufg9IN5eRIgsQJdI09dDJuyNqcvaa64pts8zWclrHvdEBp9d906+oBta+zi7tIwgM8OxY+ANLZeHg0U8ifPb4t2uRQyOHmU/Mhpbrk2AuamguL28/B8Alzi/25fRRwqukRy/ZI/GowvMs58IurAY6PsQd7m2tBG4NuMLQz+b1WuumRKknW4gKQb6PH6zb1WlCqy31hYCSp6/hsxe1N6cLnkA==
+       properties :
+        x : 3
+        y : 5
+        width : 40
+        height : 40
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            addContributor("JU")
+           type : 18
+     -
+       name : IMG_Delete
+       identifier : 0x241471ba4ad59bcb
+       internal_properties : CAAAAAgAAAARizHkp61OEB4HhLt4z1SdZewVPL2dqyy/5hDtFI17WkbR0hS3tqQUsk6sljUPYcODZWlqf0/xpr0Wq9ksUHrBEWqsKNLZ6x2D5ZM/LkW+AVnAgNMhWe5eIT9E0l1z78grw3tA32leguY+SYtN1ll1HXR7BEJ1KntanJiB8tUtap44hqx/pvgmAXxK8HkrmeLcp6bal+3ifvZgA9IjeJgRPS5aTm/IRmZQxL76xLMQfmW5Lam0E0uWfjaPAcQ2eRptw4zE9xuAKNsAgWJwN2LerKcmVWxTFdmjs7dq3N0/Er8JOXSJ4ULPQmgIuOY/7UBAy26MKKB7EtQDZowYfAf6IqCOMbZIOI6OZTfYFjHsNWWZy0xax+ma/QYsiGgR3hbzFs3xVG45iloLondRDUxKsrf8SIHHRExV9trpzxCW7rlQ0t2pDXntZH6TJG2w6BzsCvxxg77ZbKObpVLDbjZoUPtnH4qyxmNPQqD8jDHpHFXqRfL4zLhz/s1qgYgxFiq0IMRKs1Ghpr84yYreGNhDmMaaKnlz5IIQArEkD5j4DyHJ4/tlK/uPmW1mZshYxJjYNSvuK+DEg3fq7MkKuMjFXPBcvLI6fOSJ9LxggrjezFGtnkoE/AUO10FP+brCzHkqz9Ub2Q/qWT/EDFWAWJgdN9N3I7Za+h1RbPnize/cbO5J5maaCGDni56PlQe+8+6qxnHoIUQmb3+eWegxp+zYiTiGVsrBjWREW42uqT65NYwQxu59kIgSwJok7CjQJiwDQnhHwBYRQFjKRpQsNWBd0gCLqVhVSZnUa07yKb5OT+x/yE6cZrVcfWw6p7XPi+Tag91dx6h+eOCyuvBRcCxdYIULfcWDxSYZ0rIwyfC6JaC3Y5GEyAWuzIv+1u6cYqTVKHNlsWyaMb/s5mmvKAY/ezFjhZClCouPmsW+bkzO5JYnFPHhepDqnNKxqs7BgkGPZn96VRE4+Q==
+       properties :
+        x : 3
+        y : 5
+        width : 40
+        height : 40
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           code : |1+
+            addContributor("JU")
+           type : 18
+    columns :
+     -
+       name : ATT_Username
+       identifier : 0x241471ba4ad09bcb
+       internal_properties : CAAAAAgAAAD6mes8Umk+7nbhr/UALLj2SU9VdHBXDUF3W0LXdoRxjhq0WT97QK6yDAaWyG4p0cBf1L9ze1qREe0CFXOCqm5wA6FbTwb88A5MlGcAFRE7krX0kPfhV+ATPVApQHFO23S98AGsFamIuw06XqzPUJ8cL7GOm+Azw1hsO8b9UsZ19g==
+       type : 3
+       content :
+        identifier : 0x2557aa3006646795
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Value
+       identifier : 0x241471ba4ad19bcb
+       internal_properties : CAAAAAgAAACU9iYGSkzi2KNCyguCNBOB/7F54tTBv/26n+nDiZ+Y5vce04RC/5CPGhkn8CapIvBQPMERcBXAQ0zVuMlXOyFPZSZ/dCPua7pIzs56YFoExQhgr20vYIigUrR+qoS3qOPghOvFXaHsyrA=
+       type : 3
+       content :
+        identifier : 0x2557aa3006666795
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Del
+       identifier : 0x241471ba4ad29bcb
+       internal_properties : CAAAAAgAAABf0MFLeBHx739pdKhJF6sBB3awmUwTE++QSWUD+Ct1yzx2waBXXwFBUaBeqSM+AcrBphJ7zh6BmvRp0MKJhFV9RSFuzsP+zDLbVvIILRFUvL1XzZ6GgaxIkPueRW+pv93bdFSjgDu4LiIcKXHW4wGv7Nv5FxfO+RsTNvzpU/pdQlDXpk+QKw==
+       type : 3
+       content :
+        identifier : 0x2557aa3006686795
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        code : |1-
+         
+         MySelf.SelectMinus()
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         if LOOP_Contributors = LOOP_Contributors.Count then
+         	showAddContributor()
+         else
+         	deleteContributor()
+         end
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        code : |1-
+         
+         FOR EACH ROW of LOOP_Contributors
+         	ATT_Del = False
+         end
+        type : 153
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        code : |1-
+         nIndex is int
+         nIndex = LOOP_Contributors.InfoXY(liLineNumber, MouseXPos(), MouseYPos())
+         
+         if not 0 < nIndex < LOOP_Contributors.Count then
+         	return
+         end
+         
+         FOR EACH ROW of LOOP_Contributors
+         	ATT_Del = False
+         end
+         
+         ATT_Del[nIndex]= True
+        type : 66048
+  -
+    name : STC_Contributors
+    identifier : 0x241471ba4ad69bcb
+    internal_properties : CAAAAAgAAAB8KB4WjNwtZaH5q10GspeM3K0+UDHrNym9JQkBCfkV/jC9tYGamVD77D7+NUEfLQt34gyHqR+ezkDSOV5o491ljyg9GYMsgiVb4EZTJh4nn2LW7/LiLJ46wkJCzo/Q3NHOSnHCPm+dDC1oEqOvOK6uwxFFUVfaumCg5XaBCGxCca5Y4qSVwthe60P16MFw/qyyXuIKE8+kEHTL2g3VTqN4OqBc2WXt+h4RkiP5A3Yg7Ld9BLkhGMndloVLjmOITHlS1D1LD5vH5Bp3NM3yt7ENmE6MTNRABinudVqPqB5IkjQhdvDh+lMHwlBDvF2Su6xEbEtorAWdJmkpPEs93io7vW1yGTqrlFzvQ2Z0+7FqSsHV7Sf5AF+vF2/N6fl9RRxHb8a8RrfHmlFSqOMC/Hap0+XpBUF2PacWbNUsCB/ok0B0lGShmunzQy3TxMmyyQheVyRN6HWmG0SStB0BdUNCHKJfE2KpYC/gH7627GmD
+    properties :
+     x : 33
+     y : 509
+     width : 100
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : EDT_Contributor
+    identifier : 0x241471ba4ad79bcb
+    internal_properties : CAAAAAgAAADlUFLQcS469djNLrR8NVBGV6nvQBlIsgLJg/lWijNZmqfiNYqaIhOiSS1kYKuqz5L5VyZRCWBQKgAj43oTRSc3fUlcFqdyAUIXA2vxziFi0z11WR2NqoJnXgd73BnI+6ZYdnHSxb3jSnoRwkwB7RvJQiPMOiTAHloXCBjYofq9IalX8SaqQA//mCPolYpcOvo+heWCLMdapSxuzlSMrWxdfa/sAQ0jBiYMZ8uaZabP9icaudN+zbOhkR9AdWGbBC0ttY+IgyoZk/Mt3HtyVyQze590bRuZEvmURkPyxOrdqHbxEDPBwwj5Zg9YuyyMxAbcC05QsXioGVnK2edSouYDWiBzymS4XOMm4oEKKFAyR209C9OeATNq9oRl/9Kj9LfEFBh8KsNtELppfex9U/DzBIMIDiMuUry5NfCMzByTjNog3pKl1NmLT4C1zgzwKVJSCfdOnlXlTC/1bEqHN+1XcP/cKcIkvpWhoXzvvyOsXbHb5h5XHuqLmySJzse2k8doTaLiaAR5mMzl94+87F2kK79mdbMU8tHSl24FV6x0Tbe6ZofIl7GI+nhaXr5sLZkW9aHJ3wKf0+GYcGhLIOJtq9Vx1KG7L8Mpo2LIkxJxfdiO9SjlU9OgrTuaWo3gnQK3YxdodwYgacdb98VJTikdLjwwYsyQIdydWEZG/gJIJbMO8ST9bcePWIcp3G2jlq1OX4WMMHs9wqY93OBrXbpZMimDSBZ8epLXHi4665wol6yptOQTFe/4m2q+DUxhDawIUrA3JIi4IvR+0g3iOzgJyAXwHZW02OgJguJBUwSYsF2iMKZ6l88BghE4bOQpImuCnJTt2ysuNEnoiApgAG0mwG2H1CXljfi6B6FujXf4vDERKFaHTtliXG9P/FVBxYIriUdDuOm8J30Ec5v9upfkPbBcHbgd8BvP2bCNPmEXSRoDI0KYw8u/eMWp0x38KHpbqPZrauKibxFL28cpFhJ4Tt0lMJzVwQM7gX1YBaGCmf7xCekTGYtXPzboa7cVoY7dwEDk6COfRc1clZ61SQgjzXbKpaOGQHNx9k9jdtMG7WAKAaPVT4wTt+wU6BXt+I+1mXLD/QAKpB86K4h8c/66N4y4SMAskt0SdZ8Je//Mex45CfrcxF7vUBMtqezluVkWxTYYYnBbhOWNWUzNpKXwqgIAqZDiAktEfP82OFtONORDftKkmaIhdVGVIgLNFRirneTSCTztMd4O/byJRk/UZ2behCZG5ms=
+    properties :
+     x : 30
+     y : 592
+     width : 200
+     height : 51
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAAAyPe7YGTa9yHf2i84u40wbD8BVafgBtJbNk79LQVNOS6NIUE2BoaeHwqLTkfEefzgTgGtztzMPhq16yCOV7j1RqnXoFSAU3fIbu2hea277swC/wpurG4fNFWcFxLodOE9cA7Fl3TfYYeILIw==
+        code : |1+
+         // iterates over the project contributors to populate autocomplete suggestions
+         for each ProjectUser where KanbanProjectID = gnProjectID	
+         	AssistedInputAdd(MyControl,ProjectUser.Username)
+         end
+        type : 14
+      -
+        code : |1-
+         HideAddContributor()
+        type : 16
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1+
+         procedure SélectionSaisieAssistée( MySelection is AssistedInput )
+         
+         addContributor(MySelection.Caption)
+         
+         HideAddContributor()
+         
+        type : 166
+      -
+        type : 65793
+  -
+    name : EDT_Tags
+    identifier : 0x241471ba4ad89bcb
+    internal_properties : CAAAAAgAAADzrhfQQGctESzfqn3zc9EuMIUvCIefDgAieqoVOVWXGW85STybYGoxgNCNJ/bAxMfMlvu0T21q7PVFteSkfep3PmsiYOAq5zO0skQ7zyssaljewJZ+vFc4X3C4sjHwSkjnBUpFa3c8TGxM8IrGF5mCi611KC55tpmRA7hOton/Tg5KQ5/WhUPGx6hjz/6sAFoLB9C79Z93tKT7xQsIwLA2s8ZHT0jCOHPtJ976BgXVdYKX8wKEhzGz8hhBxi2ZujY+E3w5VUgiDpdErRp5BLBsDwAEQAnJ0Ei/H/Zt9Kj9qmKw2V71owgKFSDjvh5OjRgkprxeyr2o25DF12IdLt+OqH5a8Jtf2/oN8lZZE65yXYLLJrvXP4pBwleSVOMwcUBohlIctyNR7XpCbLhKFVxx6KHmiSO8dd2GYH/QEAEqNV4pPitKlXdvQ9W2RI4/4vcRrcO0qbu8Vzff6Enqb86+Zd8SDZMVPxfFjGLPoq6M81+1bgtxKzsWiSyzxNYGlk0qihCacVY8L37M+Q9hzITx315TezK7XEzT6dBRnpFq5Fd35IpiCStps6jmqt+BpIHR+/Ft+OtaCX1E/pa3vEkYs3GH6p+QPTNK7EG+h/vlJVmqIZ+XE0hxDmWT9N7ECUpbJXmD3o/ukNbekwSYopdAXaWL6kULEFGmXH9aGDc4RycppMTeTHwsnTRo3rY5FgnA/cO7EJm3b+vA7eJtEPNvhJG/7JUq50G1Ag2k4zmhvadyXdXLmKrlEJ2rp+QlJGAUqQm7DW9QrGW0CyMDrei3083cjDUesgoGzUc5SS85CuD1eGSkU7gg/KcsBl9g2mlRtSZtuxfOPddbXrGAqSUQugVf2RCOVvYJPlM8n1DI00K9IpNq7uR/8lhXUvly0TP/fCabQunvKUDKw7pkt1P8wwpvTKf7WtW5bfLy5r9SHVyOKpLneyltZLfech0ES9ubJaerL9tPN41etvJmjwec1p/2s6D6FY4xxinXXCOqc9JAUIeUQTLs2yXPSMMEwdeOPqE2AgCfTZZzBi6F5/Rmp+OuNLYZ3HpY+lBIcQrYCOp6bTnW0QJfR17t4XupbAD+xh6YUkgKqEc23B9mzA04AdtuzvYekUEBDkAdISkZe9giyDXL6mPa/endngDfRN1M8tEi7kV4mYdehAZztSR8yY+sKKY7TZHaN5Av5mEYraPLtcF6G/LZeTpOAvhwaVvrceCjEb7j4LMgkOjZBsU1o2Asf72GHfuFmMkrG1aRhcKqH+gAsiVu2QxH/2lzPZL8NIfwEEzZAuxjg6vDrgkqG+ScGyZNybf8ljf+a0W/PDpbAYO/kM+7CjaUeaNYcGCuCSLXSn/Y
+    properties :
+     x : 30
+     y : 106
+     width : 614
+     height : 53
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Multi-selection with tokens
+         
+         global
+         // Define the possible values for multi-selection
+         garrTokens is array of Token
+         
+         local
+         for each ProjectTag where KanbanProjectID = gnProjectID
+         	aToken is Token
+         	aToken.Caption = ProjectTag.TagName
+         	aToken.Value = ProjectTag.ProjectTagID
+         	aToken.BackgroundColor = ProjectTag.Color
+         	aToken.Color = ReadableColor(aToken.BackgroundColor)
+         	
+         	let n = garrTokens.Add(aToken)
+         	
+         	if Tag_KanbanCard.ReadSeekFirst(ProjectTagID_KanbanCardID, [ProjectTag.ProjectTagID, kanbancard.KanbanCardID]) then
+         		MyControl.AjouteJeton(garrTokens[n])
+         	end
+         end
+        type : 14
+      -
+        code : |1-
+         procedure AjoutJeton (MyToken is Token)
+         
+         // RETURN False to prevent from adding the token
+         return True
+        type : 276
+      -
+        code : |1-
+         procedure SuppressionJeton (MyToken is Token)
+         
+         //RETURN False to prevent from deleting the token
+         return True
+        type : 277
+      -
+        code : |1+
+         procedure ClicJeton (MyToken is Token)
+        type : 278
+      -
+        code : |1+
+         // Opens the popup with the possible options
+         OpenPopupPosition(WIN_Multiselection_Popup_Combo_Box_Token,popBelow,garrTokens,MyControl)
+        type : 66050
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAABgnX2b44ip/0+dFkWIcZ3UJFlESy3OUB3wO5Qm7mevlCLdFjCyI3JIggvqH19+MvzHpl9/B9J9tS7hT0oozBulWlov7UR66HEvpEvUw0z5rDRS1Z7p+wdNt679Grta9dZiBX0QSlauiZBtVH4BhImVfjGzfJgEI7yrxVvlYeLl50T0XcrIZxSl3b5vn/iegCKem1+ATnY7gt3YKrGh4GHDZFJS1W9LBtSrZXsi5NcyuGwhXbRv+FFskVwtnOB5ewrO+zjW5Xy2Z8nvDGliFs99N2Xxj/PQbd/Pt/ta38g=
+  options : []
+ popup_menus :
+  -
+    name : MENU_Contributors
+    identifier : 0x241471ba4ad99bcb
+    internal_properties : CAAAAAgAAAC4QQ2qy8+PkE1TyEgA78ykqznbOzZSi3Q3MlCzspIq3ZbHGFZ6n6FnxssAPb8W3SuTiIHPArb6rZDSv8MPEY0P3+xwTvmlYaeJy35U4zwpgjCDvRXEMs3JZEFndFt9ojZQKx7TIr7vMdehoNbfLZMLhvvO1sV4tp0cHOVsFPfg6JSssJgqLs3GjCMGQR91xFQ/vXl8AqniImqkyA27Kqr8tPb3sjDjmvjgmwKxRFJTf5xgglv/zbrL0vPsS0R91oruHUjuVwWdgN0L5/ASo92gcRUr08X720UJgHygMddJLSWsM9JpAfS33q9z+wkEej+W44jZJo70nTTw4l8+0tmqq8xMmB+0bibagO+3Ps+8cLlDdUquUCGJXZEa+M2QhSY4uw64kBtwrEgVCYRp/oHRKGdevY5YVzbKQnQLOjiIwJ5o2swOiuTCvkGTZUVs0CZLELVC
+    options :
+     -
+       name : OPT_Delete
+       identifier : 0x241471ba4ada9bcb
+       internal_properties : CAAAAAgAAADTaUCMLYDlfiyLEv/6JoLrlUh2RNIf24XFLon8B5WFCc2bRLxPxT9QPbq9GbfXeFltrQ59lLHkfCzxj/Fxu6xQaCdWb5YPqR5X2wTRiUJK4C/KKcCYBw1iwhDMRmnThc8P7y64zYBaKJI01Rer0E8yfQD87KEDufDyIxUoFkmN+0HYKANtwUM4KlG4/OCvCKMsa1DR5htBDURkdR+ai2q+mA79YDrEXsD6O6lgnJZgrqpQuGv9qnCyaQcqUX4SqnqtYOyRvfRhRxox+9a4Tj8BctUP7zRnlaL47DJg1BG2XP2rKmGT+chyu9Ebe1/JEywXVXFPW92wPHEMrNi0VYD48N+B4dFZaaAQXBtW/dlFaMsgNQUsI5sZgEVj6XLbrbbq6kHV4YdawvVHuVgsrU380qAvN4NQ1wHoBIrN5u3kt2Yvx/OcT6hzWbVNB8d8JwWiiywnYD3z1RrT8jHlLONXr9xQ
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            deleteContributor()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADgZysRVU1Ggtyn89tIHoI98KSNzp7JR922eKuFi375i2/1s7XSyytQU3AEfO3uCbMye0hi6guFYMJQyP/vx0CdlgTrmA==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow(gkbCard is kbCard, gnProjectID 8-byte int)
+      
+      MySelf.ReturnedValue = False
+      
+      // Sets the position to display the card data stored in the database
+      KanbanCard.ReadSeekFirst(KanbanCardID, gkbCard.Extra)
+      if not KanbanCard.Found() then
+      	Error("Card #[% gkbCard.Extra %] not found")
+      	Close(MyWindow, True)
+      end
+      
+      
+   -
+     code : |1+
+      // Displays data from the database
+      FileToScreen(WIN_CardDetails, KanbanCard)
+      
+      // Fills the list of contributors
+      FillContributors()
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : addContributor
+     procedure_id : 1446906424105737163
+     type_code : 14
+     code : |1+
+      procedure addContributor(sUsername string)
+      nRow is int 
+      
+      // Don't add contributor if already in the list
+      FOR EACH ROW of LOOP_Contributors
+      	if ATT_Value = sUsername then
+      		return 0
+      	end
+      end
+      
+      nRow = LOOP_Contributors.AddLine(sUsername, sUsername)
+      
+      // Displays the badge with a given color
+      FillContributorBadge(LOOP_Contributors[nRow].STC_User1, sUsername)
+      
+      // Hides interaction images
+      LOOP_Contributors[nRow].IMG_Add.Visible = False
+      LOOP_Contributors[nRow].IMG_Delete.Visible = False
+      
+      return nRow
+     type : 458752
+   -
+     name : deleteContributor
+     internal_properties : CAAAAAgAAABHMQaNLZW3coCbUFzZjboZ2sffnJ+YXIEPfZ7cvMHp6TdCcIT1bn3ddjWz+gAuU4TlKFh4Jl7/09ee3f73yUXdFCjBLIghMRO5u6+l1dPvI2THFd5d2e+j2rtSDnU1cduKleKvLAr+JiiKu+A=
+     procedure_id : 1446906424105802699
+     type_code : 14
+     code : |1-
+      // Deletes a contributor from the Looper
+      procedure deleteContributor()
+      
+      if LOOP_Contributors = LOOP_Contributors.Count then
+      	return
+      end
+      
+      LOOP_Contributors.Delete()
+      LOOP_Contributors.SelectMinus()
+     type : 458752
+   -
+     name : showAddContributor
+     procedure_id : 1446906424105868235
+     type_code : 14
+     code : |1+
+      // Shows the Edit control to add contributors
+      procedure showAddContributor()
+      
+      EDT_Contributor.Visible = True
+      SetFocus(EDT_Contributor)
+      AssistedInputOpen(EDT_Contributor)
+     type : 458752
+   -
+     name : FillContributors
+     internal_properties : CAAAAAgAAAAmB8eZRM/fG1TvceEHtxU1zI3sj4jPS7MtmyH/Hdydaix/1KIYh1nCkD3Nuq87D15WUAIqcWS1TsAAOb2klfwQXBy5F4FnJeTaX60Ik6hMUKRFg6d+3ew4sKEf8Bylm6oAtoLrPzBvzaJhmjv/5jGWjQe4NovEjs0A6f1ElfI=
+     procedure_id : 1446906424105933771
+     type_code : 14
+     code : |1-
+      // Populates the contributors Looper control
+      procedure FillContributors()
+      
+      
+      // Fill contributors
+      for each string _sContributor of kanbancard.Contributor separee by CST_SEPARATOR
+      	addContributor(_sContributor)
+      end                                                                                                  
+      
+      // sorts contributors by username
+      LOOP_Contributors.Sort("ATT_Username")
+      
+      // Add the add button, use "zzz" as username to always be the last result
+      let nEnd = addContributor(CST_USERNAME_ADD)
+      LOOP_Contributors[nEnd].IMG_Add.Visible = True
+      
+      LOOP_Contributors.SelectMinus()
+     type : 458752
+   -
+     name : HideAddContributor
+     procedure_id : 1446906424105999307
+     type_code : 14
+     code : |1+
+      // Hides the new contributor edit control
+      procedure HideAddContributor()
+      
+      EDT_Contributor				= ""
+      EDT_Contributor.Visible		= False
+      LOOP_Contributors.SelectMinus()
+     type : 458752
+  templates :
+   -
+     name : WIN_CardDetails
+     identifier : 0x1557aa4202dcae62
+     code_elements :
+      internal_properties : CAAAAAgAAABBeajyXCJobQ4uNB0OQdZw69i7IowiWNQFpkYmm4W7fIP/5Cjrri+L371RWFwG6Y+keVg/X9yvfoQ8ZN+IO6Iqb4oNOzZZh6am+TntHqp8bPW4+5AEaQ9DYGIwodH0
+      type_code : 1
+      p_codes :
+       -
+         type : 180
+         enabled : false
+       -
+         type : 230
+         enabled : false
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6tpYZJRC8zOEPSg/uHeq+L9paDnMvEjfprQ93jq3wJ+e4f6OatQhYVWZ2BRcvHZ9KSrWQ4yX5m7a7Hj9cSH54kYqpLLYEh6M1nQ2VGoI578oKU4Ueb/gIwg==
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x13c151d40249bada
+  internal_properties : CAAAAAgAAADGuEDUi5UtLjRv5suWekyNcgwA5V/jB+eK8FR14SjtCU//MbCC/gzbk05QkNHfjw3NVQ==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

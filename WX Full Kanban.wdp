@@ -1,0 +1,242 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WX Full Kanban
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Windows 64-bit executable
+    internal_properties : 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
+    configuration_id : 16255036974505972532
+    type : 1
+    generation_directory : .\Exe\Windows 64-bit executable
+    generation_name : WX Full Kanban.exe
+    version :
+     major_version : 28
+     minor_version : 66
+     internal_generation_version : 27
+     autoincrement_version : false
+    icon_filename : .\WX-Kanban.ico
+    language : 2
+    64bits : true
+ elements :
+  identifier : 0x43beb915000e0cea
+  elements :
+   -
+     name : WINTPL_Database
+     identifier : 0x43bed93702658fc6
+     internal_properties : CAAAAAgAAADGTC5yse7G6fHiqdt/vYQd9JEju5Ws4xFWDc/KEuGrrVPfy7S8RtEkkolzTdUL9+nTUw==
+     physical_name : .\WINTPL_Database.wdt
+     type : 18
+   -
+     name : SET_Kanban
+     identifier : 0x43bec30900dbef33
+     internal_properties : CAAAAAgAAAD0UtzY51zU1+OgtSv3TcL8dMfDywsamY6C3iadt2wowAzyYQ7MdHVm0HdhXyfZoRfhYQ==
+     physical_name : .\SET_Kanban.wdg
+     type : 7
+   -
+     name : WIN_ProjectUsers
+     identifier : 0x43c505e20fad164d
+     internal_properties : CAAAAAgAAACFge0xDqsDHCoemJ0FhuCJQxBu5swachapMLwJWMvLBQ8RfhiCla1wd64okBDAuCiQkA==
+     physical_name : .\WIN_ProjectUsers.wdw
+     type : 2
+   -
+     name : WIN_CardDetails
+     identifier : 0x43c151df0349e640
+     internal_properties : CAAAAAgAAAB82lRAfySMn6ubMRde77GVujlheV3HdLBceWU0DxSASOASUgQ0jwBB+C+pF59RKZ9p6Q==
+     physical_name : .\WIN_CardDetails.wdw
+     type : 2
+   -
+     name : QRY_ListUserProjects
+     identifier : 0x43c51e0810f66abd
+     internal_properties : CAAAAAgAAACvq4ebKFXdjliQp9m6WzypMwZS2mO3Vxmq4OtOVl40pBj0r0uooDjm+SCaZi6iXlK6ug==
+     physical_name : .\QRY_ListUserProjects.WDR
+     type : 5
+   -
+     name : WIN_ListDetails
+     identifier : 0x43c52e0f0107050b
+     internal_properties : CAAAAAgAAAD3Qe25OseXSAxCD8Om2o3Ka4vvNUXQld2QmpB1JbA+0PRWcH3hzhcc4vrF8t09+uFy
+     physical_name : .\WIN_ListDetails.wdw
+     type : 2
+   -
+     name : WIN_NewList
+     identifier : 0x43c815ae05c3cef6
+     internal_properties : CAAAAAgAAABPy6f7SHU9bnhjXMXR4hTW7arQQHb368euAOti1j1Zh6GzQQ27ClSxGQD6xk6CfnJa2g==
+     physical_name : .\WIN_NewList.wdw
+     type : 2
+   -
+     name : WIN_NewProject
+     identifier : 0x43c8016d036eafd5
+     internal_properties : CAAAAAgAAAAkIgwol8xkB9Maz9u25FQs+o2pGal6E9GsJWSlpX6WSv4claq3VOkogKcR77cp0ccxMQ==
+     physical_name : .\WIN_NewProject.wdw
+     type : 2
+   -
+     name : WINTPL_Popup
+     identifier : 0x43c8007d027f0655
+     internal_properties : CAAAAAgAAAAWfH6iAX42OYG87FEdFWPYcmEpQWXubfxcmdkvC+isfIxGE+OvE4pG4llDvUW7R7kDAw==
+     physical_name : .\WINTPL_Popup.wdt
+     type : 18
+   -
+     name : SET_DB
+     identifier : 0x43d7debe027add50
+     internal_properties : CAAAAAgAAADYtoCcK1DYg0+FVmr7Tngl2p9pCUM782ax+f3hEAORnx2Rv67bLx+TLBONayulXVO9RQ==
+     physical_name : .\SET_DB.wdg
+     type : 7
+   -
+     name : IW_Project
+     identifier : 0x43cec4c8085867dd
+     internal_properties : CAAAAAgAAACmrI6SEU7miVHSBOALNlIeaGlXz/U8EkJ3SLAUONu5J4FRqE8YKCBU8imTbTWrV0mzsw==
+     physical_name : .\IW_Project.wdw
+     type : 8
+   -
+     name : WIN_MainWithTabs
+     identifier : 0x43cec2700823407b
+     internal_properties : CAAAAAgAAAAzD2u/jPmx6vQ1aePy+KxBFQDMPISDCdO3GLcDK8hClqpmd0nrJas7lYx2QsI+Oq4WHg==
+     physical_name : .\WIN_MainWithTabs.wdw
+     type : 2
+   -
+     name : QRY_ProjectUserList
+     identifier : 0x43c518e910a76772
+     internal_properties : CAAAAAgAAACmrI6SEU7miVGZFi87TeYnfnMN7VCsXB2uU2TNRU9Nm1mVncrsbG3r8imTbTWrV0mzsw==
+     physical_name : .\QRY_ProjectUserList.WDR
+     type : 5
+   -
+     name : WIN_ProjectTags
+     identifier : 0x43d3966d02c85ba9
+     internal_properties : CAAAAAgAAACC+PouncpifcUbTLM9ztbyLGl7Ix1BBeavtCpjziV3oV/z2gG2TIE1pp0H8bEvyz2Hjw==
+     physical_name : .\WIN_ProjectTags.wdw
+     type : 2
+   -
+     name : WIN_Multiselection_Popup_Combo_Box_Token
+     identifier : 0x43d3c83f0462f922
+     internal_properties : CAAAAAgAAAA9GRUJtuPL1OL0NwqwGRvy7drgIIVVW+OIR/yNTdVB3ymLVSQzyeaOz3ZgWNgI8OAoKA==
+     physical_name : .\WIN_Multiselection_Popup_Combo_Box_Token.wdw
+     type : 2
+   -
+     name : WIN_EditTag
+     identifier : 0x43d3ace7027a29b0
+     internal_properties : CAAAAAgAAACQbsjU04iguwdZhFPnChq3CG9Xj8uHA22vlBSYScrKVq4gkKnMdiH3ZNvFM/PtlQv1fQ==
+     physical_name : .\WIN_EditTag.wdw
+     type : 2
+   -
+     name : QRY_KanbanLists
+     identifier : 0x43c82112076b4c1f
+     internal_properties : CAAAAAgAAADiWNrO/aoCHSUQ4Y74P7nWSj/J2WxIJilOJ2gJaTtZ98Up9sagZwsqhr0nkRHPqx3nbw==
+     physical_name : .\QRY_KanbanLists.WDR
+     type : 5
+  other_elements :
+   -
+     physical_name : .\Exe\Exécutable Windows 64 bits\Kanban.ini
+  analysis : .\WX Full Kanban.ana\WX Full Kanban.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components :
+   -
+     physical_name : .\WDAAF\WDAAF.wci
+   -
+     physical_name : .\Markdown\Markdown.wci
+ report_and_queries_enabled : false
+ data_directory : <RepExeOuRepDonneesCommun>
+ user_groupware_executable :
+  internal_properties : CAAAAAgAAADLV03h5BcM5SyNuv2PjYYQ6teMkztsiZB31lCjhCo67OZ/V2lau2auaRhGQWVICZbW49VOtqIIZe8vC8kVgaP1/w93RQJ/OSpKfDEuIqEsnrs91Uxge+E3bSgQdca18mU1wn862RtxEhYSD63iOCYmikfjvapFUu6MgcZqRk7TsfKPQt32GVSA2pXyQecVXIcVl5KhkGXb/hj5xudW75anX+9e8VYYJwjl/XM5Id0/3HwGbRgs
+  mode : 4
+  connections_history : true
+ user_groupware_site :
+  internal_properties : CAAAAAgAAAAIMXTKr1pb1rPDpPgXErliChOeYQvW9TA6wFxS/X5c+rvvNaL91jCU82XBitA2N9aRH7771z50YUNTBsE8u9OnjDCFHc5OTA2jPDqexIQySYLwosF3pC/cIhkKga1Kk6Za9mb/fr3IbQxchMSXigcGV50xc07eZDDZUiN0SuYJ7xEFr5L1KYkBSW34mmX6J+Q=
+  mode : 1
+  connections_history : true
+ wb_skin : 260 Winki
+ wb_color_palette : Blue Cloud
+ languages :
+  - en-GB
+ wb_style_sheet : .\WX Advanced Kanban.wws
+ url_rewriting :
+  internal_properties : CAAAAAgAAADkPzcUdUUS7wCiun+MCjqYH70RJdzkSv/nRvXZ3ENdikMa6bcHtsAH
+ code_elements :
+  internal_properties : CAAAAAgAAADW7wQ3xfVJ570PKKZZ9OKmf6VeolQp5LasC66IJEze5+oxS02geQls/7bSDyn0G4arQIdbIbzpM2ZYUOxVUg==
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACfyWYgtReRdcLa/1qORD0BdWiEOLe7fsxE615Fa0IrJZFN2MafvMKJuXj0XDfFIWo9sIBfNDfmzlV2imj8aKTzrzboiU7dqMHERdOa9LhAKfrEm+klnS9D7RM3USZO5qNErzALMem94Xt+sJW+02o1JVakkD6V03AxJU18FUby4KopGcvxI8aCidBpDwWE14YKDg==
+     code : |1-
+      gUser is gpwUser
+      
+      
+      
+      local
+      // Manages the connection to the database
+      // The procedure contains code with comments to manage a client-server HSQL connection
+      if not initDatabaseConnection() then
+      	Error(ErrorInfo())
+      	EndProgram()
+      end
+      
+      nRes				is int
+      bFirstConnection	is boolean	= LoadParameter("FirstTimeOpening",True)
+      
+      // Checks if the application is launched for the first time
+      if  bFirstConnection then
+      	Info("This example shows the use of a Kanban control associated with a database in a project management application.",
+      	"To log in for the first time, you must a create an account using SUPERVISOR as both username and password.")
+      end
+      
+      
+      // User login
+      nRes = gpwOpen()
+      if nRes <> gpwOk then
+      	switch nRes
+      		case gpwCancel : 
+      		case gpwError : Error("Error while initializing the groupware."+CR+ErrorInfo())
+      		case gpwUnknownUser : Error("Unknown user.")
+      		case gpwInvalidPassword : Error("Invalid password.")
+      	end
+      	EndProgram()
+      end
+      
+      // To no longer show the first login message
+      if bFirstConnection then
+      	SaveParameter("FirstTimeOpening",False)
+      end
+      
+      // Retrieve the user information
+      gUser						= gpwGetUserInfo(gpwFullDetails)
+      
+      // Passes the username to the internal component
+      SET_Utilities.gsUsername	= gUser.Login
+      
+      // Structure containing the callback(s) to be passed to the internal windows of the Kanban control
+      stCallbacks is Structure
+      	onDeleteProject is procedure(nID 8-byte int)
+      	onModifyProject is procedure(nID 8-byte int, sNom string)
+      end
+     type : 196608
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Windows 64-bit executable
+     identifier : 0x43beb915000f0cea
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

@@ -1,0 +1,608 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : SET_Kanban
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x141471c10876b752
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAACo+UUIJjq4crkqubLuISiz+qIQjrv+Ji2EC5qRio3Rpen47Pc/xlibe/JKidlBEnDF4ooSGSGvNzZnUK7d2n4S4Y3c5k9E
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      
+      
+     type : 720896
+  procedures :
+   -
+     name : kbSerialize
+     internal_properties : CAAAAAgAAAASTSLNWOR+Ho3mg+ynMx6EF7X4WH4jqVa45vIAcEYSgucp+hhRVl0hm1o/snoyICzdvNx1fQL4On+mIDAJAOMIAgiiLV8/tUG/w8BoSlKcTI7rei0Gt4Dfh5ngb+ccT1mp3ZE/yy37Gtx6Offny/zWRWoXqsXu73FS9NvTinFeq6uIMRpT+OU74K05pPtOnkeyEcSEySWaYTJ5WrzGaN6xc5BD+5UOxCAwQBLqKu1N9lf7MHdhCG1OOA==
+     procedure_id : 1446906454177462098
+     type_code : 15
+     code : |1-
+      // Summary: Serializes a Kanban control and converts it to XML
+      // Syntax:
+      //[ <Result> = ] kbSerialize (<cKanban> is Control)
+      //
+      // Parameters:
+      //	cKanban (Control): Control to serialize
+      // Return value:
+      // 	buffer: Control serialized to XML
+      //
+      procedure kbSerialize(cKanban champ) : buffer 
+                  
+      dbgAssert(cKanban.type = typKanban, "The control is not a Kanban.")
+      
+      arrKanban is array of array of kbCard // Corresponds to the Kanban board that contains the lists
+      bufKanban is buffer
+      
+      // Iterates over all Kanban lists
+      for each _kbList of cKanban.List
+      	
+      	arrKbCard is array of kbCard // Stores kbCards to serialize
+      	
+      	// Copies the list to an array of kbCard variables
+      	arrKbCard <= _kbList.Card	
+      	
+      	// Stores the list to serialize
+      	arrKanban.AddReference(arrKbCard)
+      end
+      
+      // Serializes the array containing the lists of cards
+      Serialize(arrKanban, bufKanban, psdXML)
+      
+      // Gets the Kanban board serialized to XML
+      return bufKanban
+     type : 458752
+   -
+     name : kbCreateProject
+     internal_properties : CAAAAAgAAACiBP5J90QCusSC29VM+K/mOZ1qhUkh2qq1fSo300jSVYDHAS85WfTkaeAznWRIFv8YyfWSinpy1WCGC++a3djTjgQq+zknN/Y7NJRZ9+I7HQOf3uuanfvqI++WRbmMtQ+rF7NoEVcIoa4CaR15
+     procedure_id : 1446906454177527634
+     type_code : 15
+     code : |1-
+      // Summary: Adds a Kanban project and default lists in database
+      // Syntax:
+      //[ <Result> = ] kbCreateProject (<sProjectName> is string, <sAuthorUsername>)
+      //
+      // Parameters:
+      //	sNProjectName (ANSI string): Name of the project to be created
+      //	sAuthorUsername: Username of the project author
+      // Return value:
+      // 	boolean: True if the project was created
+      //
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      
+      procedure kbCreateProject(sProjectName string, sAuthorUsername) : boolean
+      
+      if sProjectName ~= "" then
+      	ErrorThrow(1, "The project name cannot be empty.")
+      	return False
+      end
+      
+      HTransactionStart()
+      
+      when exception in 
+      	// Create project
+      	KanbanProject.Reset()
+      	KanbanProject.ProjectName			= sProjectName
+      	KanbanProject.DateCreated	= Today()
+      	KanbanProject.AuthorUsername	= gUser.Login
+      	
+      	KanbanProject.Add()
+      	
+      	// Create default lists
+      	kbcreatelist(KanbanProject.KanbanProjectID, Upper("to do")	,-1, 1)
+      	kbcreatelist(KanbanProject.KanbanProjectID, Upper("in progress"),-1, 2)
+      	kbcreatelist(KanbanProject.KanbanProjectID, Upper("done")	,-1, 3)
+      	
+      	kbAddUser(KanbanProject.KanbanProjectID, sAuthorUsername)
+      	HTransactionEnd()
+      do
+      	HTransactionCancel()
+      	return False
+      end
+      
+      return True
+      
+      case Error:
+      ErrorPropagate()
+      return False
+     type : 458752
+   -
+     name : KBDeleteCard
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454177593170
+     type_code : 15
+     code : |1-
+      // Summary: Deletes a card in the database
+      // Syntax:
+      // [ <Result> = ] KBDeleteCard (<kbCard> is kbCard)
+      //
+      // Parameters:
+      //	kbCard (kbCard): Card to be deleted (get ID in the ..Extra property)
+      // Return value:
+      // 	boolean: True if deleted successfully, False otherwise (ErrorInfo() for more details)
+      //
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      
+      procedure KBDeleteCard(kbCard kbcarte) : boolean
+      
+       
+      if not KanbanCard.ReadSeekFirst(KanbanCardID, kbCard.Extra) then
+      	return True	
+      end
+       
+      KanbanCard.Delete()
+      
+      
+      return True
+      
+      case Error:
+      	ErrorPropagate()
+      	return False
+     type : 458752
+   -
+     name : kbEditList
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454177658706
+     type_code : 15
+     code : |1-
+      // Summary: Edits the details of a list in the database
+      // Syntax:
+      // [ <Result> = ] kbEditList (<nListID> is 8-byte int, <sNewName> is string, <nMaxNbElements> is int)
+      //
+      // Parameters:
+      //	nListID (8-byte integer): ID of the list to be edited
+      //	sNewName (ANSI string): New name of the list
+      //	nMaxNbElements (int): Maximum number of elements in the list
+      // Return value:
+      // 	boolean: True if changes were applied, False otherwise
+      //
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      procedure kbEditList(local nListID 8-byte int, sNewName string, nMaxNbElements int) : boolean
+      
+      if not KanbanList.ReadSeekFirst(KanbanListID, nListID) then
+      	return False
+      end
+      
+      KanbanList.Title = sNewName
+      KanbanList.MaxNbElements = nMaxNbElements
+      
+      KanbanList.Modify()
+      
+      return True
+      
+      case Error:
+      ErrorPropagate()
+      return False
+     type : 458752
+   -
+     name : KBDeleteList
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454177724242
+     type_code : 15
+     code : |1-
+      // Summary: Deletes a list and its cards in the database
+      // Syntax:
+      // [ <Result> = ] KBDeleteList (<nListID> is 8-byte int)
+      //
+      // Parameters:
+      //	nListID (8-byte integer): ID of the list to be deleted
+      // Return value:
+      // 	boolean: True if the list was deleted, False otherwise
+      //
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      procedure KBDeleteList(local nListID 8-byte int) : boolean
+      
+      if KanbanList.ReadSeekFirst(KanbanListID, nListID) then
+      	KanbanList.Delete()
+      end
+      
+      return True
+      
+      case Error:
+      ErrorPropagate()
+      return False
+     type : 458752
+   -
+     name : kbCreateList
+     internal_properties : CAAAAAgAAABmhzA0UQfy71+T16hdCyX8JCGf1ZqUZZ8JGNtHRJ1i24vZw/f7TBkk97DJ0nRZNe0ie4ekcx36xVFsMlLSu7FlsSu3sW/rrCgu9Ov8U1K8YVSkAelEFUqWCFnRLGcW6gPUbErSR6frHUdNxDR1Ug==
+     procedure_id : 1446906454177789778
+     type_code : 15
+     code : |1-
+      // Summary: Creates a list associated with a project in the database
+      // Syntax:
+      // [ <Result> = ] kbCreateList (<nKanbanProjectID> is 8-byte int, <sListTitle> is string, <nMaxNbElements> is int, <nIndex> is int)
+      //
+      // Parameters:
+      //	nKanbanProjectID (8-byte integer): Project ID
+      //	sListTitle (ANSI string): List title
+      //	nMaxNbElements (int): Maximum number of elements in the list
+      //	nIndex (integer): Position of the list in the Kanban board
+      // Return value:
+      // 	8-byte int: ID of the new list
+      //
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      procedure kbcreatelist(nKanbanProjectID 8-byte int, sListTitle string, local nMaxNbElements int, local nIndex int) : 8-byte int
+      
+      KanbanList.Reset()
+      
+      if nMaxNbElements = 0 then
+      	nMaxNbElements = -1
+      end
+      
+      KanbanList.KanbanProjectID	= nKanbanProjectID
+      KanbanList.Title			= sListTitle
+      KanbanList.Index			= nIndex
+      KanbanList.MaxNbElements	= nMaxNbElements
+      
+      KanbanList.Add()
+      
+      return KanbanList.KanbanListID
+      
+      case Error:
+      ErrorPropagate()
+      return 0
+     type : 458752
+   -
+     name : kbAddList
+     internal_properties : CAAAAAgAAABvZq4Zw/Uet7ktfm+oHDJpJGcxfuGWDWRxf93/fQHFECLPaRbrquFk1NAweXemhQ6DD9VrvscsN0JPU4gZdWvmnID2/NMAHqRE/cuuXoI9xGIXoubouIk6KAWR+pEn4mB6BKVyaeOoU17JBK8KXE1n/iWvCcNnj4tqkxn838ngYw==
+     procedure_id : 1446906454177855314
+     type_code : 15
+     code : |1+
+      // Summary: Adds a list in a Kanban control and stores data
+      // Syntax:
+      //[ <Result> = ] kbAddList (<KanbanControl> is Control, <nListID> is 8-byte int, <sListName> is string [, <nMaxNbElements> is int])
+      //
+      // Parameters:
+      //	KanbanControl (Control): Control in which to add the list
+      //	nListID (8-byte integer): ID of the list
+      //	sListName (ANSI string): Name and title of the list
+      //	nMaxNbElements (int - default value=0): Maximum number of elements to be displayed
+      // Return value:
+      // 	control: Reference of the List Box control added in the Kanban board
+      //
+      procedure kbAddList(KanbanControl champ, nListID 8-byte int, sListName string, local nMaxNbElements int = 0) 
+      
+      dbgAssert(KanbanControl.type = typKanban, "Wrong type of control")
+      
+      if nMaxNbElements = 0 then
+      	nMaxNbElements = -1
+      end
+      
+      cList is Control
+      cList <- WL.KanbanAddList(KanbanControl, ""+nListID)
+      
+      cList.title									= sListName
+      cList.Extra.ID									= nListID
+      cList.Extra.MaxNbElements						= nMaxNbElements
+      cList.MaxNbCard								= nMaxNbElements
+      
+      return cList
+     type : 458752
+   -
+     name : kbAddUser
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454177920850
+     type_code : 15
+     code : |1-
+      // Summary: Associates a user to a project in the database
+      // Syntax:
+      // [ <Result> = ] kbAddUser (<nProjectID> 8-byte int, <sUsername> is string)
+      //
+      // Parameters:
+      //	nProjectID (8-byte integer): Project ID
+      //	sUsername (ANSI string): Username
+      // Return value:
+      // 	boolean: True if the association was established, False otherwise
+      //
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      procedure kbAddUser(nProjectID 8-byte int, sUsername string) : boolean
+      
+      clUser is gpwUser
+      
+      // Triggers an error if the user does not exist
+      clUser = gpwFindUser(sUsername)
+      
+      ProjectUser.Reset()
+      
+      ProjectUser.KanbanProjectID = nProjectID
+      ProjectUser.Username = sUsername
+      
+      // The user cannot be added twice in the project
+      ProjectUser.Add()
+      if ErrorOccurred then
+      	ErrorPropagate()
+      	return False
+      end
+      
+      
+      return True
+      
+      case Error:
+      	ErrorPropagate()
+      	return False
+     type : 458752
+   -
+     name : kbProjectDeleteUser
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454177986386
+     type_code : 15
+     code : |1-
+      // Summary: Removes a user associated with a project
+      // Syntax:
+      // [ <Result> = ] kbProjectDeleteUser (<nProjectID> is 8-byte int, <sUsername> is string)
+      //
+      // Parameters:
+      //	nProjectID (8-byte integer): Project ID
+      //	sUsername (ANSI string): Username
+      // Return value:
+      // 	boolean: True if the user was removed,  False otherwise
+      //
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      procedure kbProjectDeleteUser(nProjectID 8-byte int, sUsername string) : boolean
+      
+      // If not found, no action
+      if not ProjectUser.ReadSeekFirst(KanbanProjectIDUsername,[nProjectID, sUsername]) then
+      	return True
+      end
+      
+      
+      ProjectUser.Delete()
+      
+      return True
+      
+      case Error:
+      	
+      ErrorPropagate()
+      return False
+     type : 458752
+   -
+     name : kbDeleteProject
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454178051922
+     type_code : 15
+     code : |1-
+      // Summary: Deletes a project and the elements associated with it
+      // Syntax:
+      // [ <Result> = ] kbDeleteProject (<nProjectID> is 8-byte int)
+      //
+      // Parameters:
+      //	nProjectID (8-byte integer): ID of the project to be deleted
+      // Return value:
+      // 	boolean: True if deleted successfully, False otherwise
+      //
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      procedure kbDeleteProject(nProjectID 8-byte int) : boolean
+      
+      if not KanbanProject.ReadSeekFirst(KanbanProjectID, nProjectID) then
+      	return True
+      end
+      
+      KanbanProject.Delete()
+      
+      return True
+      
+      case Error:
+      ErrorPropagate()
+      return False	
+     type : 458752
+   -
+     name : kbSwapListPositions
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454178117458
+     type_code : 15
+     code : |1-
+      // Summary: Swaps the position of two lists in the database
+      // Syntax:
+      // [ <Result> = ] kbSwapListPositions (<nSourceListID> is int, <TargetListID> is int)
+      //
+      // Parameters:
+      //	nSourceList (integer): ID of the first list to be swapped
+      //	nTargetListID (integer): ID of the second list
+      // Return value:
+      // 	boolean: True if the lists were swapped, False otherwise (ErrorInfo() for more details)
+      //
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      procedure kbSwapListPositions(local nSourceListID int, local nTargetListID int) : boolean
+      
+      nSourceListPosition	is int
+      nTargetListPosition	is int
+      
+      // Gets the indices of the lists
+      if not KanbanList.ReadSeekFirst(KanbanListID, nSourceListID) then
+      	return False
+      end
+      
+      nSourceListPosition = KanbanList.Index
+      
+      if not KanbanList.ReadSeekFirst(KanbanListID, nTargetListID) then
+      	return False
+      end
+      
+      nTargetListPosition = KanbanList.Index
+      
+      HTransactionStart()
+      
+      when exception in
+      	// Swaps positions
+      	KanbanList.Index = nSourceListPosition
+      	KanbanList.Modify()
+      	
+      	if not KanbanList.ReadSeekFirst(KanbanListID, nSourceListID) then
+      		return False
+      	end
+      	
+      	KanbanList.Index = nTargetListPosition
+      	KanbanList.Modify()
+      	
+      	HTransactionEnd()
+      	
+      do
+      	HTransactionCancel()
+      end
+      
+      return True
+      
+      
+      case Error:
+      ErrorPropagate()
+      return False
+     type : 458752
+   -
+     name : kbDisplayLists
+     internal_properties : CAAAAAgAAACJL7ZvyylD52I8nxKoBlE9Z0dGIqWvkOoC91nA0P51q0v9jOFgdE8ZWORh5NA6LYa+iP65q8aRnixEFNQAPxRjzy4AoQb9aJk0uV8OwPwMXYYAnw0KNh6aCo0t5LpZLyq9yxgXYHGTdh4EfAL9hcHwTiXF/wMJoNy/gxeKecKGFGsmwJxI7E2btKlYOIC5n7wcGA==
+     procedure_id : 1446906454178182994
+     type_code : 15
+     code : |1+
+      // Summary: Displays the lists of a project in a Kanban control
+      // Syntax:
+      //kbDisplayLists (<cKanbanControl> is Control, <nProjectID> is 8-byte int)
+      //
+      // Parameters:
+      //	cKanbanControl (Control): Kanban control in which lists will be displayed
+      //	nProjectID (8-byte integer): ID of the project with the lists to be displayed
+      // Return value:
+      // 	None
+      //
+      procedure kbDisplayLists(cKanbanControl champ, nProjectID 8-byte int)
+      
+      // Loads Kanban lists
+      cList is Control
+      
+      // Deletes the existing lists
+      for i = cKanbanControl.list.count _to_ 1 STEP -1
+      	cKanbanControl.supprimeliste(i)
+      end
+      
+      // Query that retrieves the project lists
+      QRY_KanbanLists.ParamKanbanProjectID = nProjectID
+      HExecuteQuery(QRY_KanbanLists)
+      
+      for each QRY_KanbanLists 
+      	
+      	cList <- kbAddList(cKanbanControl, QRY_KanbanLists.KanbanListID, QRY_KanbanLists.Title, QRY_KanbanLists.MaxNbElements)
+      	
+      end
+     type : 458752
+   -
+     name : kbAddTag
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454178248530
+     type_code : 15
+     code : |1-
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      
+      procedure kbAddTag(nProjectID 8-byte int, sCaption string, local cColor couleur) : boolean
+      
+      ProjectTag.Reset()
+      ProjectTag.KanbanProjectID	= nProjectID
+      ProjectTag.Color			= cColor
+      ProjectTag.TagName				= sCaption
+      
+      return ProjectTag.Add()
+      
+      case Error:
+      ErrorPropagate()
+      return False
+     type : 458752
+   -
+     name : kbEditTag
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454178314066
+     type_code : 15
+     code : |1-
+      // Automatic error processing: Run CASE ERROR code block
+      //
+      procedure kbEditTag(nTagID 8-byte int, sCaption string, local cColor couleur) : boolean
+      
+      
+      if not ProjectTag.ReadSeekFirst(ProjectTagID, nTagID) then
+      	return False
+      end
+      
+      ProjectTag.Color			= cColor
+      ProjectTag.TagName				= sCaption
+      
+      return ProjectTag.Modify()
+      
+      case Error:
+      	ErrorPropagate()
+      	return False
+     type : 458752
+   -
+     name : kbDeleteTag
+     procedure_id : 1446906454178379602
+     type_code : 15
+     code : |1+
+      procedure kbDeleteTag(nTagID 8-byte int)
+      
+      if not ProjectTag.ReadSeekFirst(ProjectTagID,nTagID) then
+      	return True
+      end
+      
+      return ProjectTag.Delete()
+      
+     type : 458752
+   -
+     name : kbEditProject
+     internal_properties : CAAAAAgAAAA3fY5G733e29Qq/+72Hfkz/aG9YP6pBM60i9mip6Zj4frYMIMwuO+Ef4oFRRzlTxWZPmQYD+wfIzGwoTV0FT3dSU82yF3BOJh4km5zk1jOy9rWuFjG0Q==
+     procedure_id : 1446906454178445138
+     type_code : 15
+     code : |1-
+      // Summary: Edits the details of a project
+      // Syntax:
+      //[ <Result> = ] kbEditProject (<nProjectID> is 8-byte int, <sProjectName> is string)
+      //
+      // Parameters:
+      //	nProjectID (8-byte integer): ID of the project to be edited
+      //	sProjectName (ANSI string): New project name
+      // Return value:
+      // 	boolean: True if changes were applied, False otherwise
+      //// Automatic error processing: Run CASE ERROR code block
+      //
+      
+      procedure kbEditProject(nProjectID 8-byte int, sProjectName string) : boolean
+      
+      
+      if not KanbanProject.ReadSeekFirst(KanbanProjectID, nProjectID) then
+      	return True
+      end
+      
+      KanbanProject.ProjectName = sProjectName
+      
+      KanbanProject.Modify()
+      
+      return True
+      
+      case Error:
+      	ErrorPropagate()
+      	return False
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x13bec3060037e139
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

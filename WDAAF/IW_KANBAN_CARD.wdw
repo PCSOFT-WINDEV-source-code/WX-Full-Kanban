@@ -1,0 +1,283 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_KANBAN_CARD
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_KANBAN_CARD
+ identifier : 0x241471c4539bc1e1
+ internal_properties : CAAAAAgAAAAvjnvsVDpDYBHLj7/CXZcUEgBiDNNGR+Reo1LFS8pD2tFfqX9kKBxIGp1C1sw1gkJIkrRHsr1Ue2l74sxVXWEgvmSYpfEiSgnqHrLhEhDbwNld0I1uG36PEmf6XST7JDRZDBN0Clf3RrXVleILlYkwW3Sp3wqc9fnq6Ku9HDdkrOznbgITW6sm/Z6B+M2oAYSVlFxDmqhI0Kb3n/Z4HYnPZHpgnqlw6UjLfs1epyKLD+hVGGcQDIhTLrQP/3Y5LQ57UIgqmRYpMOMHxuGRRPVerN5tRATlfyTYHqrLYheHKAchldQ2j8siIfCJUnsBnd2/07Kbf3Y2LN29uAB9FsP2jN6B5zP80vohpVAbMe9sO3Sd8Sa2mJJfYGB+drxjrM0vMwf25KvJ3mE2tCkKko1UAcK0/5dKRoLpBoTmPGS+stnE0BzkVh4jMY1g9WEToQAD7LkbpOvvhTPQnOtCMLZpo00WNDOn2IEmgqfsnxcEDvWl/AYY6bqDVp4oE1LuElB+xJpM6BDpLWuccmHn43I0LiRBy2YR37tDLfLwOpPOQ5geZLfwKNYILhJwOK8yPicVy9jAYrdAlLbFZ5RdRcSm5SJZ1yBkFZMs2KHA30+wNARq6RPJFMNiE6onMGUJMoBU9KBTaYgfitlD0Mw97qz7CiUg0hlhs5nqOfD8OWA7o2zknwRRwCH4XZfMBOn1gFwjG4ipzomwNEUHglxpVHyc/T4xZwJ6YmQwQPp6NZUXBjEJhkGHFB1hUmrsyyIOVKWILbB5GKaG5R0VUL2NxqqheuFJQ6MmRQndsZUDua5UiAmILcfZ5yrpxLMJa2VB+F6gd6npnZvMNf1Nxu4zDBS/naS16A2VO2jeFvVuUik81YgD8N4fc/INLuatlJ/A6V8QRPJ4UyhaeqnKT7V4y8l6nn/yuujKBhE5+hfj/II4
+ properties :
+  width : 196
+  height : 149
+ controls :
+  -
+    name : IW_KANBAN_CARD
+    identifier : 0x241471c4539cc1e1
+    internal_properties : CAAAAAgAAABApDULWtkW4UzUKTCa8aZUICgFAIO4IlTZfaIrT3PXAFKU1udDZgWNX0NiRPdogUmLVz46D8QtLtCFCkQZm86tVoMd6hpmQH5OBQauQm05UJhn+55q9/ZdoO4mPX6/YS8IUuiubQGs7bwDDUlFMjfbGRkpHI3HvIidEbowfg7KRYZFuxantzg+dSnhLih7jDxJcOn+SHhAWiFW4henX8dC9/v50d2fgC7S+v/d/yoB5AgCYIxZhMzey8AdFXQEghEz+Ra9K+yKC8ST0vEhO/h1Mu8Uyq9dtxRzkJbbpbtvyon3vTgdqQjUqHWH29o5Ucv0tr0WZuWRzG/yw5MwwZNp/cYlbPUg39DL8Pu+29WxmRh7d8lXD23GhnqkzFO6Ad1XmU3TZ8V+3KkTAhPi+nd5UFOHFA/2X/1pBXZHDDy0ORp812LbHtB1UkCnW5AU81ZuKp/CBaWiuji0Qp+wJGvY7QveN5iRHmwQ044r0xmG6wBAw0to1LGPvYh8ho3V9NR1dXpgJ7UrC90YRHdziTmAi9ah90ax9rmcMhk1LgXGDQvO+WrNt1Dv/Dj2N2zpbGiEqvL/MPD8ygBHOKGOaoSV9+8NqoF47J7ChMzrnhJgINcQE8AxvssLlgJrQdZPthpNfVzlInX/li+7KTPmXWjinZtRhueHHgLo
+    properties :
+     width : 196
+     height : 149
+    controls :
+     -
+       name : LAYOUT_CARD
+       identifier : 0x241471c4539dc1e1
+       internal_properties : CAAAAAgAAAA9Rplm+Pp+6mKASpXY42OcLnKMKIfmtTRwA9bsdFZDfHVso5XIAwl6aahkkt1PVWBb7xC+gf6onS/1tSylaI6EPTWBlP8bnQPnGQLnndhTBSm7vY/+2kzHxq/sdyYmcCPHIRV6Xe8SDfmzdetHL8VS9ne5D1X1cjp7NfKUemZjdmOagZwrhWPx3cVpTOkrZhCUS7Gq5uYO+6zVT4PyhitmAVwGF/hH7qoz2py224nyK9F3siuyigbO3HixvMvehodrznbd2K3GVPJm4LZOTglWdcipebzPSvmcI3JJ81/sYVWTgra+QoTt7yF3YWI4/u3x9HxXfhfVES4S/7j6nTFJB4b+uPF6I3uTD21CDMDx3GKnMFk8/gMCqdhdJinWvLWXb6B8/7s2r77OZlLsD/bCVkuPEaW/Two9x+Htn/XnJgQgKrt0voGv4iRzuoW+nELUBDW6Ns+36ifhXiilKEdoGe/0U1aVvnGUnvjdapv859yWoY/I8j1ZQ9wGNKPqCAD7oRMNrhxJLDDMH3G/gGwnn7IzeN2n3F65g86/fUuXIPvJfqGeAYY=
+       properties :
+        y : 8
+        width : 196
+        height : 141
+       cells :
+        -
+          internal_properties : CAAAAAgAAACEbltZMFZS+baCtnqOhxqvoxbwR3ptu+girqVGUvRool1ZYNYnPZJtGKaJDKZeWWoM47eLPmudIy5jv9A14CAQIu7HWAteThs7M4/4uq/H7viR7dSfbESOrriwDBr4E8xnnVpLLhjUHlFz1XNEynajDQDoPE7ECCmNPYvLDw==
+          controls :
+           -
+             name : STC_TITLE
+             identifier : 0x241471c4539fc1e1
+             internal_properties : CAAAAAgAAADxVnLsduNf8oNs32k0vXpohjSSc7y8LFewZZlC5obgaCsTxcejv3FkyRzcEcaIfxIiUE8Di4qDTpQOn+9vZMNlslGJOD4fkf2wWnKEXbU4boUpuvtNqT9lQKI3cKI++ai+3E7dEEPma56wd+pBcso84fJDvg4zRd2TaP57C3f3Xt5GNdyYdBfKtdA4PtxJ73SBwVXM8jZrlVRHVUcnXzKAiC/StsG3fLyWsiSPoSvnL7bQLTITjK+fBuJ/OGq0Veo//YAFrmkaPMPGdckvvi92ArEtBCOJV26z9ej2MMVAmAydSZkW2FyuyB5lpSvoJ9JwppRgf8uBpwljK7MEDMO+4WDG0iBcR5n/WEke0Nxt0cyXLFjHWSdbQNEgu2XPkFDdDdPKnFFzj3JLk41Vqaq4p1GqEvkTXH3KsFaytHA/2RoQsyyMqqya/FjsNEGuAY3eZJ4SJ+klZONVLA5C/BEolqqAXxIofNJ3ecrxDZEzWMEV9g6f7z68qsW/5LPZyFQm9bmarHBVWdB8929c2M7GgSVY0oGlaLQzGw==
+             properties :
+              x : 8
+              y : 1
+              width : 180
+              height : 22
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes : []
+        -
+          internal_properties : CAAAAAgAAACq+lwupLuKIr7sNNv5Ng1kujobldb+2yUav1ZsKegh44D5OE4s+8EZj6AVQl0lUl36dHitZpUHmj/u3mdBKjf3E0YGJM/XgY7WtjOlubVhYjIRQkrkat0kc682L3wmOuWm/A+BttqiqVJxR1UUogVsv31ox9BFb5jsgjVZ5GdAZA5EQWDclhE=
+          controls :
+           -
+             name : EDT_Tags
+             identifier : 0x241471c453a1c1e1
+             internal_properties : CAAAAAgAAACpobMQH2ywiJ5SvKYS+uaV7UPhi5ab5Z2a/nTq0rqabAT+BS0EBth5r4OlhHNboIa5/o7vuhbXRJHM7ut4Ig2XKcfzMKfVSdVerZMYU4j6aRDARtlFmMqKPw6TN2DH4eHn9lqA8fh7sk2kOi2fvV+FYxjl7VBp/Q06Zq7mY2wKUkIGhGFATIL8CjD0E030Lpnl3zZQ2sgS4yW47yxTfIVjuXr+fvI34v9v+WWpSysGpJqEx5YLqukwFOHAPBeziyiaVXbraobCNBuXehLSq0CvP0LWeGE9NFx6JtYoOvmL8AJGwil5MLWt7y4mSnX1/sqceDIzL3sZ+D08jFovmAmtMwoOEUUW2ntoCj65hd2CPbReJdAK6vHQDMALQAQMQ1EJMVQvRid1ivizjrs5CcG7Gp+JWtNwzpmeNK61Aua6hMrYSqd7t5R/yPDMGbz3xYSsvGidQDzhudsGt+NOj/pxYjJltGtb3ftu5/u/674KyXLw9Yth+jOhugUxGhaNMwKFezVoZoZtOwo4oEJab7uPRvhzMv7vObaiSepG7NSZqtXXSUAGgTGVn2tNsl8K+ZOovqbYtNnSfX3V/L88R0yjwAmQZfm2/0fFzxlAQtp/131UKdAHGc7fGNqEzDtBpueO3/nBrUe1CUEtE6B+yTz3vzFspJ1Mev272TulINyUs85catIYy8Bn23LDzsgkj3bK6SwpYZC5UHqcvPyWryLXiZYAwHLXb+rBk7WMtmu8FgWC5A8ZfZ3gTQqEWMR5lTd/NYInPRF+Pew1f/eDTsDvzlgstrPGnaaNAF28zRt4SGzAF6Rgosaa6gfVHg0lRgiFn1XH9mvZlZ9H5I2DtvAn9PlFxtxDJIJOvEuXHkJrZuJAYKOR3NMVvxZ+Oboz5RwDs8UE55NX5gqIJcubIxIaC/+eJ19Q88BisEIOLAI0SW7rdFJfYbC1wRk4MKBf83SAfFMHEtN9PMccB8GV3XMzJOvaENU9R8zHOZMwOX6UuuOspQObjap+8CaVcCGPDd78CTbxkQpyjGyltYWpwuG9D4FFHb9BB0xq0lzZxarVX48dvIRou80VFa6J0c95d4OT7z5FCQnmXub/h+v0nBnqf8FuSyLHiVQUIF6YjkQnNedvrJm77rVvHScWJwiuUJ/BYWbjRLKOSOFBqWNLgBjDQOaed17AaYfiOzZSwOhDbglRhkAwVY8jdudW5vt5iAw9SDqwataayXxwvw4nhVTppG6ewk9/tATHMtiGf5LQckegtz80NuOELdKWEer8MP+T8JLrgDvZP9nJkiSWDLMacniTdumpZY91
+             properties :
+              width : 188
+              height : 29
+             type : 2
+             code_elements :
+              type_code : 3
+              p_codes :
+               -
+                 code : |1+
+                  // Version 1
+                  // Description 
+                  // Multi-selection with tokens
+                  
+                  global
+                  // Define the possible values for multi-selection
+                  garrTokens is array of Token
+                  
+                  local
+                  	
+                  
+                 type : 14
+               -
+                 code : |1-
+                  procedure AjoutJeton (MyToken is Token)
+                  
+                  // RETURN False to prevent from adding the token
+                  return True
+                 type : 276
+               -
+                 code : |1-
+                  procedure SuppressionJeton (MyToken is Token)
+                  
+                  //RETURN False to prevent from deleting the token
+                  return True
+                 type : 277
+               -
+                 code : |1+
+                  procedure ClicJeton (MyToken is Token)
+                 type : 278
+               -
+                 code : |1-
+                  
+                 type : 66050
+        -
+          internal_properties : CAAAAAgAAACIUx0KM+GkXma7lNcumwvOTkFSWPJAhO021+sICFBF6mDfFJGzrd50hRFY0kEPV38/6hWjxOq3CE+nUJy6yARsFMt0Mz4Wi8cNDbThNauToc60Cjsw7kfDogGVuB8S6o65woMBkxIbi5vUVFFaBII4OURcQ0cG/kihAA7hn/8jOMp6gWY=
+          controls :
+           -
+             name : STC_TEXT
+             identifier : 0x241471c453a3c1e1
+             internal_properties : CAAAAAgAAADaDQoMmNPPiXZsQJ2pAaGXlHHavN5gKn1z2ShqUqHVm9xnhqI8FTwwYo+2qrhP/6wnbmeDoizv6MjPeiL0rdhyF3j784+XV57xsxuVLWXE0U7AslEzh89TO62r2rmLncTC4mbcagYAZRFamRquTM4aRY8DYYjZkzjGRK/Ii/3cFqLsjehkLJwhIiFGNWBq28G/hN1pIotKbFyOcCzxwUicalzNs6Zhipfhf/Psrs/txaz/ohzAdYkaW1bnZDlAbSaUcuZq70lg2T2/+JohxVu+KOIhBMreQXfPLseFXG/UEDANDamMJY81ZJ5fTewdp/jogf2QQ+Gr9tMtkS3/YFzbn8m01OQ0Jvb8iEEb54rrjVp6xyUb5fsLAvutMRzYsG8Nq0BXsEmTZUATu/rWwbOuyhv8/jRZNej0JnIMpSIvuVPtGphnZNhUwGocugVrfE/b7+2NzZV7cvN0cwK/3uOefYI3EW59l3TLuqx0Zbx+4QcMzwVSHZdCLiOZNFN82b4vzVE=
+             properties :
+              x : 8
+              width : 180
+              height : 23
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes : []
+        -
+          internal_properties : CAAAAAgAAAC32KIqLShreSQYf1UCJybwPP1f9DqmWjqzNmtBc5fVbHCla+BSw+C1jlkd+LlPVy5CyWAdeGGy6WmuOLtwhn3Ldv9AQsiSFduP9Ndp/loOwmsgVb+YRq4b0L6gKhLnVey7mvMdDFcxCQlWeR3oK/BTUc2J48m61XcIj2yUDc6JIp+l
+          controls :
+           -
+             name : STC_CONTRIBUTOR1
+             identifier : 0x241471c453a5c1e1
+             internal_properties : CAAAAAgAAADzVCi8exBDgI5toBFzYPn6JFBf1bvWdbkkvlRi9Oe/ezmPQwtYEVOrvPw5/uoRcAZ81UQJTAyvFUTCRJUDCb9TxmO4lyhYGvAyxvKdt6v235oAwUezYktZiMqBo4x8bYFBip7sjxKOguevySj4XTGnPJ1MTZFUzL8AuSB08ofSngBmHcFA2/qMTxurxjmNWnngDhvcCACLf4QKB91tb9gSFcGgHwCk1BHjXV8kEhTJeciKd/pLJknBjhIiPrR4PE1f7ETvWKxYfPjXi3fLaxNyWXy5l8emAmqnzwCfLuG738lPFPMjUGfW+vL+12zDSDUF2O4meXe8xTZROcgH0hx+rGOHnrjbcNvuvwzZoDpRztD/S8Jw1BRgL0b2lP6lU4oHjyhrFGqoQRHIoje5+KIrb/10PuLllVmxd1p5B2OS0/npgJJXkFHXGfFTJQVjDlHrMeMAD4qfHHEt80S3TlNGyXIVplVGcuJRoh0OlhBxsnYMl9yayTjsvCRdyriULUB+miEU+MJoUrmb5hX8qu5XHanqYNQ=
+             properties :
+              x : 8
+              y : 13
+              width : 30
+              height : 30
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes : []
+           -
+             name : STC_DATE
+             identifier : 0x241471c453a7c1e1
+             internal_properties : CAAAAAgAAABNXfWnviI6bdd9Av6GD0ISlEJgy/kgqeHpOjZnnun1RNRkNbviROlly5OQqwPzjbUMpJEYtN7HC9iNR+XlKlhfYd8JsZFXW5KMWvFoYlhbDHVl6uh2QJ5w1ystaTS5yldGS/gfp/dXqMamSxDcpf7clc/wB/AYWiGn+NZc+3Ud1FelAf5JL+I+q2gwtBUfth9gudZSp3VwSewExO0Pz0D7mVKbZTZqeAKlXV8uTnnd6yiqRYoifHAStB08+hAsUOrvFZCOtLMl5jyV8OHL4QfOSuAJRsFZDpikmQzGNxwxTrcliBHbweDB2Qy29rYNQSGglg0C2LrePGWlo7sVINL2z9BBFzSude7o8/Dypj8B2iqBONKQHQpL0EyP1YTNrxa3PJCuFw/+FdU03Qe+PDCiw36aBl1tEjEN80SYHc5gQ2V+v8Y9A+zXNgq19EXB/cajCXhhf9MeyMm5sxmQG4Ps28aZhVjQE4m3nzJUeGW8hCtHxg6pEVY=
+             properties :
+              x : 105
+              y : 16
+              width : 83
+              height : 25
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes : []
+           -
+             name : STC_SEPARATOR
+             identifier : 0x241471c453a8c1e1
+             internal_properties : CAAAAAgAAACe0uPI/1rn+ge+ftUGNpcVxXnboqEYRMpVZTaWX9rX2p22KPKh61J6sLglPnTlpHOioULIv0GUdKPBfwNPAr2qQvpxhQ1bLkMZWwjReCPdI6Pb6E9akXtaSvXetAIObsWRZc0u+sY79Wrku6htLxa+IsOSyTekbIVvZahDgnkofwPwFbIE4HMCA6vZhmBGwNQrA1w1imrfhFGnZyjv21XGUQ9F6GGEh1UUbKJS/yqJB/bjLUT4TLowKk1Xbe9C6c5Hr8J89D6KgDV06VrHer1GjAIiK7zWTqBasrh/aeCUMn11E6EKxa5qi+WrJaGqSx19DDzibNlWLU5PMTlHq0D29iphCiL7g11IZeeahTDckQwJCZPZWYF5ZbaKfUX/NYP6vQEyCgJiHikepD+QgzEFSveyHjaeuw+JVDkMUnrCjv+WvlmnmQrWFqcbc7UJofNee8ofE9LL7JIDxsEr5cfWh44vNwagHXlCCtkHVWGDB2dDPEUBTIPdXncJsaPkuYNcg+AjhfM5Lf4RcBPTacbnmP6arP0jonCoEqmWQ7Fk9PnHDK5+yPLc4nzBstjCyMRihUEQpHz6f5BD/oXwaHBTQvk2B3jvmnoTTndbeRQZ42gDc0Q=
+             properties :
+              x : 6
+              y : 6
+              width : 179
+              height : 2
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes : []
+           -
+             name : STC_CONTRIBUTOR2
+             identifier : 0x241471c453a6c1e1
+             internal_properties : CAAAAAgAAADSxIeo4RNMfnQWAIstoNBgOKuNn5NiNG9ghepl8lMp/q3hQOWJCRw/ImuoBN2DdqBvsUKQH69+GXBtg0e2vxnUxhi6vJxfQ52TCvg5Q1VsEZmygNKLcL4feeXj5UMzW3DgZeLQOmfOUUx0yCMSZNpAj0lIAbATKVnF77p//yGYWohO49fpJnt2QIpQNQMDnX9abKbfPs1KaBII9xgT7qwyB1N6kJSxjhJ5fBqREfkOU3CYOKvtMSZA6qecDOnHGYNA+QSXmbH3g/HqK062OpgKw3Mld0TLNE9G7q6MRsOG8kaPYinmkoxKWbkDe3JtGXSim/YTDMQMkInZYJFu8iry+DG+P6yfH/LXwFJQ9mh2HA+havgQaDJ+Gaw2JoGOKRd8TBMz9Zwvl+6kdfpWS4seHLe2zvtvTJUTFirhimbdVGnqfqPDr8LBVoZkGvAUTL+KY0T9/8NUJg7AZqIU6VPVa32TJTiIIG815/L+e9ECmWSYTDI3Q5YbZ4naYydBJvwc0lmrNVmZafT5BJM=
+             properties :
+              x : 30
+              y : 13
+              width : 30
+              height : 30
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes : []
+           -
+             name : STC_UserOther
+             identifier : 0x241471c453a9c1e1
+             internal_properties : CAAAAAgAAAB1nWNj4ng2NwOAOyFy9bRm7eu8V0GmIiblL6Lc2/xzZOVWPSFy0zVcGtnSXn15An9/n2qllFzXDkdZAcx0slgMZg0UhN9DAd+jFoOCY8lHgutG8Ot3Sq/bda7bAtbB8fWs8vrJm5j5SAPPxq5fMaC+Xe+QyzGaMxd3sH3lWMmHCcfC7iDe7mLa+KL1XgjtOajCF/FOQU+C1brYbf10oNLZFpMo2gPCKF9vhfr9AVaDs4FeE7wFbcQLj1/MDCVj40l5iRwKYY5muf0nbNqu7DgzgDEDWSY9nNea4ENORH2GgZx+GWEj0DexuEHPY8J7GpJ7KtYRyhYgSsxLuv5K5ehECcsjioKsYH+x/vZtqS/QItLv7o14BEaBJNCraP+cVFkTKvx4Mkt2OGRKsO4OLsuWbxKYe993xot+f4wi3efRCoKpQ8zUCsL9+eAiEU9p2kZ1CUqwInP/koWqY8EcO506tz09OjBWXpA/uBJMzpZGDhBrGeblEOl9jxin8Q0/LJKrZOhRWrQ/UYCOUTzw1JgeeS8haObu9yMYh0v7Hsu5VQaZTcsIXJgzUELvaWJ41lKJpYPcnv6Mv6+X
+             properties :
+              x : 59
+              y : 14
+              width : 39
+              height : 32
+             type : 3
+             code_elements :
+              type_code : 2
+              p_codes :
+               -
+                 code : |1+
+                  //Run the process defined in the template
+                 type : 14
+       type : 126
+       controls : []
+       code_elements :
+        type_code : 151
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADhRE+TsAW9ojcD1BWAXE/0wA9YYM4yEg+YlzpTkpEJQ4jSlR9sts8vEZQxjwBU37hNljUWy+2P/bFKV6dO+KHCCE5hFHGZfT/s2gFQSXWoCBVKT2HTiyxxTrgcubTP3kfs6i5dWuWYKsCZNcUkxWAMJlED4Chi6fWgtZvQtoj5zO0a1jthxKn0AHNXnihH09/WtZOivFEfbL7yK08jmW4HijK4hbnH+HOieQDWG3hW1i7iMF8AoaK1OSCBXl67Cim7X9asA/WNpnCojaa/u774paL7O+5CZzdJnxhhB+66ZIWO3XGrUVWEHCCnuSSw5gU3IG/qwXSwps+DGyA931PzxErioL2nEVIgeZ3bi9r0jtsR6I8=
+        code : |1+
+         procedure MyWindow(gKanbanControl is Control, gCard kbCard)
+      -
+        internal_properties : CAAAAAgAAADvCikKomW/N2InJxJyvuW52IJAzM9L70FGMpqalxg9oDIa87VU7rMYFWIutsxieJPRLRytIFGTGvE+HGlAoHqqwtbSn2gH015tafegU6yloiTHh74OMC+SdpScpCfokfONK0PqF8pluHv3NpY0CdzJ0jPCtdWHDQeHbvWzB6bwjQMTvKggSJqDAwhFaTbDPLpDqC394w5Lz+d79m2+kNkGnq8hr3IiPqpKMUacf3+5KDMaPH4tF+3L1YMMMz/A4EtiNUTPDN3gJcmuXHpBi9wyAP2/Hb/MOBKQ6/cgJ1DKl0j+SXvD6Dn/R6hfY0UQQla2DygKeK5qWRwfEzEKTgS1WvDu5lWM1m3DnvgR7lPPD9UQ6psJmqan
+        code : |1+
+         procedure DemandeMajUI()
+         
+         
+         STC_TITLE	= gCard.Title
+         STC_TEXT	= RTFToText(gCard.Text)
+         STC_DATE	= gCard.Date
+         
+         // Hides contributors by default
+         (STC_CONTRIBUTOR1.Visible, STC_CONTRIBUTOR2.Visible, STC_UserOther.Visible) = (False, False, False)
+         
+         i is int                    = 1
+         for each string _contributor of gCard.Contributor separee by CST_SEPARATOR
+         	switch i
+         		case 1
+         			FillContributorBadge(STC_CONTRIBUTOR1, _contributor)
+         		case 2 
+         			FillContributorBadge(STC_CONTRIBUTOR2, _contributor)
+         			
+         		other case
+         			STC_UserOther.Visible = True
+         	end
+         	i++
+         end
+         
+         EDT_Tags = ""
+         EDT_Tags.garrTokens.SupprimeTout()
+         i = 1
+         nCardID is 8-byte int = gCard.Extra
+         for each Tag_KanbanCard where KanbanCardID = nCardID
+         	ProjectTag.ReadSeekFirst(ProjectTagID,Tag_KanbanCard.ProjectTagID)
+         	
+         	aToken is Token
+         	aToken.Caption		= ProjectTag.TagName
+         	aToken.Value		= ProjectTag.ProjectTagID
+         	aToken.BackgroundColor	= ProjectTag.Color
+         	aToken.Color		= ReadableColor(aToken.BackgroundColor)
+         	
+         	let n = EDT_Tags.garrTokens.ajoute(aToken)
+         	
+         	EDT_Tags.AddToken(EDT_Tags.garrTokens[n])
+         	
+         	i++
+         end	
+         
+         // Shows the tags, if any 
+         LAYOUT_CARD[2].Visible	= (i <> 1)
+         
+         // Shows the text, if any
+         LAYOUT_CARD[3].Visible	= (STC_TEXT <> "")
+         
+         	INTERNAL PROCEDURE displayBadge(_cBadge champ, _sUsername string)
+         		_cBadge..Visible		= True
+         		_cBadge				= Left(_sUsername,3).Upper()
+         		_cBadge.BackgroundColor	= getUserColor(_sUsername)
+         		_cBadge.Color		= ReadableColor(_cBadge.BackgroundColor)
+         		
+         	end
+        type : 234
+ menu :
+  name : _Menu
+  identifier : 0x23232b39df6a93f5
+  internal_properties : CAAAAAgAAACi0J2JnsbqQEcCf+4DAYr6G/4jGJA3FazeywZRzfR19dVGD8r01heYHLIHd+3whYjyw+/87KMMQzI5hH0SbRIOtuSE2BGcYHUV8Y7BVdF9DzgOZ/VUEgRsGiHKDr6zxWtZNsSlytUMOU2MIXOzaU2NuGPyvucIbOTZW83OsSHtLAKBpuhDyCb2HDfrfing5CSO1eMQRZk+ouFDApFTDyUkGc+bhDAUrpOp6DuwM3jMcf0H/tvfNTxxpdz/5XOQNnpUMFtzlwRbAYwtMuWUVMXpu7jYJ1VqMiDK
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  type_code : 71
+  p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x13c040de00d7795e
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

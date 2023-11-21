@@ -1,0 +1,245 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_KANBAN_LIST_FOOTER
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_KANBAN_LIST_FOOTER
+ identifier : 0x241471c45401c5ba
+ internal_properties : CAAAAAgAAADudwsN8EIK5BXZUeYI56ZmzmnUaOVPDJvOWKRFskRewH6JZGynEGdluDoM6MgYtbGoI0FeQueUbBFsBlFNZLcit2E/c97P7JUodvkniebjGF/6ydt3brAFl/AsKmdN8Ttlh0QrnSbERQaMvHiIFew8WRAxH3zS2oCutLMdn1nYC8xQKAhhnyqHCF2AGdvvYgtjGONTbKuAPjqG54Q/Cse/AEsWh9Kvge4dgkLYaFfgWmw5HdmDgq46bAXu+6HVx12x4bLNrH9AoIMQFtsjcogbnZOYqnBrPVLlwiKzRZ4x1fPkhjIgjolNcBWDVlzTk4Zmxqk0pYipqYNnb8XtkNQX5eVWnheRgyCQVTrONHIfzP8jkw+/KOoC4ahXsu584EWk2Qmfli5fCZUhl2ctK8Tb3fZ2avmRK/Ej7aSKHA0FRXVU/gVAWsR5aKTLd0AQwL4xJIoBGuVFQgvOJUHDAgZUZ0/LNoje1VIXcUkIc7Zs/tFCiUmUwJ1cdDqmqZ1X7ZL0fy9cHD4JTIBUnu9Fu91Xe2BwANqtrl2/4DvwtT/j2lBn2CynaNE5bOSr8RitgWMFNZVHg9UmaPXTatl1RbTwdZ+CvRH+D/lDuUJLjkiG5OrPTpJWO1wFOv+oezJcT/wp32JzztvKd6U6p+YaAPIdVW1SBAsV2KJz/DMUxhyAyRBBJNxICU6Zs5KCXfQPfFZceLf5cqFWI5E1XY49UW8cEHfxssJTn5/2xs/taOLU5FcRKytUOCtjdTzZc/8Fii46SxQ4Q2RIAAiAv3K78RznMXSBhOjJDHK5sdP7v20aX+vsFqFleiEZxqltOix5DDtT9vVgENJfGDE5trmqPzofWAiCl63U2wcG0+wgKj6guMFsEKOQ4Ga2Qx1aE6eQoq051AM9AN4iMT6n2jnWGJ4NrQYAWQvEtuG4CJvz2J9EWmxxbPRLHdC1B/TsOMRiHwbulEOFHFtR818VzCbthmzXvbiQRgt2B4cDcX/p8wJWShg27RkEn2yqQXPYqMkJtdq/4MOoxrBOc5R+QZIzQ/k=
+ properties :
+  width : 260
+  height : 44
+ controls :
+  -
+    name : IW_KANBAN_LIST_FOOTER
+    identifier : 0x241471c45402c5ba
+    internal_properties : CAAAAAgAAAA47wJj1Wz4Hmz0JV4Oq66EdGzmYs+NeRdnh/4fPp4yuB/NzR3HaK+XaLhHXN34/MQ+Ld32x6rRF4lz6Xwl7uTMj3su0q2pKJl5zVlzf6QfsfW62OezJtCdKgMaUcORPojiVxXvlfE+/1eDgNZlqw00Dl2z6xeMtvnB9rBu2MweT+jfMVMeoROVA40Fta+UojSP22GR0eDf8elcWF4itXEP8ZCrAUccOHGG6Sc6NDIyulW4D0/6lOUuJ1a4ZCk4p9xKmKadq3uDv29HkoHlnQt0syMQfO/9lbdGXdguLFoOcIM+HwH+V/1u/4rWXPalIePymsd1B8uO2e+uAvutku1G2j0rFWmZRWXzWeeCUd0VUTmxz6PJifpsKXT3tsGfezfRq2NdBe1sgHINe8rtWswVaD4fzHxugWN4YkaDjUNlgaQRESFPpYmbFLlLiY+fuXslYY6vQ0JFRmnGvpkOfGziy3gNuFbaRd0W0XYgPu4NuQWo+drUOindyAPEKWcWMl2JrHg16HB7HQEQqC1i38sOZVM8wmYmXvRuuT0V/0CCojBA5N2xDo10U7BX+krE+P/RI3EIHITvtP2fCreiWgrkoVJHiZ/FdqAcWU7TmIgIGvMoNPHOxgNeSNmlLYsyGLWVtiJxokfln74WlTJQAonGeYCVpNlCpTRXnPLuH+5A/KbcM8A=
+    properties :
+     width : 260
+     height : 44
+    controls :
+     -
+       name : BTN_ADD_CARD
+       identifier : 0x241471c45405c5ba
+       internal_properties : CAAAAAgAAAAfWJD0l1w/o+OxKL45w6MQAwgC+5IV7SHK5juhoEY3X11T0n2OEobDCL8+XFkpPtYmRfabLuZWo6sIKOI/aY9TsdqytbWdm28yapXCr/HNNiLaZ3XyD+gDk9qsIzQLI7PyQ5rjNnYbsPOapEX7Wd7FrK20PsmdWfgwoqnO9ubLag6ZxJRPr/DmFWZEkmt/AzmM9K1qS9Wok4h4Vk5uoeC13i1I+DWWQeHcxhW2OfFPp0qXhvKF8tE5iLl9vpKNGj1d8vo4SiHxoB/IR08dJkEH1sEFvbQzkVG/ffumB+HF0/qC969sIfmjbDE7xthB7CyOsIWT/IVG+Oc7MhP/Wacqx1VQK0b8ly0yPt/rfKsOPqhTL2jSgifTHIyNXcDIPrVuzOMXDZ0hZ8XxK2PJrlIaCuq4wJgWrGyULjIocUpNIYzx2ssK0em3Lxjk6cRlc/uQP/8/W4OYYb6K7oSerT8C+58aiipX42z8Tkr+l45KPe/aCFMmFIZtZx7fHuYlIt3DJ2IeME3FWiEr1kJ2iU9KZ/ylSCjM1lp15415FNHJ56cBeGguVHLUMJcia8Y0bFoolqSYDftharKuuLr1/bZVnZbWLRv0engIS5Nn+hClQya7Dymd/d3jSh3NfUWBWP1wG/Px6cSC1qx1i12W0TPEmD7Tdf9BWiOp9WQmyfl9JeC020B40VqwAtLMaPlBMUKLmuDByjLRqK7c2CpyVsUqW/qzAzGlhZ0pZocrheKl7qt4mhZeR9Ylcj2suQ2um74TfjiIk4WnGE7oCF0f76axd9aIPbk3qHVoW8yB3EpYYuztlq8/itKJODQfwLaXrESUc10Izj50OGW2d1WoucpwVVNrXlG8Nvc=
+       properties :
+        width : 260
+        height : 44
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            IW_KANBAN_LIST_FOOTER.Plane = PLANE_EDIT_TITLE_CARD
+            SetFocus(EDT_CARD_TITLE)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : EDT_CARD_TITLE
+       identifier : 0x241471c45404c5ba
+       internal_properties : CAAAAAgAAABTpeBbLL/Jx08C0cbdnN+Dww+UB6NRUn3Pn8L0xJipf3qp5Do5adTZ34cUDWi/so8oqdSEWELNJ3oTJDL4+R+DmEfw8c766wQme+xXVfbZ1f+RNGv2VVBhU5DT/1hTB50KZFn31poytO3Hf3j+EoDYiBdBMQcF3ZzYSsLZSAx+c41rXfO12QJdZG8YZ8Wypy11AZYdIz+rfe7fo9sI36rerkQwLRhkGXFzeclPLAfaxxfWmqzpQkv2i2OWmWp404RmR66TQQai74JUCxDYv6AYFOubZ02l3+VakG66fNBmcbXbDiFIjOjWH24bxl5WNXfd7qxMgS5lPyo8xBCwFW5HYq9CIu0gJDrXDullyh2jBSvlwdTlt40z0C2TAl6yTa3q2/CIYxlg5j+ZG+A5opNkXMq60wQBemSfwfZkufqQw7JlzGdyymC5B7z34y5nG/zkEGdSC5OuUp+Vlln4npR3YxfFsfGgm2UrTTPRdp6PJVIam5aNyk1Wb85DTXNpfiUuQw/5ZVFMIws2PFfBCc9c8hJDXMbR3qlIiWicvWXodYFFrm4ot4U31q+01JJNnzxvNHb67UNY16JsSHvjHuWD4TXC//0sWGpuQ9RQILmZ9aUCwpjt77ySJkWivaO0SBQZwqiDuyrIybahAf08beswNBNufiFQuqWFd1P75wU/pUuaLPpn5PbJUxm4ZTRQFdvjF4NTUTlH4MQaOqRbiZIe7TFFyGlkqqCjXThUhhEt0Zoq0Usa6UCvO+XNFEfDkD2PI1T2BUr3JUM0M40i7jBwjyCIB0cCcyBa8oqXZ1I6B/g9m3QrXt2o6MNDpK9YKIpshRq23chYmzPUrO1Jp6aX4ySkswwhRNobjIHDp9xHRbiHcp3Xsq1i7m3QQZCjx3ERH5xQP9JgEZPX5dUljEG+pC7Qq6Jke2CnjCMuhOCkueQy54AGbit9n+Yj0bRtatdDKqWb5wkM4tfaHw/Xs2Ev+QoJh/XrWYzXT/F1jwTZpuUhlrlHkTKTGas6IJW+mRPDb/sSmRj4yj9U8qNOh6MWfYDmjIi4ycU8g12zTSI3Xl7L+02CjAugPXkfqahPBB8LLTvqYZld2NHRMv9gcGpAy2IeyYSylZkQ7yh2v2BZ09BjSuVmc4o40+6PFA==
+       properties :
+        width : 216
+        height : 44
+       type : 2
+       code_elements :
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1+
+            ExecuteProcess(FI_PIED_LISTE_KANBAN.BTN_VALIDER_AJOUT_CARTE, trtClick)
+            
+           type : 169
+         -
+           code : |1+
+            <if ExecutionTarget =WindowsApplication>
+            if KeyPressed(kpEscape) then
+            	// cancel
+            	IW_KANBAN_LIST_FOOTER.Plane			= PLANE_ADD_CARD
+            	STC_DELETE_CARD.FontBold	= False
+            end      
+            <end>
+           type : 65792
+     -
+       name : BTN_VALIDATE_ADD_CARD
+       identifier : 0x241471c45406c5ba
+       internal_properties : CAAAAAgAAABA9ztZw6//hhL58CQM3m/6l42SbKs5ASV3ZGTRObtDEK4Zn2cqOvmmhVKwXL17QAG6BzQNwfOVWAwFgflpBrwzvGkIIdtBkKNPGrmKLRSPHMP+TjWSDE6eqe8Fcuy5NFpRxr8Qo94i/687sOdOrp55ETFim/1TvOBsuqzSn6/+LakO8qrF9oVzgUIh8bxLHMPkgC2DY0X0N3fsKwSzh6P0ZjRPsYoC16DJIiUwF67aCAAW25IbYDn+qQDgPUTcWxCeZCzf6ZCaQ4voa8ZblpZgC9fHKubFx92qb6DnjYZE5Vp0uImKbAS1ZgxPDKSOHGoUpsVl6O7zsfAh+4BeooIje2TKXpxQ49eg/DGcdqHEn4mt+TDYOankk1ryjDW3BHi6ac+ftUivI5CpXVFzn9UOb/AGOaFHL53Ip4aCRy5xsosfqX4cLawbwZD7/0g5xSZel6hoxXVCP7WtrcXRgs3ajzGoYAl8z6Rt8F44QMW5H7zkuesg1pNWfimKdeGBTlkn57aAy69vts3CE6aGtXzPIjwBlHqFQPD3vWgmNUv+nicT/IOMl4H1hq3ehQVGmeEBMtRUgx2HFO5JDlnOd+lG1QWPasf7SS177334lJc2mmdB9cUohXoxnwJ/e6/XFWdmXlnPZh8MeHO+BadIZgigdrW1pZVpDyQg971zt4IIuK0wENiZiRnfvfAKwMzgVgcI+1zAj4yDY0g9QgVR0kt0Vh2DSsWOvIQaZX/mNChYdTCi8Znnbg91f8FMwjpw2aMQ7F3qFwbmbIRSaU0j52ibcljJlyw16uqCutYhLzW1+IzWv50TcCEaoNvWn0BBJwTMJUW/3CBQ2bwOrbsCRYphUTBoiJNCynwZgbOuELhIu1/CVnh3HA==
+       properties :
+        x : 216
+        width : 44
+        height : 44
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAABDN/5U7cZ4P6cJzkydmV4EOfKcXinos5muqg1IaihgZCBnsAg3CmwRf41weLZZjZ5kvZFrvpgE+C4XWRhb71nOQVVjbKABsUe7JHAqyTtPjEHe5tj0kJIbmwD8rPozHGBu19UP18ndqURCsrO9M1zIeWg7nYswHPsH1GMPETgs1T6/OXHrI+g+oeqGXzysYQysDUFIqB2WPD4aAEQ/8AwVphlXJVwKqSb3wO+lCzz9kXq1DIY8JmSKwBSTRx3Gx1B5ilhR45sqOFnwpz3xsKvga6HBmc1IP6xlr+UE2Ylkt2myRTg3dENkTSE85j7kG5qD5XpHM52jI5SoXramy6gNXf2ZNtHm0HxJUfFfG2nf2o8FQxZg7eccY6wxLqbBsMaWaaCW7c0fsHEe506jCUzH4coGgVY7fHz4b18WyrlR5AWdtdNoSW4Y1poK6jCilRwdmG9CO13WQV7+Qedl5kCut9L0hR7GeILtd38l8jqPWEniG8h3YHhWNltW0X1xvmPNfo97l54OU3L+zN87tcs4WWMhiVD3SFOfPYRbIi2j6U8r1eFEGLWWCeEvEmGwra6HSVcEfOnZtZBdZx8+Og3pR66+
+           code : |1+
+            // If the card title has been specified
+            if EDT_CARD_TITLE = "" then return
+            // Adds a new card to the list
+            NewCard is kbCard
+            NewCard.Title			= EDT_CARD_TITLE
+            
+            // executes the add process and cancels if it returns False
+            if ExecuteProcess(gKanbanControl,trtAddKanbanCard_, NewCard, gListCard) = False then
+            	// cancel
+            	EDT_CARD_TITLE			= ""
+            	IW_KANBAN_LIST_FOOTER.Plane	= PLANE_ADD_CARD
+            	return
+            end
+            // add 
+            NewCardIndex is int = gListCard.AjouteCarte(NewCard)
+            if NewCardIndex > 0 then
+            	// added successfully
+            	EDT_CARD_TITLE			= ""
+            	IW_KANBAN_LIST_FOOTER.Plane	= PLANE_ADD_CARD
+            	// scroll so that the new card is visible
+            	gListCard.PositionListe(gListCard.Card[NewCardIndex])
+            	<if ExecutionTarget = Android or ExecutionTarget = iOS>
+            		SIPVisible(False)	
+            	<end>
+            end
+            
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : STC_DELETE_CARD
+       identifier : 0x241471c45407c5ba
+       internal_properties : CAAAAAgAAABaFEgUJUsECJIYPBboYPZ2CSqWr61btAflZC3FEvqqaOGLROaDPGMlEk8pCRwhOgGcctQrSji3M0vzksrEqJ9l5Ak8XTm0jYxNajJ2q85DkHA6jsMDrHCi8fPCHBP1At7xZFwwfkjH2RNBMXqFggI3gfFfcGYXpe0upaIZ2C4nktSdqV3mGkv+EpxBGRS5ZzRYocZfBRVrr2YJgfU2NrT8ZMuk1qiA1eKusEmE/jjqyoCXKT9AyEfDw53DaeyAyOEf53AKwKkO7EJL3gJtDW9pmZSRxvR1rUWB5SvNFc8jtyrXy++rgeoIKTJXePuM3m7gtHfLjTldfziL/gYl9Usm0Lugp+s49xLJSm/kKKahum0WWAw5ju3FKr964rOKmDGzjsQUxYeB6EGTZQx2egt581kf7+8GRV4INSbNyglXUVcT1t5msgoS+69+FQ==
+       properties :
+        width : 260
+        height : 44
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_DELETE_CARD1
+       identifier : 0x241471c45403c5ba
+       internal_properties : CAAAAAgAAABSv3iXYH4k0Ro58QNwnWMBWmnDs6X9uppqatkF8UFfHKZYbZI+2X60fjIJzxTyP/2YPK3ZwPp9iBYJVBO1i3FSTd0yam6x7grMlEXUUwbS/6u3lZYpLjHfmwiJffewhYsJonQ/32LgONH2aXKFM23v2liWGAXI3ToTqRWolWhJdf/C25JjwKHN0LdYbGyK+v4nl5qCBNtiyAKOt+i+6vjNdJigjFDPjdfYDhJz0zsm/tfK+q30WgxH6LTN7muNcvc9R/fm5hriv3P57cfVyu/I3eG7NxL0jOCYORvJ0tpu12Wlf0U6HjYU+CVtoZEc1ze5EgQib8hJsXpKSgT7GqehlmowuSsEOfsfJlc+wp+DC6tZZfPHsu6oFnYgDtM8ADmKi7iYxgdJLeosrPsrkTNEpsKMDe8aAQTs0V2eiRyl/Z7s7dqJGFOO6lXR
+       properties :
+        width : 260
+        height : 44
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        code : |1+
+         procedure MyWindow(gKanbanControl is Control, gListCard is Control)
+         
+         IW_KANBAN_LIST_FOOTER.Plane = PLANE_ADD_CARD
+         
+         constant trtDeleteKanbanCard_ = 321
+         constant trtAddKanbanCard_        = 322;
+      -
+        code : |1-
+         
+        type : 17
+ menu :
+  name : _Menu
+  identifier : 0x2343eb3a81c90dbb
+  internal_properties : CAAAAAgAAACi0J2JnsbqQEcCf+4DAYr6G/4jGJA3FazeywZRzfR19dVGD8r01heYHLIHd+3whYjyw+/87KMMQzI5hH0SbRIOtuSE2BGcYHUV8Y7BVdF9DzgOZ/VUEgRsGiHKDr6zxWtZNsSlytUMOU2MIXOzaU2NuGPyvucIbOTZW83OsSHtLAKBpuhDyCb2HDfrfing5CSO1eMQRZk+ouFDApFTDyUkGc+bhDAUrpOp6DuwM3jMcf0H/tvfNTxxpdz/5XOQNnpUMFtzlwRbAYwtMuWUVMXpu7jYJ1VqMiDK
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAD5ioeojMEYiXW+j1kMr7Rtj7eHlLFn+0/dpGH6enR+9p1s/g7pHF4FocSxeMlLEAYlVjnV2dvZYVVzY9F6PQ==
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : DragCard_Start
+     procedure_id : 1446906467067413946
+     type_code : 14
+     code : |1+
+      procedure DragCard_Start()
+      
+      IW_KANBAN_LIST_FOOTER.Plane = PLANE_DELETE_CARD
+      
+     type : 458752
+   -
+     name : DragCard_End
+     procedure_id : 1446906467067479482
+     type_code : 14
+     code : |1+
+      procedure DragCard_End()
+      IW_KANBAN_LIST_FOOTER.Plane = PLANE_ADD_CARD
+      STC_DELETE_CARD.FontBold = False
+     type : 458752
+   -
+     name : DragCard_EnterHover
+     procedure_id : 1446906467067545018
+     type_code : 14
+     code : |1-
+      procedure DragCard_EnterHover()
+      STC_DELETE_CARD.FontBold = True
+     type : 458752
+   -
+     name : DragCard_Drop
+     procedure_id : 1446906467067610554
+     type_code : 14
+     code : |1+
+      procedure DragCard_Drop(Card ) //is kbCard)
+      
+      // executes the add process and cancels if it returns False
+      if ExecuteProcess(gKanbanControl,trtDeleteKanbanCard_, Card) = False then
+      	// cancel
+      	return
+      end
+      
+      
+      // Delete card
+      nIndex is int =  Card.Index
+      gListCard.SupprimeCarte(nIndex) 
+      
+      ToastDisplay("Card deleted")
+      
+     type : 458752
+   -
+     name : DragCard_ExitHover
+     procedure_id : 1446906467067676090
+     type_code : 14
+     code : |1+
+      procedure DragCard_ExitHover()
+      
+      STC_DELETE_CARD.FontBold = False
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenêtreInterne1
+resources :
+ string_res :
+  identifier : 0x13c02f8a019dc8e0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

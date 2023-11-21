@@ -1,0 +1,163 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : SET_Utilities
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x141471c508cec85a
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1+
+      constant
+      	CST_SEPARATOR = ";"
+      	CST_USERNAME_ADD = "ZZZ"
+      end
+      
+      gsUsername is string = ""
+      
+      private
+      gaaUserColors is ASSOCIATIVE ARRAY of Color // Stores user colors
+      InitRandom()
+     type : 720896
+  procedures :
+   -
+     name : SetUserColor
+     procedure_id : 1446906471363102810
+     type_code : 15
+     code : |1-
+      // Summary: Stores the color associated with a user
+      // Syntax:
+      // SetUserColor (<sUsername> is string, <cColor> is Color [, <bOverwrite> is boolean])
+      //
+      // Parameters:
+      //	sUsername (ANSI string): Username
+      //	cColor (Color): Color to associate
+      // 	bOverwrite (boolean - default value=0): If True, overwrites the color
+      // Return value:
+      // 	None
+      //
+      procedure SetUserColor(sUsername string, local cColor couleur, bOverwrite boolean = False)
+      
+      // Checks if the color should be overwritten
+      if gaaUserColors[ sUsername ].existe _and_ not bOverwrite then
+      	return
+      end
+      
+      gaaUserColors[sUsername] = cColor
+     type : 458752
+   -
+     name : getUserColor
+     procedure_id : 1446906471363168346
+     type_code : 15
+     code : |1+
+      // Summary: Gets the color associated with a user
+      // Syntax:
+      // [ <Result> = ] getUserColor (<sUsername>)
+      //
+      // Parameters:
+      // 	sUsername: Username
+      // Return value:
+      // 	Color: Color associated with the user
+      //
+      procedure getUserColor(sUsername) : Color
+      
+      cColor is Color = Transparent
+      
+      nIndex is int = Random(1, 999)
+      
+      if not gaaUserColors[sUsername].existe then
+      	SetUserColor(sUsername, GetColor(nIndex))
+      end
+      
+      cColor = gaaUserColors[sUsername]
+      
+      return gaaUserColors[sUsername]
+      
+     type : 458752
+   -
+     name : ReadableColor
+     internal_properties : CAAAAAgAAABeAXlNNZ7/vBFqXHSOZ0GX6aHGqVbxox0YTHJAduoawouA7rmn450WY0+Jc9E8oAZUduvH7HNkRzh/ZtKKO99BGmDu4IyVvpVZLc+mpMgYcHNBeLSpEUt3S2m51gV/NXRrsBO4kgiW7NgCtDGBBj53k3hAZAd5LmNaonDgd+tabUjO
+     procedure_id : 1446906471363233882
+     type_code : 15
+     code : |1+
+      // Summary: Gets a readable color according to the color passed as parameter
+      // Syntax:
+      // [ <Result> = ] ReadableColor (<InitialColor> is Color [, <bBlackOrWhite> is boolean])
+      //
+      // Parameters:
+      //	InitialColor (Color): Color according to which the readable color will be calculated
+      // 	bBlackOrWhite (boolean - default value=0): If True, returns only black or white
+      // Return value:
+      // 	Color: Readable color calculated
+      //
+      
+      procedure ReadableColor(local InitialColor is Color, local bBlackOrWhite is boolean = False) : Color
+      
+      nLightness		is int
+      rLuminance		is real
+      ReturnColor	is Color
+      
+      
+      // Calculate the luminance of the color passed as parameter
+      rLuminance = 1 - (0.299 * InitialColor.Red + 0.587 * InitialColor.Green + 0.114 * InitialColor.Blue)/255
+      
+      // According to the luminance, the text color must have a low or high lightness
+      if rLuminance < 0.5 then
+      	// Low luminosity
+      	nLightness = 12
+      	if bBlackOrWhite then nLightness = 0
+      else
+      	// High luminosity
+      	nLightness = 88
+      	if bBlackOrWhite then nLightness = 100
+      end
+      
+      // The returned color keeps the shade and the saturation
+      ReturnColor = HSL(ColorHue(InitialColor), ColorSaturation(InitialColor), nLightness)
+      
+      
+      // Returns the reverse color found
+      return ReturnColor
+      
+      
+     type : 458752
+   -
+     name : FillContributorBadge
+     procedure_id : 1446906471363299418
+     type_code : 15
+     code : |1-
+      // Summary: Populates the contributor badge control
+      // Syntax:
+      // FillContributorBadge (<cBadge> is Control, <sUsername> is string)
+      //
+      // Parameters:
+      //	cBadge (Control): Static control to be populated
+      //	sUsername (ANSI string): Username to be displayed
+      // Return value:
+      // 	None
+      //
+      procedure FillContributorBadge(cBadge champ, sUsername string)
+      
+      cBadge				= Left(sUsername, 3).Upper()
+      cBadge..BackgroundColor	= getUserColor(sUsername)
+      cBadge..Color		= ReadableColor(cBadge..BackgroundColor)
+      cBadge..Visible		= True
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x13ce57e1013affff
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

@@ -1,0 +1,709 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : IW_Project
+ major_version : 28
+ minor_version : 0
+ type : 8
+ description : ""
+ subtype : 0
+window :
+ name : IW_Project
+ identifier : 0x241471c05006b241
+ internal_properties : CAAAAAgAAACykUHvgU2/o/CG/JLCGvTwfuIM1Mqctvc0r6bacpC+xva0/sXp/q3Sgpe1U8IXptsw/LrkoHegtLpmvRvvnOXt6aFSql0dC37AFzzZvm8qlEpOIG2ZXL+mE9G9edunCzPAe42Az/BH45A+dcRlTAi2CwSJDuQbzoMH/EtT3Luprp0QJWoGdqYG/snmB9rFMoqOcsVGcseAgmEChLZxQA4DOd437f7bL6n+mYI4lEG27+EULRYr0H5DdmQexamEVjUyXvhZUnlIZA3MTDGNLWKw0fRpikcoywd1mxWuYKT19/iFav/1TfzIAFUuaB1s5cPD3e20Zh2Yx/GTYinK7X5pQ2rhD0InhzMtiy6F43ypPjdDNLLgfMrYQMpZVhI7qCdPBPZtj7r8U0TlziarVx/HMrJgj4HUv9YDg8ogBjDOgLv+Yqn85RX28EUkgjUNk+C7MT+nGBnuwlprKtIFTGH3QN541wCTkd2PqShQXiQwoZaHhZMKnUHR83SQUDCYCa8qTfe/cV6EhmDcjzEJHmC4qfrApBfOjbv+1RisxLshWYGBCMJ5YIJFqajfUXagXFSs6yD+tnEBo3uN57nuj4jn3+Jm+K7w6Dp1BgFKjSmCbBZtydPE65FxY+rFCY6qzkDLzpIQ1gilbEGMSRhU+enYAJ0QI4JR2Eo/B5QvCTbCAOuOMNzeM2J6mro9QRc3iYD2p4t8shUvyGLzhq6k4Jn52IFK9Cki6aetdLNEGyv4rfP2JphLVA==
+ properties :
+  width : 800
+  height : 580
+ controls :
+  -
+    name : IW_Project
+    identifier : 0x241471c0500fb241
+    internal_properties : CAAAAAgAAAB1DsV4AhbccJTboC58/t2oqQsTKBTd99sWCgWouwhnZgNZvHxA4JWzXLyKLz3ISvCq1cnonYm/7Ny1of7vGw/zrhcSdGmTLW12qVPi6vvEDUzmfYuG+4GohX1ygEROH3lgZ7LuZez1/9ZFMy0f7JaMc/whWj+qcT5lHw6yNrF7pIkXO61tJ/bdZYGR3QpuNAqSGOokhjpDK+TRoff5bW4ZddQRKxqZPcH9nWxGNkzc9r6SXS3fgfGKrDNzVXUz41gIZcoOzvqJgde5ZZE7Fee/k0493YatFq1oSwI1cvF48d7dFx82gX+Y/qwZyQCtDbI5DmmqlmoLyrox9aHESwD4LzeBn8dijWhhVdI3QNiRT52xiHZutFHklFyxVkleCggGfyy7agkIxLzpOs5XLhLnpoOp1WhIYW5inT/sTS4UKebF90kXrQdtzI3FrAokWHuciEFNmdFJHg7E/99X5dMP4CqCIT+afP0=
+    properties :
+     width : 800
+     height : 580
+    controls :
+     -
+       name : BTN_Users
+       identifier : 0x241471c05010b241
+       internal_properties : CAAAAAgAAABrZRijkEzxMRLw4UrJFmOKsCYvClcI+ZXJWY07pXdFw/VD/wvXyFKdoBsinBcqFT5kx4KLqt4NUw23nMuLPnNnXEJJaD21zH/ILlswWg2WodG2RYwzNHxGVPrMJwZLjmo729iUYcRDm17hA4GKUAQsQOKvTWV/OAOkp0TAVY117cmgeTm+ZpdmJ3mT2AgyZzNBewO3/l8y7Xnqv2jVkzZyNA+6y5z6w190xSqMvrsEkV/ZQAEG/l6z0wub0efN4P6yWmRj+mZEQKgt9lNDVdymnuqg2JFF/wsFTvuct2VRKhY5R5NYwO6mbS1PaZQ7Y3dCEcCpFIEdWAGTpbuV30iuKDMlpnUrmP260Ypp6jmLmuaLflKGQyuRAWOzcYML3BePc4v9mnY310FG11LyJAama0gjF2sGQbEyQosfBy+LG7O7wuJNOPYDyUy4MCvEWNRFWtAmGffgUgan1VM8Kp1FnxRDSR/+hLEncDMPZ6kVSVKMiTezLXDWRXmcC11TYt7P+2E08QVcqAXH7ZpSzzui6aLJ6VuFNtLoGNcAyKkVClKjRaFlJcqmga+gqzkBHl5Q09yeOwlikvvLx9tN5yBQveBdNaP2CkzL0rW+/HIGlqNyY08wHpCF0F2T12HXJWlKJ8hSlMt0NnKF7wY+tuQaYjdKFTTYXrWZJa8v7/ehyrFE5ZhDmBKzMFK95vv8n500GzQbU13TG7tUoYeOHxRDsTUcROCrHjhltaDSOOjOGcty+9ooUD6Vmdym0f1AknKgC35ZtfBhA1QNdoO2Wf4CRQAfujfhnxmXxhrBqfgtpT1X0ySLnRzTKI0WmvEzYfHSRd1wl6HZdaTSVhz1ueJNrDvIsAKKTOCJ3WS63mo3T/p0v3Dgzk0O0/BxoDhujiEECAemwydhNY7HPRU5A+22dNhuCQ==
+       properties :
+        x : 627
+        y : 20
+        width : 35
+        height : 35
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Version 1
+            // Description 
+            // New button to add or create elements
+            
+            
+           type : 14
+         -
+           code : |1-
+            Open(WIN_ProjectUsers, gnProjectID)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Refresh
+       identifier : 0x241471c05011b241
+       internal_properties : CAAAAAgAAACmAlPD1vcU/WTSwAMkosft+zmbwgA/LrOtx1t2fcGJnFlU4YeMGBAGr3wm0k5t+TY+x3Ff93/zHeGF9YOIRansF4/52T3CkYElTM6h9ZpEGOMC4irK/a1Mj2X3oR0Fd83Wj149WkfsMgK9C+2e1Qq6XNiofT3CnFPA3czWwIxtug0BygsiGJaK/14bdLifpvGHkDP3s2wXTTHzhgVS8tCoh1yM5aszmIS/a/AGcx5bY5anb6LP7rso4V3/DfMCct3AlLaUZIM44VGuHHlJdihDnWGzTp2MvOLS+1fdBxVI/yP6P6iK9wiWKWhCPEJqUDuYnsZVYM4ItL0seuUmeYVyFuR+0GDVzsfsgt8MWq/XRH46gXbwPgnckohFiVToMIwuIc0mchXuJ3Iukx4q9iV5kiR8z9M0H0T4lGKX0thrcGs0ATuXAAwIjiDiMbjPHPC0r0aPq53H2/LTVpy2JRNkPK5g/cxUROBhDZQ23+BwvXYgadGvw+biubN2x5vYO9Ba767oaTsMY6DVfIUrMzicqoEJAhfhkStwYrQM2LaWNFOtbfXdkNRVakNM5aFwhV5sohCN1WU/z/opWkYfHJgJY2aMTviXnT3Jlex/vUQ1ZHSFYyXf+sxyhUKZ4KQoKZb27h7Wkbh3atflHrdk8Zh3v4JWcMHMoMZJiVjaDpPUI0+3G3z3bnsagrfCKzULWyPyCHF7DaDPjbJH5XGWXBMWLiaUVyrzVoyKK83M0x/eeEsgdAoBmlUfJxkRefyNpCVE0Gu4M1GvwyRAHW4tt3PoaazsuaBBbU3RTXOqE8cthPUD2TnCphZbc2Ewws4XRssq+eJM1axJuX5zz608Zi8FCaa7g6hbPIJsRbKU7zzIttD8yg8qp77dSn4tCC7BIj7a5mfC4oUrk3gep+OUXDZnTKuj
+       properties :
+        x : 679
+        y : 20
+        width : 35
+        height : 35
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Version 1
+            // Description 
+            // New button to add or create elements
+            
+            
+            
+           type : 14
+         -
+           code : |1+
+            
+            RequestRefreshUI(True)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Menu
+       identifier : 0x241471c05012b241
+       internal_properties : CAAAAAgAAADW3R78/U3lDRDnYhdX1UTDbtMPCTIftbrX7f8jJSQSZ9SufhdHtatSHm79WVFT3g8owXglJbDe8/GlN+KtYdeE+psQztzJ572kh07hf0Z/K+hvnx1TuiIaPToQx6505Nmsa1r4e3gsAHgh2sOCZ1kCC6rn2Jj60MZXU1/UuQoeDct73+6iSpFfnaPVmzbStE8+2RRHAXJajRw92SHLkV4XxbfVP4DlG7vhDpWMXG6ts5djUMZ+1F9J2ANan+Bql21T7SDWfmymko6EXXxpMHdKXVw3IvOpZ7jc1EHSDtkamQbI8RlFQD9WyODS9FN61+AEG2qVTbCPHu0cxqRuF5571kN2cD4TPidpo3v+XKZCRoy0HguuZPmaRv0uzvoyvNrDr3B2XP7NL3rus3c9jRgo488iGyaHJlwNKFXQDpfP4PqI9+9YFLpRxy4OGtPpWWIwUYOKRmzm3+5RSW9R6cFg+IZS6x8NaJSUCheYkP/J+O4d07idGapdiV4qOTb5UjxYu3QTI7D9+hMacZ9vviht4914N/nVFykC7Nobhuji9ycJOyA/v8vrtawUGPKXXhuYErkvai5GXy+q/WXAf+PecXGAhS8Zm54Jd8GiQJUWPu4+iRGHgd6c6I0eOmHbRmmYa2H19/Gtuljq/HpdAtIDM/RnLOsfppA7argvi6SL/n7EAXZ9cnSWS+7oCL9vOdiIwjgJle2mRJC064gnma6mE8xSFSggPXHYrfelg6UpqMfMgfRVleCHEUhCTSGtBOEiDlNLpZYGARlB55lgLoGW3JIC5ZgHuVTYRzXrByVUZAt9y/j7sKfXhqOpewzEMdFLcvr4pr/40c2JOPCb2CSSe3RQ8PpNqqppgZBTHh1SlB2Q8jvYnjkbwPV9yNLyhS/LdVQBXACndPaerFdpY3PY6pq9VtqtasLpGX/MUqOSJIpCPcsrAI+eIPaDR7f43NojX8fppB7EnHR22qr0DLd1+BhDvNldCRmflOl/bvuHKAJhi1sFaI8W8GFjgqSQlHL9HG5Q3eXsiZbFKgjuqgQD1hkwE93yhTVd8GWcAhLZWg==
+       properties :
+        x : 732
+        y : 20
+        width : 35
+        height : 35
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            // Version 1
+            // Description 
+            // New button to add or create elements
+            
+            
+           type : 14
+         -
+           code : |1-
+            ShowMenu()
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : SC_Container
+       identifier : 0x241471c05013b241
+       internal_properties : CAAAAAgAAAB+UY26d6MEIY5lsiwbUGjsP9MUJGUbwP7egjKY6r8wVbY7Llg2anS9+mW13S1taUsWpBssswyqjepgfGZ3YsWXv9LuAhuK8PGEtN8JEREfE8hlEeTAIR/yFNkXw4tnz7ONy+qBBwwpnTZ+McSl/x9v8/sEJ/0BYKkctbRk81ftIraOOVfsKB3HODVp9Zzb5+mToaMnnseiwxuwpkAXv9+RCygO/rXP9NsTXHhljGSSpTC0i35SgpAD6CZT0raNGQBivmbw1nxxzrPkXQIIItyADT57FiZ03wvxyAPIcjLIqQlp+hFzExsJZNuBRSb15JXHPA0wHcUSm/vBpKPOTvS0epCyD3b/zigQUVlzqhe4o8zf2bjnXL9Rdze8dhGyFK3XpmJJMsp0VebJ2zFJvG9ju7eC32Cj+IGJG6iS6g0YeOq6b5OvgmztZgUQFlgw59sLzNH/SBembI3gfV//ChHAfRfsw49rg3TFdG2z33AU/DFFiKl2/tjZoLhKqEIbTdaV04leE9auYl2zj2L56NKyvu26hjmlnY8grKVkvP+vRGEaI8RYA/IjPUB/8H7eXQwH29s6pt5vd0TwYaAVPMpAxmBdAKWrfzD70huMIMHmPs58cTsGQ01gWbr91G16v5Rqbf+QNOkbEm9Gw0njprW6v7VNu5nT1dMuKgRz7YlIPKLfbW6KMqNFWbRjudI80PbhLG6ny+5kirKv6qOywNlu9CyjoKDXymBvdtDd+y9yTPdN6ofiM4R98iPjNvU0ZJbdmUBo9SmZmc8McN/1MuYKIIGsD6OSXDmprV+Je58V5yMT7c05
+       properties :
+        x : 33
+        y : 70
+        width : 734
+        height : 477
+       controls :
+        -
+          name : KANBAN_Project
+          identifier : 0x241471c05014b241
+          internal_properties : CAAAAAgAAAD9ljzh3B8B7I8rW7IsZcndyZRG06aZ92Py97LREIiUrMJWzK8f7mx+ESSOjEb+5ajPjXJco40QXh1aP00sfMuwfENQpsNi99mb43YpaQ8Z1bAIhF1bPDPS2pmoSzvU4yP63jURWQdOcWAqRw5NMXRS+X4klQsaubVNwGY8FRHlIrwiysxxA5/Rx7T8FkNaACoe5URMchmpWgugvlz4FHrZEHbjqouR7hpv2CaB5ODXCnFwPjZ08HG2y5pau9JaH9N/1rxM2mWfO3N9fzXWb2bkTzoDA1qOCejU+8IhiC+yVg7hNCTKrc0HSyEzaP1qtoWiAo3u/LI0j50zX/lTzyn4/ymjQCHvD/nnceK6pDdCE1LbiqCDx+Ub7teU1DzBmoAkJ7HMveskme417hjTBDMqApBV3uy8+ceChR082Ux8CwxxnydTacr3DyzIP5AAW1tvYogNI0zztX7/eXSowsWdbobZFq4PdsnxscUIQTbhfT7GUj+v3Ta3KYzoAQFvCRQpo9n9K7nyXI6gFmInRfnEhMvB6OgITR7tQqmzkO/Oiz2dP+PoKGEuj4T7h4yyi9ljUhGCHlU3jsd/qvryJv83GoD4XAjLyIioeNUJl6uslm2yFoozLrNcVQL5ZoIBIjTeKjMif5wIo+VGXjQ+Vxdn/bB6lAb0RTibWQcifYoeTo9qw6Dw4rR0GHZ62tLMJ4etbzLSWb+Gihu/pd6fnUrwjPQbhOPNM6nWJO3Kmz/aor/a6zqlnc7GMDZ+txJFnM81iftKbUhYs9+U65Tcz8bN/7p9JC+cInaGV8Tl0Cz23q+VNVNk2NQ2b8KOEiXD9y4Kn3ewJtcifMhCTlikdHllsi1Sqk/1Xh3vfg4l6gJoWimmblgDYWbE5bNW8oba39+y4XtZv6lBbOnsuCgSVnxG01fEJGpeb8oviXcl6pENiqqkvhRdCcu8hsjkF2Ha/ZBbufC2DDyWDYo42qn4YnRnfGe4xpDPeOwFa1Nf2+FMnF7MBg2tq3B8qMoGhkQBQhqD/ZaPPDkD7pSIv6f4JRcM0uGoKv5AKMHKlTgwGjTD33taDiFow6e/wrVLgpxzN4lyEOzS0uY7rIKvgowsrxF1Op8XoMoXAVXl3stIMAJGg4N2V4kwWmHl56wtb+NM2PBKZ91oBcTpPNDsap/QiZ87OBFmwfGLoaB0cp11yzbT/+JLFgvapV0lerdB+9KZUBMsPR7TGJwQ2ooWL5/oiwaQrd9e9P2iS9Z1dXk1mQXhfEOd3Lwta/zYzF7+Lxp9DmwzCA+trJrV9/f95kIAcZLCdHkZTiC5fgrfK5m1XGa/eHmy7OrosNfAiTP+xI9GipCKumJtQ8mDkEdkZhKieemtSh311rwZpi7234znDLPQDX1jDYQTK0upanfGxEh+lKF1mQ3Wz/7szB54CcSff//42cRnZoupnyomE9RQmbBwCjaB3HRNpA9xL7XepdpxhbFWRzrWdUCB3HqTADb4VKPjgj3+t6XWZqsTJmHow/gxf+kXG8hGqZUyzgjiLwDU3JyXwCBNpD66u/SIr2LhDm3FJ9abqE5cgsq+Kp1pOodiyRwrzZBOR/niHK81IVRs58G0mWqZZ3vG/eNGVqHKignvVSSHe00Tg61UpNZ4/HdfqMH8tlApBf9FwxpQRbiRwoqQidcsX2IBVbFqK0kHuf6Bv36o+BySz32gQL0HGryW6Hk=
+          properties :
+           x : 15
+           y : 21
+           width : 701
+           height : 437
+          lists : []
+          type : 140
+          code_elements :
+           type_code : 166
+           p_codes :
+            -
+              code : |1-
+               global 
+               	cCurrentList is Control
+               	kbCurrentCard is kbCard
+              type : 14
+            -
+              code : |1+
+               procedure DébutDéplacement(sourceCard is kbCard)
+              type : 318
+            -
+              code : |1+
+               procedure DéplacementCarte(sourceCard is kbCard, targetList is Control, targetIndex is int)
+              type : 319
+            -
+              code : |1+
+               procedure FinDeplacement(targetCard is kbCard, sourceList is Control, sourceIndex is int)
+               
+              type : 320
+            -
+              internal_properties : CAAAAAgAAACdV0jCK5WvgmU247wIs7bPzQdWoB57D98dPMcK7HEp8bd66HztFsVttnVT6iiW+yRtWHi4xj4z57NiaVoLpWGBiLxlkAxdBUeV3wvB6a+bZ4as9TSVkC9Ohe2m0dI2hq3MVKhWERUD6e7AYTo=
+              code : |1+
+               // Called before deleting the card from the control
+               procedure SuppressionCarte(Card is kbCard)
+               //  If data binding is not used, this code indicates the delete operation to the data source
+               //  If necessary, prevents the deletion (RETURN False) 
+              type : 321
+            -
+              internal_properties : CAAAAAgAAACth7jy82XvssVGk2zI82bPDUemsJ6bHx8tnGcK/OHJIefKCLx9ZkUd9oVjeoi2awRtmGjoBh4rzysagTLDjWmJwERdiOTF3a+NF8PZIXdDT140raztOGd2/YXeiape7tUkfEDu6T1bGd7wEUo=
+              code : |1+
+               // Called before adding the card in the control
+               procedure AjoutCarte(Card is kbCard, targetList is Control)
+               //  If data binding is not used, this code indicates the add operation to the data source
+               //  If necessary, prevents the add operation in the control (RETURN False) 
+               
+               // By default, the user who creates the card is associated with it
+               Card.Contributor = gUser.Login
+               
+              type : 322
+            -
+              code : |1+
+               procedure DétailCarte(Card is kbCard)
+               
+               // Opens the window for editing a card
+               if Open(WIN_CardDetails, Card, gnProjectID) then
+               	// Updates only the corresponding card
+               	KANBAN_Project.Display(Card)
+               end
+              type : 323
+            -
+              code : |1-
+               // Gets the list and the card under the cursor before opening the context menu
+               posX,posY		are int	= (MouseXPos(), MouseYPos())
+               
+               cCurrentList	<- Null
+               kbCurrentCard	= Null
+               
+               nListIndex	is int		= KanbanInfoXY(KANBAN_Project, kbListInfo, posX, posY)
+               nIndexCard	is int		= KanbanInfoXY(KANBAN_Project,kbCardInfo, posX, posY)
+               
+               // If not even in a list, nothing to display
+               if nListIndex = -1 then
+               	return True
+               end
+               
+               cCurrentList <- KANBAN_Project.Liste[nListIndex]
+               
+               if nIndexCard > 0 then
+               	kbCurrentCard <- KANBAN_Project.liste[nListIndex].Carte[nIndexCard]
+               end
+               
+               // Defines the context menu to be displayed
+               if kbCurrentCard <> Null then
+               	KANBAN_Project.ContextMenu = "MENU_Card"
+               else
+               	KANBAN_Project.ContextMenu = "MENU_Kanban"
+               end
+              type : 65659
+       type : 40
+       code_elements :
+        type_code : 34
+        p_codes : []
+     -
+       name : SC_Menu
+       identifier : 0x241471c05015b241
+       internal_properties : CAAAAAgAAAAvADtkBkqOSlnA6v61yvZ+HC6LWtkcry2xm/QGqOWk2R9Z3Kb5ceB85JShUdqOkMTsEhVwFz4I2p8Tjq3lN0L83OL9wOr7dD++lmDAoFf4KbfMYv1Ut8RYcl2SrYqEMtsbqH1SYbHATQOE1jNDdVCS+QAwZtoRyqWZLrmEM89OXz8e3+zddZa8AWvyfvfJOkwDBcjZoippEmPcCNqBKdB3Uv/XVJ5y3dnBD08m8qf2UbSTJPVQLm8UEtMlQ5wvL0JGCHizKs7SOFvKgkPm4YAWgauLddbbtR0PiCKJu2CdbeYlgBJEDBcNeRaccjnScWTuRATwYnb0WmErYeEVFYEDdZ+mGjJrtMLwOUA47pKbCw5OPwhKl+AnsrZNPYGcxiHpcu7swqUOjlgWwfHSiaoWvpI3XeaFrNFMt6u/ncSE/c54UxBjLmd1gghayLA+QZgNoaZ6G3H3IlloY4U8qMb7oWtVsTnJE/cGxR1Pe01ZiIDFt/2HsexFCLwKdsGDouq9pUmqI3Wi1DOMQhK430OdOeReuy33vwsK9qzw66ALiv0ukTtMAf7UGylB57FBJlnrlyn321PrtPMtBnvQ9jF5xXqgh2v1M+sjInsG5t7SYGeHG4je5fzsEUJAuGCKl5aq20ZVqmaLMly2dtC0utFtfvhdZ5vRCzz/px0QVxOA9E3S0kKdor+p/FydziIVZUiQEwHg+G1WyKSmoSEHGPg1WHl6lHT8FljHsOMO245UJ7fSxqXdGtxZ8VqxWN075HcCE/3rbJSpbd4ebyeT/aKlzwWTnBuIuBi0uQCcFDWOQk2UoVqn9LE6mqmf+g4OShGqPUYiZ5WYl8wi9Fk4TKxw4M9X4QM8YCLtRQ==
+       properties :
+        x : 807
+        width : 305
+        height : 583
+       controls :
+        -
+          name : BTN_AddList
+          identifier : 0x241471c05016b241
+          internal_properties : CAAAAAgAAABPbw7SzKyPnaQhhp01PbqPtrfvblL7Ri9EsvVAlnBqMmAEi1if/qrXb1xBzYbKJxUYipy/cW+1WFHbPwryynYjmUIl0LolGeNIMzFa0WkwHExYMz+UzxKXVi/Upi61eg0EYVi8NuRZhtakxgLNml2dxqWZq1Zgi65GSirvDK7fngBdipRS1xNDs9azm6eiYOgG1HDbH94ad21290fGCnbijpEQnd+r1MwVsyqNfC0DaSwMM7boTIN11prOPJTrQky0rBfIhbTyG931mWOhpOKr0hAjDkeffC2Y/BX52NanAfZX0KDpNbw1UjSO513cYUOUzdAJuHQrqF18qIMs9gh+/g7GW9mGXEWZFIa7MjcKgtY+dZ6/uIjv/UKypcVCWBis2v6HOFEUUelK3w50SEvUSQuMUfX2EXlm1CVxCWbFLkStH1NwQOWTiCXGYBZSQkbyEq4u8U53Fg7CQm1N70uIbssWbfBJtcI13NzuT/9nd7tyMR9ETn8WuVWd524qoHWM/6jW5M0dBD5ksvg03/bf4LVQy52Xa3WRMAhmmE9/mKl95ytB0e8MSpHcNe+5UYETU7u94aDerVD8oJeQMsMITmNzJL/NmS0ZObWHGJlyq4KRazXGSNh/QaFqICdN71j776iKQnO3l8iJkLhqSvlklpaaP7VTyx5soI5ZsQioJNPVaqE7+0vtNtXHSAx9bOxu2BOvW5DZPKBc8XWHmPYOT/ZnLRjUHoLYrDWFvuhpUxgCs7sbDaW5u5+6kf1yvgd8Z63ycFdVesiNIr6meaPGj3FG1g52wFdprRcFk9Lj9KzbkoYd07DKYmMw2WpmFDsebTgsxo6Q5sw+8cPz4G1ibWuj8zTpZqc=
+          properties :
+           x : 41
+           y : 128
+           width : 190
+           height : 45
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Version 1
+               // Description 
+               // New button to add or create elements
+               
+               
+              type : 14
+            -
+              code : |1-
+               
+               sListName is string
+               nNumElements is int
+               
+               if not Open(WIN_ListDetails, sListName, nNumElements) then
+               	return
+               end
+               
+               if sListName ~= "" then
+               	return
+               end
+               
+               nListID is 8-byte int
+               nListID = kbcreatelist(gnProjectID, sListName, nNumElements, KANBAN_Project.List.Count + 1)
+               
+               if nListID <= 0 then
+               	return
+               end
+               
+               kbAddList(KANBAN_Project, KanbanList.KanbanListID, sListName, nNumElements)
+               
+               
+               HideMenu()
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : Title
+          identifier : 0x241471c05017b241
+          internal_properties : CAAAAAgAAACBozcLid40Txj+e5SU5DqfMnwe51ZUISsTRg6jNlZ+xeqmmB1FpreE6gUXPNdar/VIGAiT9+ge7pLofcqsvFCCpnHVAzbaRekwCb2Yw/qSrdYlK6vnhBlXNpfSHUPtyWRH0Sfizw9TOIiBtLEIoKNkk1pfRIlU71L9A9DAQSY0gNS1T/UZUG2aU/qFcVLS7sCw2O72Oxbi+zBOv6xM/pVLLlkHM1qyLdcR4LV63EUESlyLCLCcyDbWH9mzxfLrQFcsgb05BKVtlXAQ8WaNNficiDkJ/PahlEZ4jO68Ftvx7EVuK75xNne0DHz5M8HxxF2pgfCewBzNkuANuO0/Fs15gCY3dS1q4O1252W1rMANHBJABWLCETNPuk8wgeYiY1tRC7XVfkA8ajgPLV5bWGHcQTEAobatu9D3j7q2bYPDgCP2B2kygmEtNeeq/Px26teRP6Ija9wsSjxmR0mLYeAB2mPwNY6cAvzK8q+xROAeRIzU92M+3Wfrj4jg+YhxRC77Zes9wNVzo4k=
+          properties :
+           y : 65
+           width : 271
+           height : 48
+          type : 3
+          code_elements :
+           type_code : 2
+           p_codes :
+            -
+              code : |1+
+               //Run the process defined in the template
+              type : 14
+        -
+          name : BTN_DeleteProject
+          identifier : 0x241471c05018b241
+          internal_properties : CAAAAAgAAAABP+rjlL9rJKdj9nsuKbHlqBVMq9d5DLZznnu3OC0oLsfFL74D07Bs+Dt0fyfzu27vne/slovNbUjV/dg1UPhvmi+1JyI3z3mAxqRdTdRzTHuMaHDZ1hXbuqI3waL/ZnXciA39XGYnU0pFb81L81asRAG1bfop/+CvglYMtkDHjeueAEZdO7mcLyfxyuKsD8nC2t16exF18nrRnplWPHyzb47a5372C2TWB+lKvpWhESNzkaUGnA3/SIb8TNWzU1Tvkcl02DAQkxR2XT2Qik/aV3bNoS4NOW9vaAqjVSrszvo3Ivu1T99AOAsOAOkfFl178GZ/IFWFvHHHP7YkNlfT2kAAlAA9hRZtT9uWPq8fNF1DBSluugNcGcskPeFvKz9Cj6TLFxUnPXBwy8JSRrnTz7TkSF0lQyqycLSDOAkDM0NR3cdCYITfBFKJFt0dllzoys8+3jYVZBlS8YKAEM5DGpOxBM/LpglxMKv0j2PhoDekCTJCCenVlUy5OrU7CPEAbvv2bbHPN44fmwB8bGd0ZWSKBmbxT08PRw6gG9l6LzlS9c5Z8XjeRQn4wkhF2ngq3bn+5oMsOD+4cGgTAuhSJxrva4VafvS6jEqZVYooXo7/XT2FPHmZNrrEiTRdGxU/g2Q4LrMuxJJcCnIOyY0GiRm9Qjni+MisFDq1ovTCUTb65TsGlW/wjGUAVaV2IWCI75A9oNNVC473z0pRb6rWdUogoaLNnKx3k9U3ZseQ16GCGgf2sfy+2lCnaMV9tQRJVCZr0Wnj6M6l1P+LE2V2I3L2m+RnWIKqSn58S29EdxNItKPbvgZI+DTYuSASQQvTWEMU1LAwqvuAil/lhyCs7S7i
+          properties :
+           x : 41
+           y : 500
+           width : 190
+           height : 45
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Version 1
+               // Description 
+               // New button to add or create elements
+               
+               
+              type : 14
+            -
+              internal_properties : CAAAAAgAAABvSYlRA4gwclUmQ+ywW76/VYcG8L6L/xcFdE8S7HEp+UfycITlHl0tNkWDikBuo0SlqAgIJn6XW6/W9dZPkW3FDHAZREBpadvx8wfdbbuXa5rg2fi5rFNy4ZESTXaSItEgWLxKVbL1D6+yUwg=
+              code : |1-
+               
+               if YesNo("Delete project?") = No then
+               	return
+               end
+               
+               if kbDeleteProject(gnProjectID) then
+               	// Calls the project delete callback
+               	gcallbacks.onDeleteProject(gnProjectID)
+               end
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_CloseMenu
+          identifier : 0x241471c05019b241
+          internal_properties : CAAAAAgAAAC0fybl67rTgtEh1RlWbo8QRedT2uHkFigxT47HJo79+2hJZ9kt6sCbFsUZxnQDFF326gSj346gUT6Rj4boghuTN2+9T0h1i1Ryuw24zIgRQZOXf4RwQwIihpOV6/viG1sjlFFMzodiEHwbGEx2E03fr7nHw4qO+gzk5PjT0vL4xNIfi8x8AmjkgDqHPrwHZucjRv5DVBPk++qE1nIbOy91VkuYbqiToCN6PD2BIf7ZbVcKlKYI/ZuCLOG94e7FHYsWU+G9jnZuY+KsW1QgXlZzQly7o+vNSWWZhPxlxmJHQ4QvlbCnab5E1Ljtug2s79zYvjxYfHPVH/vVnxYHiRVgSCB6HIijFjuRDRUtpRjVWhOr+uMYr4gSMtVMF4I9CxUtA/9ZkGrxJIai5OjBBm5tssHRiAg0GWl7go91aeH16rUmYk4saWqioFeG20MNC4igUWwteL0uotYeXdtV5P1GuWuVICisCfQKBHxSI47S67xeqZn9oGhNAfn81xdmnljgKHs3kmoqzvuOmOO5r+v/WshrTSCz7gW5jyy23si4bYJFgB+Vy2aDNZAISA7flIsLe63BvRC72dJ5m5dtfqvI1oG9bI4VVtIu/GGFjwsblBfzmd+GxsWNQ0ty60YDxFCyAZiC3Psll5yS7dcHvtZnDULMd6N5Yee5PNmDnLSZzKnjhzez2c4ANQBQnNEdqp3X6odo75MGBDpCy8d883ACVk31LUWcHDV+ujMkLa26pc3i9NsJBVwfuus4ZM4Ae8BFt7v5IRdGMxpHKDbju77sHp6bo6Aa63y1vBCN1QVakCb4JAZ6vxUncBoZhWD0z2gDPoFTmpQY3E4lf4S+gxrgild28F7UXsW+T3/jaIAMlilh71RKnvI1Zti0m/furn01r4YuYhQd+z7pbZ3W6Ya7jTn3ROEW0g+YQHC4DM67G1yPj3RkDXYZCAkfZumVxBVHqw76u2cZP5nMqWv19T03tHUdpznadqRvjkhcs9zA5DQT3Hz7IhmA0VbLAdjNNGFF2mMH8w==
+          properties :
+           x : 240
+           y : 11
+           width : 35
+           height : 35
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Version 1
+               // Description 
+               // New button to add or create elements
+               
+               
+              type : 14
+            -
+              code : |1-
+               HideMenu()
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_ManageTags
+          identifier : 0x241471c0501ab241
+          internal_properties : CAAAAAgAAAAXmgWCngLvGttVf6TrNrYGeb/TJx+csjE/z/x6Avi0/6+vJHkxkgBFCXC31RSsmtwk9kfqmskeazdR5Sq9uXnq9bHhUWMLg/RHKkyQ7MWQwJmp7Ldtmi1ve3X88OzjJ4wwZNoPskkkpO2EWyrS1gMc2rrb5iCSPxtsqcfUXAUnhXXRNJG3cMW+PWvBemUG6dCSNpBR1XVbtd0QHDl87KF6Og1i91n6LdsffdTDdNilI7BsK4srzt5xqutqg5I6Mhw7NCy3HibE0oadjGLR5+G49EaVYCjrQbhPUwwPX5c9Tc0dSlfCvLdsY4xdb5dwQojcAmvXeAyu55IrmbrMcEjJnLW0JNFLE2i4LCqpVdNtVwudJV05UnEYahKOpK6ddQCQ7BbHHVliyr1Iw04tMwXRnDw1nReweglkeooDbcI0UEcqxPT11ysa85cvw6j1G8zQ+a7Dp9n1CWgTgrI4CZPyHJPEfJNyMcarFzbpilTMOtykkz2ultjsKbaoXN0fVVtj+X1MrPJwbdomCUR75lptNfTmyAYzOwAB7t2jvMYmpGn4MA3srIm5LlScXZIrvwcMWyDfXbXSx9Tvk3MM2YRBorK1gW+6+RXv3zY0inPNxbc3gM9x/8x9DgpUkptCMzhakWuag9AXfxkdkzlx7zhbfNyQ/muTKurzlqm6DzHzFZtxx0f8OHZ6ZJL/zZfP/HY8SZGuKOXTPk99y5+vs7MHkQvNCr40iwcGTfXZtFm+6kTdUMwrG815P6DAl41qlK3ZmYSTLzrRtjFkPRP6s/4jhCUavnNeBOsaJtW6BFMpfLe5snLmzWdMzJ0PIfWOQ/8Mwsp72IY9SxkMdoiRDs2kJujOmpYzhA==
+          properties :
+           x : 40
+           y : 191
+           width : 190
+           height : 45
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Version 1
+               // Description 
+               // New button to add or create elements
+               
+               
+              type : 14
+            -
+              code : |1+
+               Open(WIN_ProjectTags, gnProjectID)
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+        -
+          name : BTN_RenameProject
+          identifier : 0x241471c0501bb241
+          internal_properties : CAAAAAgAAACxhi3ylDyl2Bs9d+BR7B9JmLjEJCdqLnxDyPVEe4+FZyZI60s/oGZZWBlxZBriQvFsa+LyRYtxDWPhqlZ36kxQq6/ptfXAAQ8ccsPjiTLvFdXjvgC7YZJ4AHLOtGaX/ZHKz7SV/eUFmBvTOaMxV2u3u+n8PjNoQj/1AsDnMki/LvLlaPkzCvGW4iD12hlxZ+guXQhEQXxL83+Z4EDqAIpMj5/UBsb/vEj4jQxjppqo+nsTNj2p7m8b6mDL2IeCsANyYCl7jDID82fmgnJOs9kTpvwASSSwiyGZ+cz4xBLuCBqgSEeRmDISsgcm+1Q3OX9SnypiCCcSCqBhMr1rx3ai+nWkxAv3K3svmLisuAnhKNPkK9yvSlliLZ6dk9Wh1i1CoJzg8aTWcW0cPAdldVCu+Ao8lWgjexFZzhkxUYpL0iCAXfnDsaGst6HKI0eYC/5yDfZuQzA5tMMK5akHnfNfh7L3eIp6RIjFOGyanNyuAozuRU+4RCG4Q0Xg51oCOpA2yM9E9NBpGo08oJZkGRjTvF3vpDaCso0Avq37c6YF36DvByMzfLR4ZdNpT7gyU0I+wenjQUcrV94nRALiwsz9/iwjYIfGYVAIl+ayFOECZOnFdF7cPpfh9Jlp1QaCo2V1siRFGX2qrDnLvHkMRgnBlpklyca2RvbCOB3Fcv4rDvESiW5AsmdCNga9Cr9olyf54guUT0wfq02zN/vZFM0N+rzNo5bY94n237M+K1ky7S4KnmWhTeaBLcGtIOkj6PRM+LIMYcWspNdGzzzNBcU34GteCFhI77BvDwWYIL4E4PaZFxlWP6KA/W+i/iKFXy9CFlHojxUuz8OYBcucODLHaIuHmlXC0rRz2w==
+          properties :
+           x : 41
+           y : 447
+           width : 190
+           height : 45
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              code : |1+
+               // Version 1
+               // Description 
+               // New button to add or create elements
+               
+               
+              type : 14
+            -
+              code : |1+
+               sProjectName is string 
+               
+               if not KanbanProject.ReadSeekFirst(KanbanProjectID, gnProjectID) then
+               	return
+               end
+               
+               sProjectName = KanbanProject.ProjectName
+               
+               if Open(WIN_NewProject, sProjectName) then
+               	
+               	if kbEditProject(gnProjectID, sProjectName) then
+               		
+               		gcallbacks.onModifyProject(gnProjectID, sProjectName) 	
+               		
+               		STC_Title = sProjectName
+               	end
+               end
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+       type : 40
+       code_elements :
+        type_code : 34
+        p_codes :
+         -
+           code : |1+
+            bVisible is boolean
+         -
+           code : |1-
+            
+            bVisible = MySelf.Visible
+           type : 14
+     -
+       name : STC_Title
+       identifier : 0x241471c0501cb241
+       internal_properties : CAAAAAgAAADSaXz9uuw+WJhzk4YEwOxZFI0qyV72wIs6PPeS/ofr1XMnpY9rC9qAfkjgkE27G/2mF6GPMRltUlreKNy/skfBhW12bvfs47vf7poRMAKB9kr1j72sVMd1zH474f6kPM2X14CI6uJZ+ha4Gxon5KMXPnzpcJ7i2IzW5knfqpxiZdBWGtVP9hUlFS0KIBlfAtf0rnjbUrdCD4f5J87AjslsXnawMtVfhJ2Gpx/29Mt3s8oQJF7nPLmqxUx59ObNK4FqCr0dOTrsSx9QQqt5WQiKgRYd0oAw5xjHTK0c2p4JVmabaULtX4r7761zjAv1DKKo+HYCtDpcj6Fp/FfzgXY0tFlt4lqTX4uckXv40V0gdC+WTOwVMTpPtL6esnZXUpkzcagI3EI6FYONVJSxojF8ebw13QHtXuW9vmujva8GGxTHDneuCOjgbFOps9CS3iT5dLtfjzLGBgeQ340a8SlusSnt2Xqwx+z6E5eOmLSPwlVVqIS1lk+6lZiHvTNZclrrpNJ4qUlOULHbyyMSFt1e
+       properties :
+        x : 33
+        y : 22
+        width : 504
+        height : 30
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+    type : 32
+    code_elements :
+     type_code : 70
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADZm4wHf6zlVtFqZ+hED/7/mSvebHZ3l1NxGLNe6GUpIVuOgOA92j2h8glfFrQKk3wpnChUZiq9AZmo08S5B/MPJs5/4tKfPxEjva17x0EV3Yy2DxbLUnEA87OA2/iQMJvqtqpwL51YvLIEJX4=
+        code : |1+
+         procedure MyWindow(gnProjectID 8-byte int, gcallbacks stCallbacks)
+         
+         local
+         // Checks that the Kanban exists and displays the title
+         HReadSeekFirst(KanbanProject, KanbanProjectID, gnProjectID)
+         if not HFound(KanbanProject) then
+         	Error("Unable to find the project with ID #[% gnProjectID %]")
+         	Close("")
+         end
+         
+         // Changes the title of the window
+         STC_Title = KanbanProject.ProjectName
+         
+         kbDisplayLists(KANBAN_Project, gnProjectID)	
+      -
+        code : |1+
+         procedure MaProcedure(bResetLists boolean = False)
+         
+         if bResetLists then
+         	KANBAN_Project.Visible = False
+         	
+         	kbDisplayLists(KANBAN_Project, gnProjectID)	
+         	
+         	KANBAN_Project.Visible = True
+         end
+         
+         KANBAN_Project.Display()
+        type : 234
+ menu :
+  name : _Menu
+  identifier : 0x23cec4c236254f93
+  internal_properties : CAAAAAgAAABMUEjkL8jdnLTGNHUOji8/viVAWF4urk+c5ghU9uvYox85Hkl7Vyw9KfRTNzjaKMICYbd9T9ewXzplR1kyZ85GjmBdqFPey1Hp1hi9diTr1+ePzLBxzlrcBXXdUYV6BLMT96/Aty/IKG7L9POLb1J0/UeVXApOsLWgbaxEwzG03W+ztciw1JA5uz8QtmWeBYtZi/IiDOFsZ0ArSTHHeUKFLK9GHMMqvp5OBiwq8dSrEGJ3JXOcn2B+yCqa5R9CEw8nhGFKYXQwoBlz9BDfetbn4Xn4vuYyZaQ=
+  options : []
+ popup_menus :
+  -
+    name : MENU_Kanban
+    identifier : 0x241471c0501db241
+    internal_properties : CAAAAAgAAAALMhSU/YZrW7VmLt20GiU9U+odEgHZb4t6Qp0kXbMWZN5I2knDnDuTbpKeS9fVj8x09nPZhBdVrKJIgNkpq8jHpbkLc5bkmzh+Ap8quc75OjV11nYOd8Vwxgg55RUjMO/RS8kn3joJcpHR2x304gGfbgiCvfx/hlWC62n3UlergJZrXIwP299RYbM8Ea48KPqdyU6Ume3xYqjkW2mhuUaKOWhAm7lLI86EUUDx7b6+bEvterlGgXE7Pjeuf17tkwEZ55E5VoLIhHXwrOP21McTYxr2XU6fnWpKGS+9Rwu93NC7hK6c26YOq2q7eZIB98ROnoXTIJJCP3k5IXwOcMWjLsacwMiblcCeN1qbMIakX/SZscVMJdKeAuFRH8i0nbFbs8479sXMQPLc9UC8LoSGqupOTyvQDZ9vtqMPIeODnFkE6PsoOR/XvckGQxAGfA==
+    options :
+     -
+       name : OPT_Right
+       identifier : 0x241471c0501eb241
+       internal_properties : CAAAAAgAAAB/jab/oSVdat8hxL+YKPgwTBkWepGvUmB2d683QmBxx5ki6eF5tOozdK7We8vNfU3W6ZjseS6jO8tC0KNmur6ef7LCRaUViQgu7eSr7ZwgDWbYmQvSjL5cIiVkNjx5ZPj5L4qDN+20JI4dkc7onm1/eqgO2HvxIPK+UP6h7TS52R7C1yVvVVV3EpFyatdHVtHb4qh2DZPbyxjGjiSTvJGDYaRfOafh0lEZXzmsrF4SdJ1ROZI0Ia0mJHxMfRTI9LVnns11zoAsYStrG+bY3YGhv9RnjSVCAHDWL5cm5FfY+Bb8CSY7RYX+ldRAQ5/21SVvsrW3Fd/xUIosO6C8wMNY0qu6B042CkvUwJUcLhFihX0bcNSxs3bxdImMWhyQ2lihptpXcM/KsKPTv6PQAIYYJfpmunHaRNhf+AoBBxTL6+WVwvsnHTwjdYiaZSeY301GbVGHKtC15WUJbWwEra1xOGN2CHs4/83bGlf2CZH3ye/CIf3lqri42ESuktTD
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            cKanban			is Control	<- KANBAN_Project
+            cList			is Control	<- KANBAN_Project.cCurrentList
+            
+            nIndex			is int	= KanbanListIndex(cKanban,cList)
+            
+            nNextIndex	is int	= nIndex + 1
+            
+            // No swap if positioned on the rightmost list
+            if nIndex >= cKanban.List..Count then
+            	return
+            end
+            
+            // Get list to be swapped
+            cNextList is Control <- cKanban.List[nNextIndex]
+            
+            
+            // Swaps positions in the database
+            kbSwapListPositions(cList.Extra.ID, cNextList.Extra.ID)
+            
+            // Move in the control
+            KanbanMoveList(cKanban,nIndex, nNextIndex)
+            
+            
+           type : 32
+     -
+       name : OPT_Left
+       identifier : 0x241471c0501fb241
+       internal_properties : CAAAAAgAAADGZM2UGM5ah+AaJzp3SUMThX60mcDsS70DZOS0Z00sqt73BiSw1f8gGesfXxQAlhZ9EG9FUjVellLxkZj7eXvuJbcLIH1qtxMt7EUQLtMEMi2vzAQ/C6ZD+7ZRF/h6+qfiKIMWQvcDl0XswIE/TaEk6Q+lkboU+yh1j4YGUx9LXWCYJR5LQIKMcs3aoddWT6YU+pvft/Ik1EsJif522dh0WQVKqP0K3ZQxHPB7+E44Fb7P8Plfp9CXEpKs5lYGfM0F/xlG/rCbck4B1WQ27DQqcSdwUw8i45ixoCgLv5fs0LBMb6ADIGVJkTD9q5ZUleS3RLfE+gUdfIQWwRXx6fxJmbAV+SJA56bHqxhZK7QhRb/dqh7NNVLNIfj758W7vcw7eYeMteZFNKWlB4P0+oavrgNfhSwTd8SVz1XWGDAw4u5e2yZy7vccXpMdgkwTOipVtImz4PDL+0VZO2YuYVOLJI8KQF08GaeHVqlTFnjiNn5R0KrqgXXHL+vFuz1q
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            cKanban				is Control	<- KANBAN_Project
+            cList				is Control	<- KANBAN_Project.cCurrentList
+            
+            nIndex				is int	= KanbanListIndex(cKanban,cList)
+            
+            nPreviousIndex	is int	= nIndex - 1
+            
+            // No swap if positioned on the rightmost list
+            if nIndex <= 1 then
+            	return
+            end
+            
+            // Get list to be swapped
+            cPreviousList is Control <- cKanban.List[nPreviousIndex]
+            
+            // Swaps positions in the database
+            kbSwapListPositions(cList.Extra.ID, cPreviousList.Extra.ID)
+            
+            // Move in the control
+            KanbanMoveList(cKanban,nIndex, nPreviousIndex)
+            
+           type : 32
+     -
+       name : OPT_Edit_list
+       identifier : 0x241471c05020b241
+       internal_properties : CAAAAAgAAADZ6WwLeNNdeSbwzISExeP0rStgRQSUOtKdPxkswRDxopQXhxcHhH4SWpokmThoJz/jboxs8gej8FVVJKNZzmWZsqHwnLFEPHHLtRgQywpRwbP/3T38ONf65DgCNGW9LqgrjvktrxxILrtKMtvTiF+nMoU0F76dzlHVLtICUQv9KoMo6Xp2x3Ov4cM57Q0z2E/x7P9o7jDReoxj4OyINWVgZt7wz0HrdJzaVKNoEp8D4m/4WlUtJmJf0ka6ySC0DQlKCzxcuKarnGW2AGZ53Md0fMABEDBdohgD9LUQeOG2QWVZZe2bRDYwb22KU7elJ1jfuuXd4XZ5EEu6D9Z3xi6yD6DxQVCwoOZ0sGYhDFnSyStrFv9tkgfiLNB5OoyfUYQL65wHA/T/9gpWRyjEhzRWSMrpcEY9ogpsMJS6Kr3g+/JcNlHm4onkEbfIwQBDYMzWdcTTbur/lE+3gEh2XfvRw9Csj2IZWIoCC6kc9YIK3/HQWA==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            cList			is Control	<- KANBAN_Project.cCurrentList
+            
+            sListTitle		is string	= cList.title
+            nMaxNbElements	is int	= cList.Extra.MaxNbElements
+            
+            if not Open(WIN_ListDetails, sListTitle, nMaxNbElements) then
+            	return
+            end
+            
+            cList.Title				= sListTitle
+            cList.Extra.MaxNbElements	= nMaxNbElements	
+            cList.MaxNbCard			= nMaxNbElements	
+            
+            kbEditList(cList.Extra.ID, sListTitle, nMaxNbElements)
+           type : 32
+     -
+       name : OPT_Delete_list
+       identifier : 0x241471c05021b241
+       internal_properties : CAAAAAgAAAAAPNEYNGSYW4lXNIhs+OUtevnDNlPurRqYeHGpTrZTjBgtpJ3Pva1hN+v6lie+02y/qq23FkHI+wGjeDV3xkThS/RddCm8lKoSs7V7nXSeORB97DMl9ocHbdLZO2mngd5Y/beU1WuxGlt2SJQVmiB8utqQ1LumhSXMb8084YRVUCpwXl65cve6wWI4yvq7hnVlpQ2VpAN5vgeUwTTEfVvYhYHcXnnGkOuTTkURdlo9nQ/zYn++bGdXeJhikPIxU7zRt2QfKEz5aN5xk/iabn7OoMte6C015rI2Y8bu56UnCUcYoudsDgi89FqLwdJ5ruCNJ259BuhDZE79ME46NoPkwx96Hzc4lGwDQfeF04VldRF4E63+5HEqwf8UFg9P4szp8PfxepKlWqVfsBgDO0dEZMmEMMUdJvxZjRdErRtnBb5DZQf9PgEKNlKfwx3pb+z0MN31nWZ33m7UibiRwdIL4y8ZKXWvvg4NZG5kGCKPLxUR
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            cList is Control <- KANBAN_Project.cCurrentList
+            
+            if YesNo("Delete the list and its associated cards?") = No then
+            	return
+            end
+            
+            if not KBDeleteList(cList.Extra.ID) then
+            	return
+            end
+            
+            KanbanDeleteList(KANBAN_Project, KanbanListIndex(KANBAN_Project,cList.Name))
+            
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : MENU_Card
+    identifier : 0x241471c05022b241
+    internal_properties : CAAAAAgAAACAmdgSHzPyPlPhoJHq9NjEFdyXVVjK8Q+6xAqF00awmNmE7DbznddgooUQrJFZ6wXlzW8l+orT+CBcPe8vt6N9D9iaeikSly9hkpqJDIA4XH7iPBpzQUpRynWnFQbK8Pb77ouX7SLmHejh42UOqpk4iSHrTvcieyzX+Cvkhb7BaRM1TLEN23P1wWJPFZDabEwEl+VBB1p8S1pz3WsvodMOC/ZDsHP0lfjoYrBLV+0YlMOKQ9fQxA150Cnsnn6VaUvXGHTR2kW8B0XjRh85a0WY34xUZjgI8OB7dWR8d0M6e9hdNRgr+m36/Z5T/8hNVLX1TOnkBmnTWn+EHaEZ09o1WLGxTk7FZ0j3YfeP1n0V6QhQvoMHdTQi6nJTOeP/QFFHYJo4UKMLmTppoVqc7SR3XqWTW7tNxD0FK9uFDdmp470fglwsstlBdEkDkaU9J9/I2I16
+    options :
+     -
+       name : OPT_Edit_card
+       identifier : 0x241471c05023b241
+       internal_properties : CAAAAAgAAAB+vYQYI533D5sE2+1rMfi4DeYD+/lSukT2JewzgbpkpDh5NOsKqLO4Ov3Ud4/DLP9e3WA3jH71XYCjf1mjfWRC8bQcdovA0jRkCl6ru/cSMOpqwOWwtJ7E6ISHhei4owmje0QF+USJV3CGyw9/oBKetTfu/TDeXHyuxMvUXr5MJYu8OxRwQOYPp3guXrF5sFn+a1/mVmP8R0WlrA0kh+9jNHM1/Sf93//RKy4ZqoBaFNrwcgGST3YTgC0mLjnW2yDsMQYtn7e2AMzb5WNgN4ALtvnmDTF2dLWOq7hLQdeQIKU0hcA6nRH8Xy4GfOprv1B+Q8o/V5+q0QHEQv+wYM9VHmEAK3bA3Cv21gHf7767HzjIqytTMV1qolY9ev+t5JtHcq2GKH+5OOcBX4MVWOo7RrKSzlLSU339VbHKd6VSWxsjD03fnAGSSHnUk+omIqYjOgKmKcdtgYuqJeiqBEbwiZentD1tSjdJyNDNXK0UiRnGbL0g23H0
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            if KANBAN_Project.kbCurrentCard = Null then
+            	return
+            end
+            
+            if Open(WIN_CardDetails, KANBAN_Project.kbCurrentCard, gnProjectID) then
+            	MyInternalWindow.DemandeMiseAJourUI()
+            end
+            
+           type : 32
+     -
+       name : OPT_Delete_card
+       identifier : 0x241471c05024b241
+       internal_properties : CAAAAAgAAACyJD6r0fQhfQHzjL6iLaL9ULAIMAppdKNu5J/CmTrgnPOlcG034S3k8JtdSKv9kCtmES60sbqBvJJcLhf5/2Jx9rmVrCDEfLK5K/kpQHeXPScW8XgUH0flDFRYs7xeuRpCxqyAVvVJdMBgUnVG+wMSBg0tP2DADiCUD1CvPcW9SUBBv3v4n6rV8pmz90IHZLzmd3nOA3eMPF8y/otsE5fn0Tq53Ek66JmPT5XyoAMyRxA2awa4d8ByRLI/OUGrQ32MpJdoDZmfPvaY9/TaEmt4GnEnSl9SoX/QyJN3cGJYWv63/fpTfwv2m53rRQAbsHnZDXdQ0D6NMvgFXPnGLzgyTJpI5JDbjRTGcBlYzyc8xeeaFym3mqtrvw812xQJf75vJyQ8CLcUNVOcEWyaHdXViLfnQDMA3+vrwN8bKy/gx6223qXcpnMc4hyodX8E3YSbBJcV0IBcmiYins+Xzdzkh1WDGecwt3R/Lnq6eSLGMYWN0gSC9Ebokg==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            if KANBAN_Project.kbCurrentCard = Null then
+            	return
+            end
+            
+            if YesNo("Delete card?") = No then
+            	return
+            end
+            
+            if KBDeleteCard(KANBAN_Project.kbCurrentCard) then
+            	MyInternalWindow.DemandeMiseAJourUI()
+            end
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar : {}
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABwM6QUfAvNYUKmYmL+oZZRyf161/79sOl9AzZjWQONAPxnM59z3VR3wUjWRjxLDGYm5XUMWsG7XzMhTrMwwj69fNsHHFTeNriYg6s2
+  type_code : 71
+  p_codes : []
+  procedures :
+   -
+     name : ShowMenu
+     procedure_id : 1446906449880592961
+     type_code : 14
+     code : |1+
+      procedure ShowMenu()
+      
+      SC_Menu.Visible = True
+      AnimationPlayOnControlProperty(SC_Menu, "X", MyWindow.Width + SC_Menu.Width, MyWindow.Width - SC_Menu.Width)
+      
+     type : 458752
+   -
+     name : HideMenu
+     procedure_id : 1446906449880658497
+     type_code : 14
+     code : |1+
+      procedure HideMenu()
+      
+      AnimationPlayOnControlProperty(SC_Menu, "X", MyWindow.Width - SC_Menu.Width, MyWindow.Width + SC_Menu.Width)
+      SC_Menu.Visible = False
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FI_SansNom1
+resources :
+ string_res :
+  identifier : 0x13cec4c209e34f93
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
